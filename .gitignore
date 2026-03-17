@@ -1,0 +1,10 @@
+# Ignore everything at root
+*
+
+# Keep these
+!.gitignore
+!README.md
+!public/
+
+# Make very sure nothing inside public is accidentally re-ignored later
+!public/**

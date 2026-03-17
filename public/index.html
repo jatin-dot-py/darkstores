@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>darkstores — Quick Commerce Intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- LOADER -->
+    <div id="loader">
+        <div class="loader-brand">darkstores</div>
+        <div class="loader-sub">Quick Commerce Intelligence</div>
+        <div class="loader-track">
+            <div class="loader-bar" id="loaderBar"></div>
+        </div>
+        <div class="loader-msg" id="loaderMsg">Waking up the radar…</div>
+    </div>
+
+    <!-- APP SHELL -->
+    <div id="app">
+
+        <!-- TOP BAR -->
+        <header class="topbar">
+            <div class="topbar-brand">darkstores</div>
+
+            <div class="topbar-vsep"></div>
+
+            <nav class="tabs">
+                <button class="tab active" data-view="combined">
+                    <span class="tab-icon combined-icon"></span>
+                    Combined
+                </button>
+                <button class="tab" data-view="zepto">
+                    <span class="dot zepto-dot"></span>
+                    Zepto
+                </button>
+                <button class="tab" data-view="blinkit">
+                    <span class="dot blinkit-dot"></span>
+                    Blinkit
+                </button>
+            </nav>
+
+            <div class="topbar-vsep"></div>
+
+            <!-- Stats injected by active view -->
+            <div class="topbar-stats" id="topbarStats"></div>
+
+            <div class="topbar-actions">
+                <button class="dl-btn zepto-dl" id="dlZepto" title="Download Zepto stores as CSV">
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2.5">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                        <polyline points="7 10 12 15 17 10" />
+                        <line x1="12" y1="15" x2="12" y2="3" />
+                    </svg>
+                    Zepto CSV
+                </button>
+                <button class="dl-btn blinkit-dl" id="dlBlinkit" title="Download Blinkit stores as CSV">
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2.5">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                        <polyline points="7 10 12 15 17 10" />
+                        <line x1="12" y1="15" x2="12" y2="3" />
+                    </svg>
+                    Blinkit CSV
+                </button>
+            </div>
+        </header>
+
+        <!-- MAP -->
+        <div id="map"></div>
+
+        <!-- SIDE PANEL — content injected by active view -->
+        <aside class="panel" id="panel"></aside>
+
+        <!-- VISIBLE STORE BADGE -->
+        <div class="vis-badge">
+            In view <strong id="visCount">—</strong>
+        </div>
+
+    </div><!-- /#app -->
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script src="view-combined.js"></script>
+    <script src="view-zepto.js"></script>
+    <script src="view-blinkit.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
