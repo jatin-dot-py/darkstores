@@ -5,6 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>darkstores.intel — Quick Commerce Intelligence</title>
+
+    <!-- Open Graph / social card (when link is pasted on platforms) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="darkstores.intel — Quick Commerce Intelligence" />
+    <meta property="og:description" content="All-India dark store and quick commerce coverage map. Swiggy, Zepto, Blinkit store locations and delivery zones in one view." />
+    <meta property="og:image" content="https://darkstores.vercep.app/all-india-dark-stores.png" />
+    <meta property="og:url" content="https://darkstores.vercep.app/" />
+    <meta property="og:site_name" content="darkstores.intel" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="darkstores.intel — Quick Commerce Intelligence" />
+    <meta name="twitter:description" content="All-India dark store and quick commerce coverage map. Swiggy, Zepto, Blinkit store locations and delivery zones in one view." />
+    <meta name="twitter:image" content="https://darkstores.vercep.app/all-india-dark-stores.png" />
+
     <script>
         // Force dark mode forever (UI theme toggle removed).
         document.documentElement.dataset.theme = 'dark';
@@ -50,8 +65,16 @@
             <div class="panel" id="panel"></div>
 
             <footer class="sidebar-footer">
-                <a href="https://earth.google.com/web/" target="_blank" rel="noopener" class="sidebar-footer-link">Open in Google Earth</a>
-                <a href="./technical-writeup.html" target="_blank" rel="noopener" class="sidebar-footer-link">Open technical write up</a>
+                <a href="https://earth.google.com/earth/d/1QWfR2n4ciROx-MBj_VyKgnavct7GB7yg?usp=sharing" target="_blank" rel="noopener" class="sidebar-footer-btn sidebar-footer-btn--earth">
+                    <img src="google_earth.svg" alt="" class="sidebar-footer-btn-icon" width="20" height="20" />
+                    <span>Open in Google Earth</span>
+                    <svg class="sidebar-footer-btn-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+                <span class="sidebar-footer-link sidebar-footer-link--disabled" role="button" tabindex="-1">
+                    <img src="medium.svg" alt="" class="sidebar-footer-btn-icon" width="22" height="22" />
+                    <span>Technical write up</span>
+                    <svg class="sidebar-footer-btn-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </span>
             </footer>
         </aside>
 

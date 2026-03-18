@@ -272,26 +272,83 @@ body {
 /* ── SIDEBAR FOOTER ── */
 .sidebar-footer {
     flex-shrink: 0;
-    padding: 14px 20px 20px;
+    padding: 0 12px 16px;
     border-top: 1px solid var(--border);
     background: rgba(10, 11, 18, 0.35);
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 0;
+}
+
+/* Footer items: embedded, top/bottom border only, no roundness, premium spacing */
+.sidebar-footer-btn,
+.sidebar-footer-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 12px;
+    margin: 0 -12px;
+    border: none;
+    border-top: 1px solid var(--border);
+    border-radius: 0;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text);
+    background: transparent;
+    transition: background 0.2s, opacity 0.2s;
+}
+
+.sidebar-footer-btn {
+    box-shadow: none;
+}
+
+.sidebar-footer-btn:hover,
+.sidebar-footer-link:hover {
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--text);
+    opacity: 1;
+}
+
+.sidebar-footer-btn:active {
+    transform: none;
+}
+
+.sidebar-footer-btn-icon {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    opacity: 0.95;
+    color: inherit;
+}
+
+.sidebar-footer-btn span {
+    flex: 1;
+    text-align: left;
+}
+
+.sidebar-footer-btn-arrow {
+    flex-shrink: 0;
+    opacity: 0.7;
+}
+
+.sidebar-footer-btn:hover .sidebar-footer-btn-arrow {
+    opacity: 1;
 }
 
 .sidebar-footer-link {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 13px;
-    color: var(--text);
     opacity: 0.9;
-    text-decoration: none;
-    transition: opacity 0.2s, color 0.2s;
 }
 
-.sidebar-footer-link:hover {
-    opacity: 1;
-    color: var(--text);
+.sidebar-footer-link:last-of-type {
+    border-bottom: 1px solid var(--border);
+}
+
+.sidebar-footer-link--disabled {
+    cursor: default;
+    pointer-events: none;
+    opacity: 0.7;
 }
 
 /* ── BRAND CARDS ── */

@@ -2784,6 +2784,14 @@
     ]
   },
   {
+    "id": "1391897",
+    "locality": "Postal Colony Chembur",
+    "coordinates": [
+      19.0588409,
+      72.8907382
+    ]
+  },
+  {
     "id": "1084119",
     "locality": "Belapur",
     "coordinates": [
@@ -3917,6 +3925,14 @@
     "coordinates": [
       22.607573,
       88.402094
+    ]
+  },
+  {
+    "id": "1404625",
+    "locality": "Thakdari",
+    "coordinates": [
+      22.57336,
+      88.445485
     ]
   },
   {
@@ -7677,6 +7693,14 @@
     "coordinates": [
       10.506684,
       76.211044
+    ]
+  },
+  {
+    "id": "1386817",
+    "locality": "SAKET SQUARE",
+    "coordinates": [
+      22.728663,
+      75.888336
     ]
   },
   {
