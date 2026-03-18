@@ -22,17 +22,40 @@
 
     L.control.zoom({ position: 'bottomright' }).addTo(map);
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        attribution: '© OpenStreetMap contributors © CARTO',
-        subdomains: 'abcd',
-        maxZoom: 19,
-    }).addTo(map);
+    const TILE_OPTS = { attribution: '© OpenStreetMap contributors © CARTO', subdomains: 'abcd', maxZoom: 19 };
+    const isLight = document.documentElement.dataset.theme === 'light';
+    let tileLayer = L.tileLayer(
+        isLight ? 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png' : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+        TILE_OPTS
+    );
+    tileLayer.addTo(map);
+
+    /* ══════════════════════════════════
+       THEME TOGGLE
+    ══════════════════════════════════ */
+    const themeToggleEl = document.getElementById('themeToggle');
+    if (themeToggleEl) themeToggleEl.addEventListener('click', () => {
+        const root = document.documentElement;
+        const isLight = root.dataset.theme === 'light';
+        const next = isLight ? 'dark' : 'light';
+        root.dataset.theme = next;
+        localStorage.setItem('darkstore-theme', next);
+        map.removeLayer(tileLayer);
+        tileLayer = L.tileLayer(
+            next === 'light'
+                ? 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png'
+                : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+            TILE_OPTS
+        );
+        tileLayer.addTo(map);
+    });
 
     /* ══════════════════════════════════
        STATE
     ══════════════════════════════════ */
     let zeptoData = [];
     let blinkitData = [];
+    let swiggyData = [];
     let activeView = null;
     let activeViewName = 'combined';
 
@@ -40,6 +63,7 @@
         combined: window.CombinedView,
         zepto: window.ZeptoView,
         blinkit: window.BlinkitView,
+        swiggy: window.SwiggyView,
     };
 
     /* ══════════════════════════════════
@@ -52,46 +76,40 @@
         requestAnimationFrame(() => {
             rafPending = false;
             if (!activeView) return;
-            const n = activeView.getVisibleCount(map.getBounds());
-            document.getElementById('visCount').textContent = n.toLocaleString();
+            const res = activeView.getVisibleCount(map.getBounds());
+            const totalEl = document.getElementById('visTotal');
+            const splitEl = document.getElementById('visSplit');
+
+            if (typeof res === 'number') {
+                if (totalEl) totalEl.textContent = res.toLocaleString();
+                if (splitEl) splitEl.textContent = '—';
+                return;
+            }
+
+            if (totalEl) totalEl.textContent = (res.total || 0).toLocaleString();
+            if (splitEl) {
+                const z = res.zepto || 0;
+                const b = res.blinkit || 0;
+                const s = res.swiggy || 0;
+                splitEl.textContent = `${s} Swiggy | ${z} Zepto | ${b} Blinkit`;
+            }
         });
     }
     map.on('moveend zoomend', scheduleVisibleUpdate);
 
     /* ══════════════════════════════════
-       VIEW SWITCHING
+       VIEW (combined only)
     ══════════════════════════════════ */
     function switchView(name) {
         if (activeView) activeView.unmount();
-        activeViewName = name;
-
-        document.querySelectorAll('.tab').forEach(btn =>
-            btn.classList.toggle('active', btn.dataset.view === name)
-        );
-
-        const view = VIEW_MAP[name];
-        if (!view) return;
-
-        if (name === 'combined') {
-            view.mount(map, zeptoData, blinkitData);
-        } else if (name === 'zepto') {
-            view.mount(map, zeptoData);
-        } else if (name === 'blinkit') {
-            view.mount(map, blinkitData);
+        activeViewName = name || 'combined';
+        const view = VIEW_MAP[activeViewName];
+        if (view) {
+            view.mount(map, zeptoData, blinkitData, swiggyData);
+            activeView = view;
         }
-
-        activeView = view;
         scheduleVisibleUpdate();
     }
-
-    /* Tab click handlers */
-    document.querySelectorAll('.tab').forEach(btn => {
-        btn.addEventListener('click', () => {
-            if (btn.dataset.view !== activeViewName) {
-                switchView(btn.dataset.view);
-            }
-        });
-    });
 
     /* ══════════════════════════════════
        CSV DOWNLOAD HELPERS
@@ -117,27 +135,33 @@
         URL.revokeObjectURL(url);
     }
 
-    /* Zepto CSV — raw fields only (no zone polygon) */
-    document.getElementById('dlZepto').addEventListener('click', () => {
-        if (!zeptoData.length) return;
-        const rows = [
-            ['id', 'name', 'lat', 'lng', 'city', 'state'],
-            ...zeptoData.map(s => [s.id, s.name, s.lat, s.lng, s.city, s.state]),
-        ];
-        downloadCSV(rows, 'zepto-darkstores.csv');
-    });
-
-    /* Blinkit CSV — raw fields; coordinates split to lat/lng columns */
-    document.getElementById('dlBlinkit').addEventListener('click', () => {
-        if (!blinkitData.length) return;
-        const rows = [
-            ['id', 'accuracy', 'lat', 'lng'],
-            ...blinkitData.map(s => {
-                const [lat, lng] = s.coordinates || [null, null];
-                return [s.id, s.accuracy, lat, lng];
-            }),
-        ];
-        downloadCSV(rows, 'blinkit-darkstores.csv');
+    /* CSV downloads — delegation (buttons live in panel, created by combined view) */
+    document.getElementById('app').addEventListener('click', (e) => {
+        const btn = e.target.closest('#dlZepto, #dlBlinkit, #dlSwiggy');
+        if (!btn) return;
+        e.preventDefault();
+        if (btn.id === 'dlZepto' && zeptoData.length) {
+            downloadCSV(
+                [['id', 'name', 'lat', 'lng', 'city', 'state'], ...zeptoData.map(s => [s.id, s.name, s.lat, s.lng, s.city, s.state])],
+                'zepto-darkstores.csv'
+            );
+        } else if (btn.id === 'dlBlinkit' && blinkitData.length) {
+            downloadCSV(
+                [['id', 'accuracy', 'lat', 'lng'], ...blinkitData.map(s => {
+                    const [lat, lng] = s.coordinates || [null, null];
+                    return [s.id, s.accuracy, lat, lng];
+                })],
+                'blinkit-darkstores.csv'
+            );
+        } else if (btn.id === 'dlSwiggy' && swiggyData.length) {
+            downloadCSV(
+                [['id', 'locality', 'lat', 'lng'], ...swiggyData.map(s => {
+                    const [lat, lng] = s.coordinates || [null, null];
+                    return [s.id, s.locality || '', lat, lng];
+                })],
+                'swiggy-darkstores.csv'
+            );
+        }
     });
 
     /* ══════════════════════════════════
@@ -155,8 +179,8 @@
         <div class="error-title">Data files not found</div>
         <div class="error-msg">${message}</div>
         <div style="font-size:11px;color:var(--muted);line-height:1.9">
-          Place <code class="error-code">zepto.json</code> and <code class="error-code">blinkit.json</code>
-          in the same folder as <code class="error-code">index.html</code>, then serve with:<br>
+          Place <code class="error-code">zepto.json</code>, <code class="error-code">blinkit.json</code>, and
+          <code class="error-code">swiggy.json</code> in the same folder as <code class="error-code">index.html</code>, then serve with:<br>
           <code class="error-code">npx serve .</code>
         </div>
       </div>`;
@@ -167,15 +191,19 @@
     ══════════════════════════════════ */
     async function loadData() {
         try {
-            setLoader(10, 'Fetching Zepto data…');
+            setLoader(10, 'Fetching data…');
 
-            const [zResult, bResult] = await Promise.allSettled([
+            const [zResult, bResult, sResult] = await Promise.allSettled([
                 fetch('./zepto.json').then(r => {
                     if (!r.ok) throw new Error(`zepto.json → HTTP ${r.status}`);
                     return r.json();
                 }),
                 fetch('./blinkit.json').then(r => {
                     if (!r.ok) throw new Error(`blinkit.json → HTTP ${r.status}`);
+                    return r.json();
+                }),
+                fetch('./swiggy.json').then(r => {
+                    if (!r.ok) throw new Error(`swiggy.json → HTTP ${r.status}`);
                     return r.json();
                 }),
             ]);
@@ -194,8 +222,14 @@
                 console.warn('[darkstore.map] Blinkit data failed:', bResult.reason);
             }
 
-            if (!zeptoData.length && !blinkitData.length) {
-                throw new Error('Both data files could not be loaded.');
+            if (sResult.status === 'fulfilled') {
+                swiggyData = sResult.value;
+            } else {
+                console.warn('[darkstore.map] Swiggy data failed:', sResult.reason);
+            }
+
+            if (!zeptoData.length && !blinkitData.length && !swiggyData.length) {
+                throw new Error('All data files could not be loaded.');
             }
 
             setLoader(80, 'Rendering map…');

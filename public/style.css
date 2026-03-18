@@ -1,7 +1,7 @@
 /* ═══════════════════════════════════════════════
    darkstore.map — style.css
    Dark space-intelligence aesthetic
-   Zepto = #8B5CF6 purple | Blinkit = #F0E030 yellow
+   Zepto = #8B5CF6 purple | Blinkit = #F0E030 yellow | Swiggy = #FC8019 orange
 ═══════════════════════════════════════════════ */
 
 :root {
@@ -27,9 +27,80 @@
     --bk-d: #B8A800;
     --bk-glow: rgba(240, 224, 48, 0.20);
 
-    --topbar-h: 60px;
+    /* Swiggy */
+    --sw: #FC8019;
+    --sw-l: #FF9F43;
+    --sw-d: #E06B00;
+    --sw-glow: rgba(252, 128, 25, 0.35);
+
+    --sidebar-w: 340px;
     --panel-w: 260px;
     --radius: 13px;
+}
+
+/* ── LIGHT THEME ── */
+[data-theme="light"] {
+    --bg: #f0f2f7;
+    --surface: #ffffff;
+    --surface2: #e8eaef;
+    --surface3: #dce0e8;
+    --border: rgba(0, 0, 0, 0.08);
+    --border-hi: rgba(0, 0, 0, 0.14);
+    --text: #1a1a2e;
+    --muted: #6b6b80;
+    --muted2: #4a4a62;
+}
+
+[data-theme="light"] .sidebar {
+    background: rgba(250, 250, 252, 0.97);
+    border-right-color: var(--border-hi);
+    box-shadow: 4px 0 30px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="light"] .brand-card {
+    background: var(--surface);
+    border-color: var(--border-hi);
+}
+
+[data-theme="light"] .brand-card-dl {
+    background: var(--surface2);
+    border-color: var(--border);
+}
+
+[data-theme="light"] .vis-badge {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: var(--border-hi);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="light"] .leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.98) !important;
+    border-color: var(--border-hi) !important;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2) !important;
+    color: var(--text) !important;
+}
+
+[data-theme="light"] .leaflet-control-zoom a {
+    background: rgba(255, 255, 255, 0.98) !important;
+    color: var(--muted2) !important;
+    border-bottom-color: var(--border) !important;
+}
+
+[data-theme="light"] .leaflet-control-zoom a:hover {
+    color: var(--text) !important;
+    background: var(--surface2) !important;
+}
+
+[data-theme="light"] .toggle.on {
+    background: var(--text);
+}
+
+[data-theme="light"] .toggle::after {
+    background: #fff;
+}
+
+[data-theme="light"] .error-code {
+    color: var(--z);
 }
 
 /* ── RESET ── */
@@ -121,133 +192,392 @@ body {
     flex-direction: column;
 }
 
-/* ── TOP BAR ── */
-.topbar {
-    position: relative;
+/* ── SIDEBAR ── */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: var(--sidebar-w);
     z-index: 1000;
-    height: var(--topbar-h);
-    background: rgba(10, 11, 18, 0.96);
-    border-bottom: 1px solid var(--border-hi);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background: rgba(10, 11, 18, 0.52);
+    border-right: 1px solid rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(30px) saturate(1.25);
+    -webkit-backdrop-filter: blur(30px) saturate(1.25);
     display: flex;
-    align-items: center;
-    padding: 0 14px;
-    gap: 10px;
-    flex-shrink: 0;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 6px 0 40px rgba(0, 0, 0, 0.42);
 }
 
-.topbar-brand {
+.sidebar::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+        radial-gradient(120% 80% at 10% 10%, rgba(59, 130, 246, 0.10) 0%, transparent 55%),
+        radial-gradient(90% 70% at 90% 30%, rgba(255, 255, 255, 0.06) 0%, transparent 60%),
+        repeating-linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0px, rgba(255, 255, 255, 0.02) 1px, transparent 1px, transparent 6px);
+    opacity: 0.9;
+}
+
+.sidebar::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 55%);
+    opacity: 0.9;
+}
+
+/* ── SIDEBAR HEADER ── */
+.sidebar-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 24px 20px 20px;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--border);
+    background: rgba(10, 11, 18, 0.35);
+    backdrop-filter: blur(18px) saturate(1.1);
+    -webkit-backdrop-filter: blur(18px) saturate(1.1);
+}
+
+.sidebar-brand-block {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.sidebar-brand {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: -0.6px;
+    color: var(--text);
+    line-height: 1;
+    text-shadow: 0 0 20px rgba(59, 130, 246, 0.08);
+}
+
+.sidebar-tagline {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--muted);
+    font-weight: 500;
+}
+
+/* ── SIDEBAR FOOTER ── */
+.sidebar-footer {
+    flex-shrink: 0;
+    padding: 14px 20px 20px;
+    border-top: 1px solid var(--border);
+    background: rgba(10, 11, 18, 0.35);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sidebar-footer-link {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    color: var(--text);
+    opacity: 0.9;
+    text-decoration: none;
+    transition: opacity 0.2s, color 0.2s;
+}
+
+.sidebar-footer-link:hover {
+    opacity: 1;
+    color: var(--text);
+}
+
+/* ── BRAND CARDS ── */
+.brand-card {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 14px 0;
+    transition: opacity 0.25s;
+    position: relative;
+    overflow: visible;
+}
+
+.brand-card::before {
+    content: none;
+}
+
+.brand-card:hover { border: none; box-shadow: none; }
+
+/* OFF state */
+.brand-card--off {
+    opacity: 0.4;
+}
+
+.brand-card--off .brand-card-stats,
+.brand-card--off .brand-card-options {
+    pointer-events: none;
+}
+
+.brand-card--off .brand-card-toggle {
+    pointer-events: auto;
+}
+
+.brand-card--off::before {
+    opacity: 0.3;
+}
+
+.brand-card + .brand-card {
+    border-top: none;
+}
+
+/* Card top row: identity + actions */
+.brand-card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.brand-card-identity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+}
+
+.brand-card-logo {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    object-fit: contain;
+    border-radius: 10px;
+    background: var(--surface2);
+}
+
+.brand-card-logo-fb {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'DM Sans', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    letter-spacing: -0.3px;
-    white-space: nowrap;
-    flex-shrink: 0;
+    color: white;
 }
 
-.topbar-brand em {
-    color: var(--z-l);
-    font-style: normal;
+.brand-card-logo-fb--zepto  { background: var(--surface2); color: var(--text); }
+.brand-card-logo-fb--blinkit { background: var(--surface2); color: var(--text); }
+.brand-card-logo-fb--swiggy  { background: var(--surface2); color: var(--text); }
+
+.brand-card-name {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.2px;
 }
 
-.topbar-vsep {
-    width: 1px;
-    height: 20px;
-    background: var(--border-hi);
-    flex-shrink: 0;
-}
-
-/* ── TABS ── */
-.tabs {
-    display: flex;
-    gap: 2px;
-    flex-shrink: 0;
-}
-
-.tab {
+.brand-card-actions {
     display: flex;
     align-items: center;
-    gap: 6px;
-    padding: 6px 13px;
-    border-radius: 8px;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 17px;
-    font-weight: 500;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+/* Download button */
+.brand-card-dl {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    border: 1px solid var(--border);
     background: transparent;
-    border: 1px solid transparent;
-    color: var(--muted2);
     cursor: pointer;
-    transition: all 0.14s;
-    white-space: nowrap;
+    transition: all 0.15s;
+    padding: 0;
 }
 
-.tab:hover {
-    color: var(--text);
-    background: var(--surface2);
+.brand-card-dl svg {
+    width: 16px;
+    height: 16px;
 }
 
-.tab.active {
-    background: var(--surface2);
-    border-color: var(--border-hi);
-    color: var(--text);
-}
+.brand-card-dl--zepto,
+.brand-card-dl--blinkit,
+.brand-card-dl--swiggy { color: var(--muted2); }
 
-.dot {
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    flex-shrink: 0;
-}
+.brand-card-dl--zepto:hover,
+.brand-card-dl--blinkit:hover,
+.brand-card-dl--swiggy:hover { background: var(--surface2); color: var(--text); border-color: var(--border-hi); box-shadow: none; }
 
-.zepto-dot {
-    background: var(--z);
-    box-shadow: 0 0 6px var(--z-glow);
-}
-
-.blinkit-dot {
-    background: var(--bk);
-    box-shadow: 0 0 6px var(--bk-glow);
-}
-
-/* Combined icon — two overlapping dots */
-.combined-icon {
+/* Enable toggle */
+.brand-card-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
     position: relative;
-    width: 12px;
-    height: 8px;
-    flex-shrink: 0;
 }
 
-.combined-icon::before,
-.combined-icon::after {
+.brand-toggle-cb {
+    position: absolute;
+    opacity: 0;
+    width: 40px;
+    height: 22px;
+    margin: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.brand-toggle-track {
+    width: 40px;
+    height: 22px;
+    border-radius: 11px;
+    background: rgba(59, 130, 246, 0.14);
+    border: 1px solid rgba(59, 130, 246, 0.35);
+    position: relative;
+    transition: background 0.25s, border-color 0.25s, box-shadow 0.25s;
+}
+
+.brand-toggle-track::after {
     content: '';
     position: absolute;
-    width: 7px;
-    height: 7px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
-    top: 0;
+    top: 2px;
+    left: 2px;
+    background: rgba(219, 234, 254, 0.95);
+    transition: transform 0.25s, background 0.25s;
 }
 
-.combined-icon::before {
-    left: 0;
-    background: var(--z);
-    opacity: 0.9;
+.brand-toggle-cb:checked + .brand-toggle-track::after {
+    transform: translateX(18px);
+    background: rgba(219, 234, 254, 1);
 }
 
-.combined-icon::after {
-    right: 0;
-    background: var(--bk);
-    opacity: 0.9;
+.brand-toggle-cb:checked + .brand-toggle-track {
+    background: rgba(59, 130, 246, 0.28);
+    border-color: rgba(59, 130, 246, 0.62);
+    box-shadow: none;
 }
 
-/* ── TOPBAR STATS ── */
-.topbar-stats {
+/* Stats row */
+.brand-card-stats {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 12px;
+}
+
+.brand-stat {
     flex: 1;
+    background: var(--surface2);
+    border-radius: 8px;
+    padding: 8px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    min-width: 0;
+}
+
+.brand-stat-val {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--text);
+}
+
+.brand-stat-val { color: var(--text); }
+
+.brand-stat-lbl {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--muted);
+    line-height: 1;
+}
+
+/* Options (checkboxes) */
+.brand-card-options {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.brand-option {
     display: flex;
     align-items: center;
-    gap: 10px;
-    overflow: hidden;
-    min-width: 0;
+    gap: 8px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 13px;
+    color: var(--muted2);
+    padding: 6px 8px;
+    border-radius: 8px;
+    transition: background 0.12s;
+}
+
+.brand-option:hover {
+    background: var(--surface2);
+}
+
+.brand-option input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.brand-option-check {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1.5px solid rgba(59, 130, 246, 0.45);
+    background: rgba(59, 130, 246, 0.12);
+    position: relative;
+    transition: all 0.15s;
+}
+
+.brand-option-check::after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    width: 4px;
+    height: 8px;
+    border: solid transparent;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    transition: border-color 0.15s;
+}
+
+.brand-option input:checked + .brand-option-check::after {
+    border-color: white;
+}
+
+.brand-option input:checked + .brand-option-check {
+    background: rgba(59, 130, 246, 0.32);
+    border-color: rgba(59, 130, 246, 0.65);
+    box-shadow: none;
+}
+
+.brand-option input:disabled + .brand-option-check {
+    opacity: 0.4;
+}
+
+.brand-option input:disabled ~ span:last-child {
+    opacity: 0.4;
 }
 
 .stat-chip {
@@ -279,51 +609,59 @@ body {
     flex-shrink: 0;
 }
 
-/* ── DOWNLOAD BUTTONS ── */
-.topbar-actions {
-    display: flex;
-    gap: 7px;
-    flex-shrink: 0;
-    margin-left: auto;
-}
+/* dl-btn classes retained for delegation in app.js */
 
-.dl-btn {
+/* ── THEME TOGGLE ── */
+.theme-toggle {
+    position: relative;
     display: flex;
     align-items: center;
-    gap: 5px;
-    padding: 7px 13px;
-    border-radius: 7px;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.14s;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: 10px;
     background: var(--surface2);
-    border: 1px solid var(--border-hi);
-    white-space: nowrap;
-    letter-spacing: 0.2px;
+    color: var(--muted2);
+    cursor: pointer;
+    transition: color 0.2s, background 0.2s, border-color 0.2s, box-shadow 0.2s;
+    flex-shrink: 0;
 }
 
-.dl-btn.zepto-dl {
-    color: var(--z-l);
+.theme-toggle:hover {
+    color: var(--text);
+    background: var(--surface3);
+    border-color: var(--border-hi);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.04);
 }
 
-.dl-btn.zepto-dl:hover {
-    background: var(--z);
-    border-color: var(--z);
-    color: white;
-    box-shadow: 0 0 12px var(--z-glow);
+.theme-icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.dl-btn.blinkit-dl {
-    color: var(--bk);
+.theme-icon svg {
+    width: 18px;
+    height: 18px;
 }
 
-.dl-btn.blinkit-dl:hover {
-    background: var(--bk);
-    border-color: var(--bk);
-    color: #07080D;
-    box-shadow: 0 0 12px var(--bk-glow);
+.theme-icon-moon {
+    display: none;
+}
+
+.theme-icon-sun {
+    display: flex;
+}
+
+[data-theme="light"] .theme-icon-moon {
+    display: flex;
+}
+
+[data-theme="light"] .theme-icon-sun {
+    display: none;
 }
 
 /* ── MAP ── */
@@ -333,27 +671,29 @@ body {
     z-index: 1;
 }
 
-/* ── PANEL ── */
+/* ── PANEL (inside sidebar) ── */
 .panel {
-    position: fixed;
-    top: calc(var(--topbar-h) + 14px);
-    left: 14px;
-    width: var(--panel-w);
-    max-height: calc(100vh - var(--topbar-h) - 28px);
-    z-index: 900;
-    background: rgba(12, 13, 20, 0.93);
-    border: 1px solid var(--border-hi);
-    border-radius: var(--radius);
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
-    padding: 14px;
+    flex: 1;
+    min-height: 0;
+    padding: 12px 14px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.55);
+    gap: 0;
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: var(--border-hi) transparent;
+}
+
+/* Blinkit should appear first in the stack */
+.brand-card--blinkit { order: 0; }
+.brand-card--zepto { order: 1; }
+.brand-card--swiggy { order: 2; }
+
+/* Divider lines: Blinkit is visually first, so we don't draw a divider above it.
+   We draw a divider above Zepto and above Swiggy to keep a stack look. */
+.brand-card--zepto,
+.brand-card--swiggy {
+    border-top: 1px solid var(--border);
 }
 
 .panel::-webkit-scrollbar {
@@ -398,6 +738,26 @@ body {
 
 .search-wrap input:focus {
     border-color: var(--z);
+}
+
+.panel-swiggy .search-wrap input:focus {
+    border-color: var(--sw);
+}
+
+.panel-swiggy .pill.on {
+    background: var(--sw);
+    border-color: var(--sw);
+    color: white;
+    box-shadow: 0 0 8px var(--sw-glow);
+}
+
+.panel-swiggy .pill:hover {
+    border-color: var(--sw-l);
+    color: var(--sw-l);
+}
+
+.panel-swiggy .result-count strong {
+    color: var(--sw-l);
 }
 
 .search-ico {
@@ -587,8 +947,8 @@ body {
 /* ── VIS BADGE ── */
 .vis-badge {
     position: fixed;
-    bottom: 22px;
     right: 14px;
+    top: 14px;
     z-index: 900;
     background: rgba(12, 13, 20, 0.93);
     border: 1px solid var(--border-hi);
@@ -604,6 +964,24 @@ body {
     color: var(--text);
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
+}
+
+.vis-row {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.vis-split {
+    margin-top: 4px;
+    font-size: 12px;
+    color: var(--muted2);
+    line-height: 1.25;
+    text-transform: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 220px;
 }
 
 /* ── LEAFLET POPUP ── */
@@ -654,6 +1032,10 @@ body {
 
 .popup-platform.blinkit {
     color: var(--bk);
+}
+
+.popup-platform.swiggy {
+    color: var(--sw-l);
 }
 
 .popup-name {
@@ -735,6 +1117,16 @@ body {
     opacity: 0.85;
 }
 
+.popup-gmaps.swiggy-maps {
+    background: var(--sw);
+    color: white;
+    box-shadow: 0 0 14px var(--sw-glow);
+}
+
+.popup-gmaps.swiggy-maps:hover {
+    background: var(--sw-l);
+}
+
 /* ── LEAFLET CONTROLS ── */
 .leaflet-control-zoom {
     border: 1px solid var(--border-hi) !important;
@@ -757,7 +1149,24 @@ body {
     background: var(--surface2) !important;
 }
 
-/* ── BLINKIT CLUSTER ICON ── */
+/* ── PILL CLUSTER ICONS (brand .ico + count, cylindrical pill) ── */
+.cluster-pill-wrap {
+    border: none !important;
+    background: none !important;
+}
+
+.cluster-pill-wrap .cluster-pill {
+    /* Restore pill background (overrides generic cluster div reset) */
+    background: rgba(28, 28, 32, 0.95) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.cluster-pill-logo {
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+/* Legacy circle cluster (kept if used elsewhere) */
 .bk-cluster {
     background: var(--bk);
     color: #07080D;

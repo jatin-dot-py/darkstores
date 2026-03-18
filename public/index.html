@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>darkstores — Quick Commerce Intelligence</title>
+    <title>darkstores.intel — Quick Commerce Intelligence</title>
+    <script>
+        // Force dark mode forever (UI theme toggle removed).
+        document.documentElement.dataset.theme = 'dark';
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
@@ -19,7 +23,7 @@
 
     <!-- LOADER -->
     <div id="loader">
-        <div class="loader-brand">darkstores</div>
+        <div class="loader-brand">darkstores.intel</div>
         <div class="loader-sub">Quick Commerce Intelligence</div>
         <div class="loader-track">
             <div class="loader-bar" id="loaderBar"></div>
@@ -30,63 +34,33 @@
     <!-- APP SHELL -->
     <div id="app">
 
-        <!-- TOP BAR -->
-        <header class="topbar">
-            <div class="topbar-brand">darkstores</div>
-
-            <div class="topbar-vsep"></div>
-
-            <nav class="tabs">
-                <button class="tab active" data-view="combined">
-                    <span class="tab-icon combined-icon"></span>
-                    Combined
-                </button>
-                <button class="tab" data-view="zepto">
-                    <span class="dot zepto-dot"></span>
-                    Zepto
-                </button>
-                <button class="tab" data-view="blinkit">
-                    <span class="dot blinkit-dot"></span>
-                    Blinkit
-                </button>
-            </nav>
-
-            <div class="topbar-vsep"></div>
-
-            <!-- Stats injected by active view -->
-            <div class="topbar-stats" id="topbarStats"></div>
-
-            <div class="topbar-actions">
-                <button class="dl-btn zepto-dl" id="dlZepto" title="Download Zepto stores as CSV">
-                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                        stroke-width="2.5">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                        <polyline points="7 10 12 15 17 10" />
-                        <line x1="12" y1="15" x2="12" y2="3" />
-                    </svg>
-                    Zepto CSV
-                </button>
-                <button class="dl-btn blinkit-dl" id="dlBlinkit" title="Download Blinkit stores as CSV">
-                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                        stroke-width="2.5">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                        <polyline points="7 10 12 15 17 10" />
-                        <line x1="12" y1="15" x2="12" y2="3" />
-                    </svg>
-                    Blinkit CSV
-                </button>
-            </div>
-        </header>
-
-        <!-- MAP -->
+        <!-- MAP (full viewport) -->
         <div id="map"></div>
 
-        <!-- SIDE PANEL — content injected by active view -->
-        <aside class="panel" id="panel"></aside>
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <header class="sidebar-header">
+                <div class="sidebar-brand-block">
+                    <div class="sidebar-brand">darkstores.intel</div>
+                    <div class="sidebar-tagline">Quick Commerce Intelligence</div>
+                </div>
+            </header>
+
+            <!-- Brand cards injected by combined view -->
+            <div class="panel" id="panel"></div>
+
+            <footer class="sidebar-footer">
+                <a href="https://earth.google.com/web/" target="_blank" rel="noopener" class="sidebar-footer-link">Open in Google Earth</a>
+                <a href="./technical-writeup.html" target="_blank" rel="noopener" class="sidebar-footer-link">Open technical write up</a>
+            </footer>
+        </aside>
 
         <!-- VISIBLE STORE BADGE -->
         <div class="vis-badge">
-            In view <strong id="visCount">—</strong>
+            <div class="vis-row">
+                In view <strong id="visTotal">—</strong>
+            </div>
+            <div class="vis-split" id="visSplit">—</div>
         </div>
 
     </div><!-- /#app -->
@@ -94,8 +68,6 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
     <script src="view-combined.js"></script>
-    <script src="view-zepto.js"></script>
-    <script src="view-blinkit.js"></script>
     <script src="app.js"></script>
 </body>
 

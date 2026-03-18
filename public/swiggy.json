@@ -1,0 +1,8282 @@
+[
+  {
+    "id": "1400972",
+    "locality": "Chungam",
+    "coordinates": [
+      9.6005,
+      76.530389
+    ]
+  },
+  {
+    "id": "1400976",
+    "locality": "Arapalayam",
+    "coordinates": [
+      9.9255,
+      78.099861
+    ]
+  },
+  {
+    "id": "1381849",
+    "locality": "PERUMANOOR",
+    "coordinates": [
+      9.9658965,
+      76.305997
+    ]
+  },
+  {
+    "id": "1394676",
+    "locality": "THAMPANOOR",
+    "coordinates": [
+      8.501417,
+      76.953167
+    ]
+  },
+  {
+    "id": "1404595",
+    "locality": "Pattom",
+    "coordinates": [
+      8.516562552622558,
+      76.9348671132359
+    ]
+  },
+  {
+    "id": "1393570",
+    "locality": "ALUVA",
+    "coordinates": [
+      10.106556,
+      76.353056
+    ]
+  },
+  {
+    "id": "1395735",
+    "locality": "Punkunnam",
+    "coordinates": [
+      10.5268894,
+      76.2018233
+    ]
+  },
+  {
+    "id": "1402060",
+    "locality": "Thrikkakara",
+    "coordinates": [
+      10.028926,
+      76.323143
+    ]
+  },
+  {
+    "id": "1395734",
+    "locality": "Nehru Nagar",
+    "coordinates": [
+      10.5062547,
+      76.2316267
+    ]
+  },
+  {
+    "id": "1400926",
+    "locality": "Palluruthy",
+    "coordinates": [
+      9.932694,
+      76.265972
+    ]
+  },
+  {
+    "id": "1399703",
+    "locality": "Nehru Stadium",
+    "coordinates": [
+      10.000444,
+      76.302139
+    ]
+  },
+  {
+    "id": "1383382",
+    "locality": "KAKKANAD",
+    "coordinates": [
+      10.0146534,
+      76.3337756
+    ]
+  },
+  {
+    "id": "1402446",
+    "locality": "Vadavalli",
+    "coordinates": [
+      11.027683,
+      76.906558
+    ]
+  },
+  {
+    "id": "1319695",
+    "locality": "THENGOD",
+    "coordinates": [
+      10.02845,
+      76.370564
+    ]
+  },
+  {
+    "id": "1388684",
+    "locality": "RS PURAM MAIN",
+    "coordinates": [
+      11.011403,
+      76.960053
+    ]
+  },
+  {
+    "id": "1403358",
+    "locality": "Cheran Ma Nagar",
+    "coordinates": [
+      11.044065813378305,
+      77.03800902453726
+    ]
+  },
+  {
+    "id": "1401252",
+    "locality": "Thudiyalur",
+    "coordinates": [
+      11.06437,
+      76.945204
+    ]
+  },
+  {
+    "id": "1388451",
+    "locality": "WEST HILLS",
+    "coordinates": [
+      11.271394,
+      75.778911
+    ]
+  },
+  {
+    "id": "1401078",
+    "locality": "Telephone Bhavan",
+    "coordinates": [
+      11.3365665,
+      77.7273418
+    ]
+  },
+  {
+    "id": "1386098",
+    "locality": "CHAMUNDI TEMPLE",
+    "coordinates": [
+      12.2956553,
+      76.6418746
+    ]
+  },
+  {
+    "id": "1402087",
+    "locality": "Vidyaranyapuram",
+    "coordinates": [
+      12.272795,
+      76.642737
+    ]
+  },
+  {
+    "id": "1382427",
+    "locality": "PEETA METRO STATION",
+    "coordinates": [
+      9.950983341719212,
+      76.33348316640829
+    ]
+  },
+  {
+    "id": "1398449",
+    "locality": "ROCKFORT",
+    "coordinates": [
+      10.826361,
+      78.684306
+    ]
+  },
+  {
+    "id": "1404578",
+    "locality": "Tatapuram",
+    "coordinates": [
+      9.9953,
+      76.279
+    ]
+  },
+  {
+    "id": "1392529",
+    "locality": "TRICHY LINK ROAD",
+    "coordinates": [
+      11.0164462,
+      77.0226188
+    ]
+  },
+  {
+    "id": "1403416",
+    "locality": "Rajendra Nagar",
+    "coordinates": [
+      12.344562407049763,
+      76.64477868182033
+    ]
+  },
+  {
+    "id": "1395732",
+    "locality": "Alagapuram",
+    "coordinates": [
+      11.676684,
+      78.138031
+    ]
+  },
+  {
+    "id": "1398440",
+    "locality": "Mahindra City",
+    "coordinates": [
+      12.730417,
+      79.997389
+    ]
+  },
+  {
+    "id": "1402141",
+    "locality": "Chandapura",
+    "coordinates": [
+      12.792444,
+      77.706833
+    ]
+  },
+  {
+    "id": "1402460",
+    "locality": "Shubhodaya Hospital",
+    "coordinates": [
+      12.317716,
+      76.69165
+    ]
+  },
+  {
+    "id": "1402443",
+    "locality": "Holiday Village",
+    "coordinates": [
+      12.86057,
+      77.541535
+    ]
+  },
+  {
+    "id": "1404804",
+    "locality": "SRM University",
+    "coordinates": [
+      12.819837,
+      80.042511
+    ]
+  },
+  {
+    "id": "1397027",
+    "locality": "Sarvanampatti",
+    "coordinates": [
+      11.085889,
+      76.998056
+    ]
+  },
+  {
+    "id": "1397623",
+    "locality": "Lokanayaka Nagar",
+    "coordinates": [
+      12.353528,
+      76.619538
+    ]
+  },
+  {
+    "id": "1399695",
+    "locality": "Dommasandra",
+    "coordinates": [
+      12.861425,
+      77.780746
+    ]
+  },
+  {
+    "id": "1402266",
+    "locality": "Muthialpet",
+    "coordinates": [
+      11.954944,
+      79.829333
+    ]
+  },
+  {
+    "id": "1403144",
+    "locality": "Prestige Park Sqaure",
+    "coordinates": [
+      12.842334,
+      77.58992
+    ]
+  },
+  {
+    "id": "1402440",
+    "locality": "Shikarlipalya",
+    "coordinates": [
+      12.834111,
+      77.666417
+    ]
+  },
+  {
+    "id": "1404843",
+    "locality": "VIT",
+    "coordinates": [
+      12.844488,
+      80.149658
+    ]
+  },
+  {
+    "id": "1380710",
+    "locality": "Rayasandra",
+    "coordinates": [
+      12.84618903692565,
+      77.68438360894112
+    ]
+  },
+  {
+    "id": "1393562",
+    "locality": "DLF Woodland",
+    "coordinates": [
+      12.784306,
+      77.660056
+    ]
+  },
+  {
+    "id": "1402246",
+    "locality": "Siruseri",
+    "coordinates": [
+      12.846789,
+      80.211545
+    ]
+  },
+  {
+    "id": "1380531",
+    "locality": "KELAMBAKKAM",
+    "coordinates": [
+      12.791416222261404,
+      80.2181110090208
+    ]
+  },
+  {
+    "id": "1403470",
+    "locality": "Fiza Mall",
+    "coordinates": [
+      12.858535,
+      74.839455
+    ]
+  },
+  {
+    "id": "1391892",
+    "locality": "Semmencheri",
+    "coordinates": [
+      12.878833,
+      80.212833
+    ]
+  },
+  {
+    "id": "1402802",
+    "locality": "Agaram Then",
+    "coordinates": [
+      12.885146,
+      80.150657
+    ]
+  },
+  {
+    "id": "1403191",
+    "locality": "Kadri Mega Pod",
+    "coordinates": [
+      12.89778611,
+      74.8450556
+    ]
+  },
+  {
+    "id": "1400922",
+    "locality": "Provident Sunworth",
+    "coordinates": [
+      12.887056,
+      77.458389
+    ]
+  },
+  {
+    "id": "1404599",
+    "locality": "E-City Megapod",
+    "coordinates": [
+      12.840915330375966,
+      77.63964841192902
+    ]
+  },
+  {
+    "id": "1392660",
+    "locality": "HSR/KUDLU",
+    "coordinates": [
+      12.892389,
+      77.649333
+    ]
+  },
+  {
+    "id": "1393568",
+    "locality": "URAPAKKAM",
+    "coordinates": [
+      12.858278,
+      80.068611
+    ]
+  },
+  {
+    "id": "1239157",
+    "locality": "Begur",
+    "coordinates": [
+      12.877897,
+      77.637238
+    ]
+  },
+  {
+    "id": "1398438",
+    "locality": "Amrita Nagar",
+    "coordinates": [
+      12.882266,
+      77.676314
+    ]
+  },
+  {
+    "id": "1385835",
+    "locality": "Beratena Agrahara",
+    "coordinates": [
+      12.849095,
+      77.654592
+    ]
+  },
+  {
+    "id": "1397048",
+    "locality": "Bannerghatta Road",
+    "coordinates": [
+      12.888222,
+      77.5985
+    ]
+  },
+  {
+    "id": "1404792",
+    "locality": "Hongasandra",
+    "coordinates": [
+      12.901196,
+      77.623413
+    ]
+  },
+  {
+    "id": "1395720",
+    "locality": "SOMASUNDARAPALYA",
+    "coordinates": [
+      12.9001419,
+      77.6600807
+    ]
+  },
+  {
+    "id": "1402269",
+    "locality": "CMC",
+    "coordinates": [
+      12.930518,
+      79.141697
+    ]
+  },
+  {
+    "id": "1403421",
+    "locality": "Greenage HSR 2",
+    "coordinates": [
+      12.899682,
+      77.636131
+    ]
+  },
+  {
+    "id": "1386267",
+    "locality": "Sholinganallur",
+    "coordinates": [
+      12.8967,
+      80.232597
+    ]
+  },
+  {
+    "id": "1403175",
+    "locality": "JP 9th Phase",
+    "coordinates": [
+      12.863351,
+      77.569071
+    ]
+  },
+  {
+    "id": "1400961",
+    "locality": "Padmanabhnagar",
+    "coordinates": [
+      12.914578,
+      77.559952
+    ]
+  },
+  {
+    "id": "1398437",
+    "locality": "KENGERI SATELLITE TOWN",
+    "coordinates": [
+      12.913417,
+      77.485417
+    ]
+  },
+  {
+    "id": "1382349",
+    "locality": "Ranka Colony",
+    "coordinates": [
+      12.904161227966792,
+      77.60063990096421
+    ]
+  },
+  {
+    "id": "1396285",
+    "locality": "RR NAGAR",
+    "coordinates": [
+      12.92475,
+      77.514306
+    ]
+  },
+  {
+    "id": "788742",
+    "locality": "Banashankari",
+    "coordinates": [
+      12.9273438,
+      77.5475607
+    ]
+  },
+  {
+    "id": "1386090",
+    "locality": "HSR Sec 2",
+    "coordinates": [
+      12.904262,
+      77.642027
+    ]
+  },
+  {
+    "id": "1403722",
+    "locality": "Subramanyapura",
+    "coordinates": [
+      12.89231,
+      77.542526
+    ]
+  },
+  {
+    "id": "1395723",
+    "locality": "Rajakilpakkam",
+    "coordinates": [
+      12.918083,
+      80.15775
+    ]
+  },
+  {
+    "id": "1386264",
+    "locality": "Tambaram/ Tambaram West",
+    "coordinates": [
+      12.9261783,
+      80.1112602
+    ]
+  },
+  {
+    "id": "1403224",
+    "locality": "Shirke layout",
+    "coordinates": [
+      12.93657,
+      77.484436
+    ]
+  },
+  {
+    "id": "1399354",
+    "locality": "Siddeshwara Theatre",
+    "coordinates": [
+      12.9022899,
+      77.5832106
+    ]
+  },
+  {
+    "id": "1385836",
+    "locality": "Kasavanahalli",
+    "coordinates": [
+      12.907659,
+      77.675316
+    ]
+  },
+  {
+    "id": "1385476",
+    "locality": "Medavakkam New",
+    "coordinates": [
+      12.927463,
+      80.194938
+    ]
+  },
+  {
+    "id": "1392080",
+    "locality": "BDA Complex HSR",
+    "coordinates": [
+      12.912565,
+      77.636736
+    ]
+  },
+  {
+    "id": "1402605",
+    "locality": "Haralur Road",
+    "coordinates": [
+      12.913961,
+      77.666466
+    ]
+  },
+  {
+    "id": "1393564",
+    "locality": "SG PALYA",
+    "coordinates": [
+      12.927417,
+      77.609639
+    ]
+  },
+  {
+    "id": "1403723",
+    "locality": "Begur Fort",
+    "coordinates": [
+      12.8687,
+      77.6161
+    ]
+  },
+  {
+    "id": "1384788",
+    "locality": "Balagere",
+    "coordinates": [
+      12.941094,
+      77.72747
+    ]
+  },
+  {
+    "id": "1396284",
+    "locality": "KORAMANAGALA",
+    "coordinates": [
+      12.937972,
+      77.626694
+    ]
+  },
+  {
+    "id": "1388998",
+    "locality": "Adarsh Palm Retreat",
+    "coordinates": [
+      12.92336,
+      77.695092
+    ]
+  },
+  {
+    "id": "1382254",
+    "locality": "Yemalur",
+    "coordinates": [
+      12.930061193208351,
+      77.67924248758122
+    ]
+  },
+  {
+    "id": "1402444",
+    "locality": "Nimhans",
+    "coordinates": [
+      12.9353037,
+      77.6087922
+    ]
+  },
+  {
+    "id": "1390221",
+    "locality": "Chrompet 1",
+    "coordinates": [
+      12.945399,
+      80.13596
+    ]
+  },
+  {
+    "id": "1395722",
+    "locality": "MURGESH PALYA",
+    "coordinates": [
+      12.957306,
+      77.662917
+    ]
+  },
+  {
+    "id": "1403353",
+    "locality": "Lavelle Road",
+    "coordinates": [
+      12.965969,
+      77.604449
+    ]
+  },
+  {
+    "id": "1402948",
+    "locality": "Wilson Garden",
+    "coordinates": [
+      12.952091,
+      77.594184
+    ]
+  },
+  {
+    "id": "1181690",
+    "locality": "CHRAMJPET3",
+    "coordinates": [
+      12.9296793,
+      77.5738297
+    ]
+  },
+  {
+    "id": "1397627",
+    "locality": "Bhavani Nagar",
+    "coordinates": [
+      12.96325,
+      79.136417
+    ]
+  },
+  {
+    "id": "1404581",
+    "locality": "Varthur",
+    "coordinates": [
+      12.956434,
+      77.729695
+    ]
+  },
+  {
+    "id": "1388683",
+    "locality": "Kotivakkam",
+    "coordinates": [
+      12.974854,
+      80.258486
+    ]
+  },
+  {
+    "id": "1401714",
+    "locality": "Sunkadakatte",
+    "coordinates": [
+      12.991316,
+      77.498756
+    ]
+  },
+  {
+    "id": "1394671",
+    "locality": "KUBERAN NAGAR",
+    "coordinates": [
+      12.954334,
+      80.186035
+    ]
+  },
+  {
+    "id": "1388682",
+    "locality": "Guttahalli",
+    "coordinates": [
+      12.999125,
+      77.578353
+    ]
+  },
+  {
+    "id": "1404790",
+    "locality": "Zamin Pallavaram",
+    "coordinates": [
+      12.96277,
+      80.167236
+    ]
+  },
+  {
+    "id": "1380899",
+    "locality": "Hoshalli Extension",
+    "coordinates": [
+      12.973853516216405,
+      77.54620300375257
+    ]
+  },
+  {
+    "id": "1386265",
+    "locality": "Thuraipakam",
+    "coordinates": [
+      12.947086,
+      80.236888
+    ]
+  },
+  {
+    "id": "1400610",
+    "locality": "Kempapura",
+    "coordinates": [
+      12.950417,
+      77.690139
+    ]
+  },
+  {
+    "id": "1386385",
+    "locality": "Bengaluru Badootaa",
+    "coordinates": [
+      12.958886335992364,
+      77.5176215423516
+    ]
+  },
+  {
+    "id": "1395425",
+    "locality": "Kalamandir",
+    "coordinates": [
+      12.961962,
+      77.704895
+    ]
+  },
+  {
+    "id": "565139",
+    "locality": "CVR",
+    "coordinates": [
+      12.9721,
+      77.6806
+    ]
+  },
+  {
+    "id": "1313712",
+    "locality": "Shivaji Nagar",
+    "coordinates": [
+      12.981516,
+      77.601807
+    ]
+  },
+  {
+    "id": "1395721",
+    "locality": "Kodihalli",
+    "coordinates": [
+      12.9624916,
+      77.6458945
+    ]
+  },
+  {
+    "id": "1389252",
+    "locality": "Pammal",
+    "coordinates": [
+      12.968462,
+      80.133513
+    ]
+  },
+  {
+    "id": "1381276",
+    "locality": "ALANDUR",
+    "coordinates": [
+      12.991345239881271,
+      80.19895270777764
+    ]
+  },
+  {
+    "id": "911033",
+    "locality": "Laggere",
+    "coordinates": [
+      12.99166,
+      77.538017
+    ]
+  },
+  {
+    "id": "1190778",
+    "locality": "Indiranagar 5",
+    "coordinates": [
+      12.9743252,
+      77.6408181
+    ]
+  },
+  {
+    "id": "1397630",
+    "locality": "VELACHERY",
+    "coordinates": [
+      12.974557,
+      80.2211
+    ]
+  },
+  {
+    "id": "1384139",
+    "locality": "Tin Factory",
+    "coordinates": [
+      12.998405,
+      77.674232
+    ]
+  },
+  {
+    "id": "1385942",
+    "locality": "Thigalarapalya",
+    "coordinates": [
+      12.993544,
+      77.722766
+    ]
+  },
+  {
+    "id": "1387561",
+    "locality": "Gandhipura",
+    "coordinates": [
+      12.9745268,
+      77.7671685
+    ]
+  },
+  {
+    "id": "1369819",
+    "locality": "THIRUVANMIYUR",
+    "coordinates": [
+      13.00127442288849,
+      80.25743030523728
+    ]
+  },
+  {
+    "id": "1404806",
+    "locality": "Anna University",
+    "coordinates": [
+      13.015452,
+      80.246292
+    ]
+  },
+  {
+    "id": "1400923",
+    "locality": "Gerumbakkam",
+    "coordinates": [
+      13.016222,
+      80.139111
+    ]
+  },
+  {
+    "id": "1381969",
+    "locality": "Lingarajapuram",
+    "coordinates": [
+      13.010016,
+      77.644208
+    ]
+  },
+  {
+    "id": "1404679",
+    "locality": "Horamavu Village",
+    "coordinates": [
+      13.025098,
+      77.668175
+    ]
+  },
+  {
+    "id": "1404583",
+    "locality": "Kodigehalli",
+    "coordinates": [
+      13.0199,
+      77.7242
+    ]
+  },
+  {
+    "id": "1373485",
+    "locality": "KR Puram",
+    "coordinates": [
+      13.023334633566627,
+      77.70608358999996
+    ]
+  },
+  {
+    "id": "1402670",
+    "locality": "Timberyard Layout",
+    "coordinates": [
+      12.951867,
+      77.548943
+    ]
+  },
+  {
+    "id": "1402445",
+    "locality": "Mugalivakkam",
+    "coordinates": [
+      13.017778,
+      80.166583
+    ]
+  },
+  {
+    "id": "1386941",
+    "locality": "T Nagar",
+    "coordinates": [
+      13.039177,
+      80.236443
+    ]
+  },
+  {
+    "id": "1403515",
+    "locality": "Goraguntepalya",
+    "coordinates": [
+      13.02885,
+      77.545227
+    ]
+  },
+  {
+    "id": "1394670",
+    "locality": "SOBHA GARRISON",
+    "coordinates": [
+      13.042656,
+      77.507108
+    ]
+  },
+  {
+    "id": "1403833",
+    "locality": "Mangadu",
+    "coordinates": [
+      13.031044,
+      80.114007
+    ]
+  },
+  {
+    "id": "1395434",
+    "locality": "HOODI",
+    "coordinates": [
+      12.990111,
+      77.712083
+    ]
+  },
+  {
+    "id": "1386449",
+    "locality": "Manapakkam",
+    "coordinates": [
+      13.029426,
+      80.170441
+    ]
+  },
+  {
+    "id": "1400960",
+    "locality": "Whitefield Main Road",
+    "coordinates": [
+      12.966528,
+      77.7425
+    ]
+  },
+  {
+    "id": "1393566",
+    "locality": "Ayappanthangal",
+    "coordinates": [
+      13.039583,
+      80.134778
+    ]
+  },
+  {
+    "id": "1403832",
+    "locality": "Nerkundram",
+    "coordinates": [
+      13.057863,
+      80.179719
+    ]
+  },
+  {
+    "id": "1229990",
+    "locality": "Sahakar Nagar",
+    "coordinates": [
+      13.05629,
+      77.576374
+    ]
+  },
+  {
+    "id": "1400929",
+    "locality": "Red Rhino",
+    "coordinates": [
+      13.028861,
+      77.762389
+    ]
+  },
+  {
+    "id": "1404579",
+    "locality": "Nagvara Megapod",
+    "coordinates": [
+      13.04868,
+      77.609108
+    ]
+  },
+  {
+    "id": "1393567",
+    "locality": "Poonamalee",
+    "coordinates": [
+      13.050631,
+      80.112807
+    ]
+  },
+  {
+    "id": "1230880",
+    "locality": "VIRUGAMBAKKAM",
+    "coordinates": [
+      13.04624,
+      80.18883
+    ]
+  },
+  {
+    "id": "1399696",
+    "locality": "Kodambakkam",
+    "coordinates": [
+      13.053917,
+      80.225472
+    ]
+  },
+  {
+    "id": "1401251",
+    "locality": "Teynampet",
+    "coordinates": [
+      13.03825,
+      80.247611
+    ]
+  },
+  {
+    "id": "1400604",
+    "locality": "Peters Rd Flyover",
+    "coordinates": [
+      13.047333,
+      80.271278
+    ]
+  },
+  {
+    "id": "1393565",
+    "locality": "SINGAPURA",
+    "coordinates": [
+      13.081264,
+      77.540016
+    ]
+  },
+  {
+    "id": "1400603",
+    "locality": "Egmore",
+    "coordinates": [
+      13.064333,
+      80.266944
+    ]
+  },
+  {
+    "id": "1380898",
+    "locality": "BT Purshottam Layout",
+    "coordinates": [
+      13.07836012956186,
+      77.52062339076602
+    ]
+  },
+  {
+    "id": "1399355",
+    "locality": "Jakkur",
+    "coordinates": [
+      13.091389,
+      77.601417
+    ]
+  },
+  {
+    "id": "1394669",
+    "locality": "P & T LAYOUT",
+    "coordinates": [
+      13.057804,
+      77.63343
+    ]
+  },
+  {
+    "id": "1404671",
+    "locality": "Kannuru",
+    "coordinates": [
+      13.087076,
+      77.654088
+    ]
+  },
+  {
+    "id": "1382426",
+    "locality": "ANNA NAGAR MAIN",
+    "coordinates": [
+      13.08786043447537,
+      80.2005828516698
+    ]
+  },
+  {
+    "id": "1401467",
+    "locality": "Avadi",
+    "coordinates": [
+      13.094722,
+      80.107167
+    ]
+  },
+  {
+    "id": "1403023",
+    "locality": "Shanthi Colony",
+    "coordinates": [
+      13.0904154,
+      80.2144364
+    ]
+  },
+  {
+    "id": "1404451",
+    "locality": "Kilpauk Garden Road",
+    "coordinates": [
+      13.083846,
+      80.234478
+    ]
+  },
+  {
+    "id": "1386386",
+    "locality": "Puttanahalli",
+    "coordinates": [
+      13.114128,
+      77.571561
+    ]
+  },
+  {
+    "id": "1402050",
+    "locality": "Parrys",
+    "coordinates": [
+      13.089889,
+      80.286528
+    ]
+  },
+  {
+    "id": "1399698",
+    "locality": "Korattur",
+    "coordinates": [
+      13.09905,
+      80.185091
+    ]
+  },
+  {
+    "id": "1398439",
+    "locality": "JAWAHAR NAGAR",
+    "coordinates": [
+      13.114778,
+      80.230944
+    ]
+  },
+  {
+    "id": "1397024",
+    "locality": "BAGALURU ROAD",
+    "coordinates": [
+      13.123083,
+      77.623694
+    ]
+  },
+  {
+    "id": "1386448",
+    "locality": "Tirumurthy Nagar",
+    "coordinates": [
+      13.055384,
+      80.247602
+    ]
+  },
+  {
+    "id": "1396287",
+    "locality": "PUTHAGARAM",
+    "coordinates": [
+      13.1253059,
+      80.1949019
+    ]
+  },
+  {
+    "id": "1400219",
+    "locality": "Kodungaiyur",
+    "coordinates": [
+      13.134806,
+      80.228306
+    ]
+  },
+  {
+    "id": "1401249",
+    "locality": "Washermenpet",
+    "coordinates": [
+      13.13375,
+      80.292611
+    ]
+  },
+  {
+    "id": "1400545",
+    "locality": "Prestige Royal Gardens",
+    "coordinates": [
+      13.133806,
+      77.570667
+    ]
+  },
+  {
+    "id": "1402775",
+    "locality": "Tondiarpet Road",
+    "coordinates": [
+      13.128516,
+      80.250358
+    ]
+  },
+  {
+    "id": "1390222",
+    "locality": "George Town",
+    "coordinates": [
+      13.105695,
+      80.279349
+    ]
+  },
+  {
+    "id": "1402473",
+    "locality": "Tumkur Central",
+    "coordinates": [
+      13.342452,
+      77.100273
+    ]
+  },
+  {
+    "id": "1399705",
+    "locality": "Central Manipal",
+    "coordinates": [
+      13.349111,
+      74.782722
+    ]
+  },
+  {
+    "id": "1398448",
+    "locality": "VK PURAM",
+    "coordinates": [
+      13.613907,
+      79.417184
+    ]
+  },
+  {
+    "id": "1404568",
+    "locality": "Revenue Colony",
+    "coordinates": [
+      13.615957,
+      79.433746
+    ]
+  },
+  {
+    "id": "1404618",
+    "locality": "KB Layout",
+    "coordinates": [
+      13.6451,
+      79.4272
+    ]
+  },
+  {
+    "id": "1404910",
+    "locality": "MG Layout",
+    "coordinates": [
+      14.429786,
+      79.972839
+    ]
+  },
+  {
+    "id": "1400966",
+    "locality": "Kuvempu Nagar",
+    "coordinates": [
+      14.443005,
+      75.921128
+    ]
+  },
+  {
+    "id": "1404650",
+    "locality": "Kovur Nagar",
+    "coordinates": [
+      14.683951,
+      77.58432
+    ]
+  },
+  {
+    "id": "1402773",
+    "locality": "Devanahalli",
+    "coordinates": [
+      13.239246,
+      77.723274
+    ]
+  },
+  {
+    "id": "1404750",
+    "locality": "Udupi",
+    "coordinates": [
+      13.330976,
+      74.745941
+    ]
+  },
+  {
+    "id": "1387907",
+    "locality": "Ambatur",
+    "coordinates": [
+      13.118256,
+      80.152606
+    ]
+  },
+  {
+    "id": "1390351",
+    "locality": "MARGAO",
+    "coordinates": [
+      15.284223,
+      73.95791
+    ]
+  },
+  {
+    "id": "1400566",
+    "locality": "Ravi Nagar",
+    "coordinates": [
+      15.353833,
+      75.114528
+    ]
+  },
+  {
+    "id": "1402251",
+    "locality": "BITS Goa",
+    "coordinates": [
+      15.383917,
+      73.869167
+    ]
+  },
+  {
+    "id": "1402250",
+    "locality": "Vasco",
+    "coordinates": [
+      15.398066,
+      73.819269
+    ]
+  },
+  {
+    "id": "1403181",
+    "locality": "Vaneli",
+    "coordinates": [
+      15.269957,
+      73.932579
+    ]
+  },
+  {
+    "id": "1392081",
+    "locality": "CUJIRA WARD",
+    "coordinates": [
+      15.460619,
+      73.860558
+    ]
+  },
+  {
+    "id": "1401655",
+    "locality": "Vishweshwara Nagara",
+    "coordinates": [
+      15.364611,
+      75.149028
+    ]
+  },
+  {
+    "id": "1401657",
+    "locality": "Kuvempu Road",
+    "coordinates": [
+      13.938611,
+      75.553639
+    ]
+  },
+  {
+    "id": "1404868",
+    "locality": "Hotel Sindhura",
+    "coordinates": [
+      15.511082,
+      80.036667
+    ]
+  },
+  {
+    "id": "1381971",
+    "locality": "TALIEGAO",
+    "coordinates": [
+      15.475060768296622,
+      73.82706343909538
+    ]
+  },
+  {
+    "id": "1403560",
+    "locality": "Chimbel",
+    "coordinates": [
+      15.495829,
+      73.879303
+    ]
+  },
+  {
+    "id": "1403182",
+    "locality": "Candolim",
+    "coordinates": [
+      15.506157,
+      73.787
+    ]
+  },
+  {
+    "id": "1404798",
+    "locality": "Khorlim - C",
+    "coordinates": [
+      15.592108,
+      73.800995
+    ]
+  },
+  {
+    "id": "1392082",
+    "locality": "SIOLIM GOA",
+    "coordinates": [
+      15.627374,
+      73.770823
+    ]
+  },
+  {
+    "id": "1401080",
+    "locality": "Bangarpet",
+    "coordinates": [
+      15.823083,
+      78.029556
+    ]
+  },
+  {
+    "id": "1395427",
+    "locality": "BRINDAVAN GARDENS",
+    "coordinates": [
+      16.312077,
+      80.415039
+    ]
+  },
+  {
+    "id": "1394684",
+    "locality": "MEDICAL COLLEGE",
+    "coordinates": [
+      16.301083,
+      80.440194
+    ]
+  },
+  {
+    "id": "1387908",
+    "locality": "VAGATOR",
+    "coordinates": [
+      15.600282,
+      73.745688
+    ]
+  },
+  {
+    "id": "1400605",
+    "locality": "Tilakwadi",
+    "coordinates": [
+      15.829278,
+      74.50125
+    ]
+  },
+  {
+    "id": "1400217",
+    "locality": "Ambedkar Road",
+    "coordinates": [
+      15.88025,
+      74.511688
+    ]
+  },
+  {
+    "id": "1402778",
+    "locality": "Pathareddy Palam",
+    "coordinates": [
+      16.282352,
+      80.453819
+    ]
+  },
+  {
+    "id": "1404765",
+    "locality": "Tenali",
+    "coordinates": [
+      16.23962,
+      80.64967
+    ]
+  },
+  {
+    "id": "1398450",
+    "locality": "TADEPALLE",
+    "coordinates": [
+      16.47229,
+      80.616237
+    ]
+  },
+  {
+    "id": "1399348",
+    "locality": "MYTRI NAGAR",
+    "coordinates": [
+      16.4783774,
+      80.7000716
+    ]
+  },
+  {
+    "id": "1391901",
+    "locality": "RAMAVARAPADU",
+    "coordinates": [
+      16.507337,
+      80.682545
+    ]
+  },
+  {
+    "id": "1382351",
+    "locality": "PORVORIM",
+    "coordinates": [
+      15.543197439208834,
+      73.82125847557573
+    ]
+  },
+  {
+    "id": "1387707",
+    "locality": "BHAVANIPURAM",
+    "coordinates": [
+      16.537684,
+      80.600234
+    ]
+  },
+  {
+    "id": "1386814",
+    "locality": "BAGA",
+    "coordinates": [
+      15.551362,
+      73.76823
+    ]
+  },
+  {
+    "id": "1402475",
+    "locality": "Shivaji University",
+    "coordinates": [
+      16.676028,
+      74.226806
+    ]
+  },
+  {
+    "id": "1388390",
+    "locality": "LABIPET",
+    "coordinates": [
+      16.496115,
+      80.650726
+    ]
+  },
+  {
+    "id": "1404636",
+    "locality": "Payakapuram - MP",
+    "coordinates": [
+      16.516389,
+      80.623472
+    ]
+  },
+  {
+    "id": "1398748",
+    "locality": "Telecom Nagar",
+    "coordinates": [
+      16.333806,
+      80.439722
+    ]
+  },
+  {
+    "id": "1402078",
+    "locality": "Postal colony",
+    "coordinates": [
+      16.963861,
+      82.230806
+    ]
+  },
+  {
+    "id": "1403724",
+    "locality": "Shivaji Park",
+    "coordinates": [
+      16.70253,
+      74.260483
+    ]
+  },
+  {
+    "id": "1404570",
+    "locality": "Powerpet",
+    "coordinates": [
+      16.71187,
+      81.102455
+    ]
+  },
+  {
+    "id": "1403360",
+    "locality": "GPT Colony",
+    "coordinates": [
+      16.998789,
+      82.245079
+    ]
+  },
+  {
+    "id": "1403145",
+    "locality": "JC Mall",
+    "coordinates": [
+      17.010216,
+      81.792603
+    ]
+  },
+  {
+    "id": "1404573",
+    "locality": "SRKR College",
+    "coordinates": [
+      16.540104,
+      81.512901
+    ]
+  },
+  {
+    "id": "1404605",
+    "locality": "LB Nagar",
+    "coordinates": [
+      17.343399,
+      78.554077
+    ]
+  },
+  {
+    "id": "1403146",
+    "locality": "Rehmatnagar",
+    "coordinates": [
+      16.9846326,
+      81.79423222
+    ]
+  },
+  {
+    "id": "1404848",
+    "locality": "Bhoj Reddy College",
+    "coordinates": [
+      17.352163,
+      78.507805
+    ]
+  },
+  {
+    "id": "1392530",
+    "locality": "Chintalkunta",
+    "coordinates": [
+      17.329996,
+      78.568657
+    ]
+  },
+  {
+    "id": "1402448",
+    "locality": "Shivarampally",
+    "coordinates": [
+      17.3321425,
+      78.4391203
+    ]
+  },
+  {
+    "id": "1380523",
+    "locality": "Abhyudaya Nagar",
+    "coordinates": [
+      17.362362394488436,
+      78.39493261464521
+    ]
+  },
+  {
+    "id": "1386816",
+    "locality": "Attapur",
+    "coordinates": [
+      17.355889,
+      78.419833
+    ]
+  },
+  {
+    "id": "1404574",
+    "locality": "Saidabad",
+    "coordinates": [
+      17.361474,
+      78.522232
+    ]
+  },
+  {
+    "id": "1400220",
+    "locality": "Shalibanda",
+    "coordinates": [
+      17.353944,
+      78.471556
+    ]
+  },
+  {
+    "id": "1403835",
+    "locality": "Nagole",
+    "coordinates": [
+      17.363103,
+      78.557613
+    ]
+  },
+  {
+    "id": "1400602",
+    "locality": "Mustafa Nagar",
+    "coordinates": [
+      17.247179,
+      80.16512
+    ]
+  },
+  {
+    "id": "1400550",
+    "locality": "Rethibowli",
+    "coordinates": [
+      17.380417,
+      78.429583
+    ]
+  },
+  {
+    "id": "762613",
+    "locality": "Kothapet",
+    "coordinates": [
+      17.37062406,
+      78.540314625
+    ]
+  },
+  {
+    "id": "1404855",
+    "locality": "Mirpet",
+    "coordinates": [
+      17.312449,
+      78.532845
+    ]
+  },
+  {
+    "id": "1381355",
+    "locality": "Barkatpura",
+    "coordinates": [
+      17.394383139152424,
+      78.50012586938801
+    ]
+  },
+  {
+    "id": "1382981",
+    "locality": "Arvind Nagar colony",
+    "coordinates": [
+      17.40026238873526,
+      78.4067647563201
+    ]
+  },
+  {
+    "id": "1401470",
+    "locality": "Madhura Nagar Colony",
+    "coordinates": [
+      17.413194,
+      78.377056
+    ]
+  },
+  {
+    "id": "1396294",
+    "locality": "BODUPPAL",
+    "coordinates": [
+      17.401222,
+      78.567028
+    ]
+  },
+  {
+    "id": "1404789",
+    "locality": "My Home Tarkshya",
+    "coordinates": [
+      17.38583,
+      78.344887
+    ]
+  },
+  {
+    "id": "1387565",
+    "locality": "Waverock",
+    "coordinates": [
+      17.422039,
+      78.347434
+    ]
+  },
+  {
+    "id": "1383572",
+    "locality": "Jublee hills checkpost",
+    "coordinates": [
+      17.4259923,
+      78.4142841
+    ]
+  },
+  {
+    "id": "816649",
+    "locality": "Tarnaka",
+    "coordinates": [
+      17.428589,
+      78.532424
+    ]
+  },
+  {
+    "id": "1401257",
+    "locality": "KL Reddy Nagar",
+    "coordinates": [
+      17.446944,
+      78.573028
+    ]
+  },
+  {
+    "id": "1403845",
+    "locality": "Ajit Singh Nagar",
+    "coordinates": [
+      16.545163333333335,
+      80.637905
+    ]
+  },
+  {
+    "id": "1386268",
+    "locality": "Datar Manzil",
+    "coordinates": [
+      17.407012389859826,
+      78.3792554122228
+    ]
+  },
+  {
+    "id": "1385944",
+    "locality": "Habsiguda",
+    "coordinates": [
+      17.40528104514001,
+      78.5439744964242
+    ]
+  },
+  {
+    "id": "1229994",
+    "locality": "Punjagutta",
+    "coordinates": [
+      17.420833,
+      78.442604
+    ]
+  },
+  {
+    "id": "1404622",
+    "locality": "Huda Layout",
+    "coordinates": [
+      17.470725,
+      78.3067
+    ]
+  },
+  {
+    "id": "1404783",
+    "locality": "Cyber Gateway",
+    "coordinates": [
+      17.4384,
+      78.387535
+    ]
+  },
+  {
+    "id": "1389638",
+    "locality": "Kalpataru",
+    "coordinates": [
+      17.458318,
+      78.432707
+    ]
+  },
+  {
+    "id": "1400561",
+    "locality": "DLF Cyber City",
+    "coordinates": [
+      17.44541,
+      78.356194
+    ]
+  },
+  {
+    "id": "1402058",
+    "locality": "Medipally",
+    "coordinates": [
+      17.409083,
+      78.6
+    ]
+  },
+  {
+    "id": "1396289",
+    "locality": "Anand Bagh",
+    "coordinates": [
+      17.45175,
+      78.536028
+    ]
+  },
+  {
+    "id": "1404660",
+    "locality": "Kokapet X Road",
+    "coordinates": [
+      17.39682,
+      78.33328
+    ]
+  },
+  {
+    "id": "1401258",
+    "locality": "Osman Nagar",
+    "coordinates": [
+      17.44575,
+      78.279889
+    ]
+  },
+  {
+    "id": "737088",
+    "locality": "Madhapur",
+    "coordinates": [
+      17.438922,
+      78.39823
+    ]
+  },
+  {
+    "id": "1401471",
+    "locality": "Chandanagar",
+    "coordinates": [
+      17.487501,
+      78.320229
+    ]
+  },
+  {
+    "id": "1393828",
+    "locality": "West Marredpally",
+    "coordinates": [
+      17.449091,
+      78.504005
+    ]
+  },
+  {
+    "id": "886521",
+    "locality": "YOSUFGUDA",
+    "coordinates": [
+      17.43329,
+      78.427051
+    ]
+  },
+  {
+    "id": "1061926",
+    "locality": "Kondapur",
+    "coordinates": [
+      17.4635604,
+      78.3695787
+    ]
+  },
+  {
+    "id": "1382391",
+    "locality": "Masjid Banda",
+    "coordinates": [
+      17.468918,
+      78.3487325
+    ]
+  },
+  {
+    "id": "1381356",
+    "locality": "Hitech City",
+    "coordinates": [
+      17.4425210158527,
+      78.38797606133495
+    ]
+  },
+  {
+    "id": "1383129",
+    "locality": "Kukatpally",
+    "coordinates": [
+      17.480457,
+      78.394226
+    ]
+  },
+  {
+    "id": "810364",
+    "locality": "Miyapur",
+    "coordinates": [
+      17.49591301,
+      78.34031515
+    ]
+  },
+  {
+    "id": "1402983",
+    "locality": "Secunderabad II",
+    "coordinates": [
+      17.443639,
+      78.46513
+    ]
+  },
+  {
+    "id": "1386269",
+    "locality": "TCS Synergy Park",
+    "coordinates": [
+      17.46447,
+      78.345367
+    ]
+  },
+  {
+    "id": "1155153",
+    "locality": "BOWENPALLY",
+    "coordinates": [
+      17.4688144,
+      78.4808474
+    ]
+  },
+  {
+    "id": "1404773",
+    "locality": "Tellapur new",
+    "coordinates": [
+      17.4637085,
+      78.2892032
+    ]
+  },
+  {
+    "id": "1388385",
+    "locality": "DAMAIGUDA",
+    "coordinates": [
+      17.503279,
+      78.58725
+    ]
+  },
+  {
+    "id": "1238352",
+    "locality": "Nizampet 6",
+    "coordinates": [
+      17.5266505,
+      78.3694765
+    ]
+  },
+  {
+    "id": "1386093",
+    "locality": "Venkata Ramana Colony",
+    "coordinates": [
+      17.488374062531527,
+      78.38126063690974
+    ]
+  },
+  {
+    "id": "1401472",
+    "locality": "JNTU",
+    "coordinates": [
+      17.499528,
+      78.390472
+    ]
+  },
+  {
+    "id": "1404791",
+    "locality": "KPHB",
+    "coordinates": [
+      17.489239,
+      78.42054
+    ]
+  },
+  {
+    "id": "1381278",
+    "locality": "Chinthal",
+    "coordinates": [
+      17.512116883396622,
+      78.46433527859948
+    ]
+  },
+  {
+    "id": "1082432",
+    "locality": "NIZAMPET4",
+    "coordinates": [
+      17.538314,
+      78.393675
+    ]
+  },
+  {
+    "id": "1387564",
+    "locality": "Bachupally 2",
+    "coordinates": [
+      17.547,
+      78.363
+    ]
+  },
+  {
+    "id": "1401473",
+    "locality": "Tirumalgherry",
+    "coordinates": [
+      17.474867,
+      78.498569
+    ]
+  },
+  {
+    "id": "1398441",
+    "locality": "Kamalanagar",
+    "coordinates": [
+      17.461389,
+      78.558306
+    ]
+  },
+  {
+    "id": "1388312",
+    "locality": "Kompally",
+    "coordinates": [
+      17.5443971,
+      78.4926065
+    ]
+  },
+  {
+    "id": "1401107",
+    "locality": "Gajula Ramaram",
+    "coordinates": [
+      17.527389,
+      78.418472
+    ]
+  },
+  {
+    "id": "1309584",
+    "locality": "NAWAB NAGAR",
+    "coordinates": [
+      17.674284949006235,
+      83.1902583857717
+    ]
+  },
+  {
+    "id": "1404609",
+    "locality": "Sri Nagar",
+    "coordinates": [
+      17.6851,
+      83.2056
+    ]
+  },
+  {
+    "id": "1382440",
+    "locality": "DWARKA NAGAR",
+    "coordinates": [
+      17.7173453199607,
+      83.30089187055201
+    ]
+  },
+  {
+    "id": "1403366",
+    "locality": "Sanjeeviah Nagar",
+    "coordinates": [
+      17.737753,
+      83.265489
+    ]
+  },
+  {
+    "id": "1387634",
+    "locality": "Beeramguda",
+    "coordinates": [
+      17.530593,
+      78.294638
+    ]
+  },
+  {
+    "id": "1404666",
+    "locality": "Kurmannapalem",
+    "coordinates": [
+      17.69656,
+      83.16309
+    ]
+  },
+  {
+    "id": "1388113",
+    "locality": "MADHURWADA",
+    "coordinates": [
+      17.800589,
+      83.352235
+    ]
+  },
+  {
+    "id": "1403846",
+    "locality": "Pendurti",
+    "coordinates": [
+      17.799972,
+      83.207733
+    ]
+  },
+  {
+    "id": "1345681",
+    "locality": "NAD JUNCTION",
+    "coordinates": [
+      17.745893468842585,
+      83.23849653475374
+    ]
+  },
+  {
+    "id": "1404663",
+    "locality": "Kazipet",
+    "coordinates": [
+      17.993734,
+      79.532486
+    ]
+  },
+  {
+    "id": "1404878",
+    "locality": "Warangal city",
+    "coordinates": [
+      17.983253,
+      79.604706
+    ]
+  },
+  {
+    "id": "1237254",
+    "locality": "Yapral",
+    "coordinates": [
+      17.512562,
+      78.542142
+    ]
+  },
+  {
+    "id": "1395433",
+    "locality": "PUBLIC GARDEN",
+    "coordinates": [
+      18.00152,
+      79.556793
+    ]
+  },
+  {
+    "id": "1400985",
+    "locality": "Kaikatiya University",
+    "coordinates": [
+      18.033165,
+      79.540973
+    ]
+  },
+  {
+    "id": "1404816",
+    "locality": "My Home Bhooja",
+    "coordinates": [
+      17.435318,
+      78.368187
+    ]
+  },
+  {
+    "id": "1399807",
+    "locality": "Sai Nagar",
+    "coordinates": [
+      18.429917,
+      79.136139
+    ]
+  },
+  {
+    "id": "1381358",
+    "locality": "MVP DOUBLE ROAD",
+    "coordinates": [
+      17.7324732,
+      83.3339411
+    ]
+  },
+  {
+    "id": "1404611",
+    "locality": "STBL Cine World",
+    "coordinates": [
+      17.826063,
+      83.355003
+    ]
+  },
+  {
+    "id": "1402466",
+    "locality": "Katraj",
+    "coordinates": [
+      18.449528,
+      73.872028
+    ]
+  },
+  {
+    "id": "1386163",
+    "locality": "Nanded City",
+    "coordinates": [
+      18.457106,
+      73.787371
+    ]
+  },
+  {
+    "id": "1395729",
+    "locality": "Undri",
+    "coordinates": [
+      18.45324,
+      73.91541
+    ]
+  },
+  {
+    "id": "1402618",
+    "locality": "Nyati Megapod",
+    "coordinates": [
+      18.465956,
+      73.91687
+    ]
+  },
+  {
+    "id": "1402268",
+    "locality": "Hingne Stree",
+    "coordinates": [
+      18.484639,
+      73.810583
+    ]
+  },
+  {
+    "id": "1393575",
+    "locality": "Vikas Udyan",
+    "coordinates": [
+      18.46125,
+      73.826389
+    ]
+  },
+  {
+    "id": "1402790",
+    "locality": "Fort Area",
+    "coordinates": [
+      18.102955,
+      83.412741
+    ]
+  },
+  {
+    "id": "1402781",
+    "locality": "More Nagar",
+    "coordinates": [
+      18.39598,
+      76.567982
+    ]
+  },
+  {
+    "id": "1403357",
+    "locality": "Athipet",
+    "coordinates": [
+      13.09577,
+      80.149918
+    ]
+  },
+  {
+    "id": "1404644",
+    "locality": "Bibewadi",
+    "coordinates": [
+      18.469521,
+      73.857681
+    ]
+  },
+  {
+    "id": "1398754",
+    "locality": "Urit Nagar Warje",
+    "coordinates": [
+      18.48931,
+      73.793789
+    ]
+  },
+  {
+    "id": "1394673",
+    "locality": "BHEKRAI",
+    "coordinates": [
+      18.48775,
+      73.952528
+    ]
+  },
+  {
+    "id": "1403040",
+    "locality": "Bhugaon",
+    "coordinates": [
+      18.502615,
+      73.748123
+    ]
+  },
+  {
+    "id": "1385649",
+    "locality": "Pranjali Patil Nagar",
+    "coordinates": [
+      18.51921,
+      73.769716
+    ]
+  },
+  {
+    "id": "1397057",
+    "locality": "MADHAPUR1",
+    "coordinates": [
+      17.454361,
+      78.387
+    ]
+  },
+  {
+    "id": "1396293",
+    "locality": "ALKAPURI TOWNSHIP",
+    "coordinates": [
+      17.387358,
+      78.366058
+    ]
+  },
+  {
+    "id": "1386716",
+    "locality": "New Bolarum",
+    "coordinates": [
+      17.52652,
+      78.513229
+    ]
+  },
+  {
+    "id": "1401109",
+    "locality": "Magarpatta City",
+    "coordinates": [
+      18.512999,
+      73.939142
+    ]
+  },
+  {
+    "id": "1404758",
+    "locality": "PunjaGutta - MP",
+    "coordinates": [
+      17.41177,
+      78.43595
+    ]
+  },
+  {
+    "id": "1403453",
+    "locality": "Vital Chowk",
+    "coordinates": [
+      18.530588,
+      73.832592
+    ]
+  },
+  {
+    "id": "1403455",
+    "locality": "Sangamvadi",
+    "coordinates": [
+      18.53208,
+      73.874367
+    ]
+  },
+  {
+    "id": "1388314",
+    "locality": "Wanwadi New",
+    "coordinates": [
+      18.505552,
+      73.901195
+    ]
+  },
+  {
+    "id": "1382354",
+    "locality": "Kausar Bagh",
+    "coordinates": [
+      18.477629,
+      73.893953
+    ]
+  },
+  {
+    "id": "1403214",
+    "locality": "Keshav Nagar",
+    "coordinates": [
+      18.53363,
+      73.9425
+    ]
+  },
+  {
+    "id": "1402454",
+    "locality": "Kondhwa",
+    "coordinates": [
+      18.464302,
+      73.892845
+    ]
+  },
+  {
+    "id": "1383135",
+    "locality": "AUNDH GAON",
+    "coordinates": [
+      18.562691,
+      73.801971
+    ]
+  },
+  {
+    "id": "1397628",
+    "locality": "MAHESH NAGAR",
+    "coordinates": [
+      17.391417,
+      78.470333
+    ]
+  },
+  {
+    "id": "1389691",
+    "locality": "Kharadi 2",
+    "coordinates": [
+      18.5511399,
+      73.9309252
+    ]
+  },
+  {
+    "id": "1389001",
+    "locality": "Samarth Colony",
+    "coordinates": [
+      18.564926,
+      73.77609
+    ]
+  },
+  {
+    "id": "1400557",
+    "locality": "Tingre Nagar",
+    "coordinates": [
+      18.579306,
+      73.884861
+    ]
+  },
+  {
+    "id": "1382708",
+    "locality": "Airport Road",
+    "coordinates": [
+      18.5757279,
+      73.9131688
+    ]
+  },
+  {
+    "id": "1381445",
+    "locality": "Manjari",
+    "coordinates": [
+      18.525571059822948,
+      73.95863565695147
+    ]
+  },
+  {
+    "id": "1390229",
+    "locality": "Pashan Gaon",
+    "coordinates": [
+      18.543676,
+      73.793862
+    ]
+  },
+  {
+    "id": "1404659",
+    "locality": "VTP Leonara",
+    "coordinates": [
+      18.566948,
+      73.740768
+    ]
+  },
+  {
+    "id": "1397626",
+    "locality": "Tulaja Bhawani Nagar",
+    "coordinates": [
+      18.560361,
+      73.949389
+    ]
+  },
+  {
+    "id": "1403046",
+    "locality": "Alpha Homes Megapod",
+    "coordinates": [
+      18.586868,
+      73.969421
+    ]
+  },
+  {
+    "id": "1403042",
+    "locality": "Thacker Nagar Megapod",
+    "coordinates": [
+      18.585834,
+      73.684528
+    ]
+  },
+  {
+    "id": "1403044",
+    "locality": "Hinjewadi Megapod",
+    "coordinates": [
+      18.583642,
+      73.744713
+    ]
+  },
+  {
+    "id": "1403036",
+    "locality": "Ivy Estate Road",
+    "coordinates": [
+      18.5833056,
+      73.9963333
+    ]
+  },
+  {
+    "id": "1393573",
+    "locality": "Dattawadi",
+    "coordinates": [
+      18.616601,
+      73.752173
+    ]
+  },
+  {
+    "id": "1393574",
+    "locality": "KUNAL ICON PIMPLE SAUDAGAR",
+    "coordinates": [
+      18.593686,
+      73.803717
+    ]
+  },
+  {
+    "id": "1401652",
+    "locality": "Good square",
+    "coordinates": [
+      18.596004,
+      73.90795
+    ]
+  },
+  {
+    "id": "1402464",
+    "locality": "Brooklyn",
+    "coordinates": [
+      18.612853,
+      73.914981
+    ]
+  },
+  {
+    "id": "1402465",
+    "locality": "Zenobia",
+    "coordinates": [
+      18.608712,
+      73.721137
+    ]
+  },
+  {
+    "id": "1389254",
+    "locality": "Ravet",
+    "coordinates": [
+      18.655879,
+      73.744494
+    ]
+  },
+  {
+    "id": "1404643",
+    "locality": "PCMC",
+    "coordinates": [
+      18.626818,
+      73.801758
+    ]
+  },
+  {
+    "id": "1400927",
+    "locality": "Moshi",
+    "coordinates": [
+      18.681222,
+      73.838417
+    ]
+  },
+  {
+    "id": "1390228",
+    "locality": "Shivrajnagar",
+    "coordinates": [
+      18.6015,
+      73.780139
+    ]
+  },
+  {
+    "id": "1403215",
+    "locality": "Charoli",
+    "coordinates": [
+      18.664806,
+      73.888458
+    ]
+  },
+  {
+    "id": "1402476",
+    "locality": "Pradhikaran New",
+    "coordinates": [
+      18.651917,
+      73.783333
+    ]
+  },
+  {
+    "id": "1404615",
+    "locality": "Suskhind Phata",
+    "coordinates": [
+      18.547607,
+      73.771599
+    ]
+  },
+  {
+    "id": "1383130",
+    "locality": "Dhobi Talao",
+    "coordinates": [
+      18.936506,
+      72.838211
+    ]
+  },
+  {
+    "id": "1396282",
+    "locality": "TARDEO POLICE STATION",
+    "coordinates": [
+      18.969984,
+      72.814278
+    ]
+  },
+  {
+    "id": "1396283",
+    "locality": "BYCULLA EAST",
+    "coordinates": [
+      18.975889,
+      72.838389
+    ]
+  },
+  {
+    "id": "1403038",
+    "locality": "Lonavala",
+    "coordinates": [
+      18.763176,
+      73.410858
+    ]
+  },
+  {
+    "id": "1400558",
+    "locality": "Kohinoor Begonia",
+    "coordinates": [
+      18.741056,
+      73.681667
+    ]
+  },
+  {
+    "id": "1400977",
+    "locality": "Takka Naka",
+    "coordinates": [
+      18.980835,
+      73.113323
+    ]
+  },
+  {
+    "id": "1402458",
+    "locality": "Ulwe",
+    "coordinates": [
+      18.969516,
+      73.023393
+    ]
+  },
+  {
+    "id": "1398760",
+    "locality": "Marathi Patrakar",
+    "coordinates": [
+      19.014972,
+      72.844694
+    ]
+  },
+  {
+    "id": "1381967",
+    "locality": "Mahim",
+    "coordinates": [
+      19.0361932,
+      72.8467828
+    ]
+  },
+  {
+    "id": "1403211",
+    "locality": "Vadale Lake - MP",
+    "coordinates": [
+      18.998722,
+      73.111639
+    ]
+  },
+  {
+    "id": "1401265",
+    "locality": "Kamothe",
+    "coordinates": [
+      19.017364,
+      73.101226
+    ]
+  },
+  {
+    "id": "1084119",
+    "locality": "Belapur",
+    "coordinates": [
+      19.021601711005093,
+      73.02830699134238
+    ]
+  },
+  {
+    "id": "1396295",
+    "locality": "SION EAST",
+    "coordinates": [
+      19.022056,
+      72.86825
+    ]
+  },
+  {
+    "id": "1403032",
+    "locality": "Sec 11 Belapur",
+    "coordinates": [
+      19.015339,
+      73.042534
+    ]
+  },
+  {
+    "id": "1403216",
+    "locality": "RoadPali",
+    "coordinates": [
+      19.043961,
+      73.098068
+    ]
+  },
+  {
+    "id": "1404757",
+    "locality": "Nerul - MP",
+    "coordinates": [
+      19.039675,
+      73.009544
+    ]
+  },
+  {
+    "id": "1381500",
+    "locality": "Telecom Factory",
+    "coordinates": [
+      19.049923563348713,
+      72.91657932289746
+    ]
+  },
+  {
+    "id": "969383",
+    "locality": "Bandra West",
+    "coordinates": [
+      19.056184,
+      72.833307
+    ]
+  },
+  {
+    "id": "1082435",
+    "locality": "Kharghar",
+    "coordinates": [
+      19.05184,
+      73.081064
+    ]
+  },
+  {
+    "id": "1402459",
+    "locality": "Taloja Phase 2",
+    "coordinates": [
+      19.071998,
+      73.095683
+    ]
+  },
+  {
+    "id": "1404760",
+    "locality": "Kharghar - MP",
+    "coordinates": [
+      19.041431,
+      73.071152
+    ]
+  },
+  {
+    "id": "1381966",
+    "locality": "INDIRA NAGAR",
+    "coordinates": [
+      19.0662856,
+      72.8918191
+    ]
+  },
+  {
+    "id": "1386846",
+    "locality": "Taloja Jail Road",
+    "coordinates": [
+      19.069468,
+      73.074544
+    ]
+  },
+  {
+    "id": "1190780",
+    "locality": "VILEPARLE",
+    "coordinates": [
+      19.0866481,
+      72.8374707
+    ]
+  },
+  {
+    "id": "1335483",
+    "locality": "SEAWOODS (NAVI MUMBAI)",
+    "coordinates": [
+      19.017979,
+      73.012567
+    ]
+  },
+  {
+    "id": "1295147",
+    "locality": "VILEPARLE EAST",
+    "coordinates": [
+      19.1147357,
+      72.8502962
+    ]
+  },
+  {
+    "id": "1399809",
+    "locality": "Marol",
+    "coordinates": [
+      19.110389,
+      72.887194
+    ]
+  },
+  {
+    "id": "1397051",
+    "locality": "VILE PARLE",
+    "coordinates": [
+      19.104799,
+      72.838066
+    ]
+  },
+  {
+    "id": "1403562",
+    "locality": "Nagardeole",
+    "coordinates": [
+      19.11248,
+      74.729736
+    ]
+  },
+  {
+    "id": "1298955",
+    "locality": "RCITY MALL, GHATKOPAR WEST",
+    "coordinates": [
+      19.09506265121198,
+      72.91765477568399
+    ]
+  },
+  {
+    "id": "810366",
+    "locality": "Andheri East",
+    "coordinates": [
+      19.1198744,
+      72.861152
+    ]
+  },
+  {
+    "id": "1135720",
+    "locality": "POWAI2",
+    "coordinates": [
+      19.1188,
+      72.9052
+    ]
+  },
+  {
+    "id": "810367",
+    "locality": "VIKHROLI",
+    "coordinates": [
+      19.122327,
+      72.926729
+    ]
+  },
+  {
+    "id": "1385645",
+    "locality": "Ghansoli",
+    "coordinates": [
+      19.112493,
+      73.007007
+    ]
+  },
+  {
+    "id": "1403564",
+    "locality": "Vainganga",
+    "coordinates": [
+      19.172136,
+      77.31658
+    ]
+  },
+  {
+    "id": "1403842",
+    "locality": "Relief Road",
+    "coordinates": [
+      19.165392,
+      72.846725
+    ]
+  },
+  {
+    "id": "1390224",
+    "locality": "Model Colony Mumbai",
+    "coordinates": [
+      19.133278,
+      72.813
+    ]
+  },
+  {
+    "id": "1392531",
+    "locality": "Lower parel",
+    "coordinates": [
+      19.000903,
+      72.830223
+    ]
+  },
+  {
+    "id": "1389632",
+    "locality": "Gaothan",
+    "coordinates": [
+      19.165497,
+      72.996665
+    ]
+  },
+  {
+    "id": "1402784",
+    "locality": "Nilaje Gaon",
+    "coordinates": [
+      19.155699,
+      73.074898
+    ]
+  },
+  {
+    "id": "1395728",
+    "locality": "Katai Village",
+    "coordinates": [
+      19.163778,
+      73.076
+    ]
+  },
+  {
+    "id": "788745",
+    "locality": "Bhandup",
+    "coordinates": [
+      19.158428,
+      72.941495
+    ]
+  },
+  {
+    "id": "1402806",
+    "locality": "Container Yard - MP",
+    "coordinates": [
+      19.139512,
+      72.928823
+    ]
+  },
+  {
+    "id": "1398452",
+    "locality": "Andheri West",
+    "coordinates": [
+      19.137528,
+      72.833722
+    ]
+  },
+  {
+    "id": "1386534",
+    "locality": "Katai Pipeline Road",
+    "coordinates": [
+      19.164153546055275,
+      73.11658151956814
+    ]
+  },
+  {
+    "id": "1402064",
+    "locality": "Goregaon West",
+    "coordinates": [
+      19.178824,
+      72.874072
+    ]
+  },
+  {
+    "id": "1230883",
+    "locality": "Oberoi Mall",
+    "coordinates": [
+      19.173818,
+      72.856488
+    ]
+  },
+  {
+    "id": "1278165",
+    "locality": "Mulund West",
+    "coordinates": [
+      19.170386,
+      72.953872
+    ]
+  },
+  {
+    "id": "1403692",
+    "locality": "Badlapur",
+    "coordinates": [
+      19.159433,
+      73.227699
+    ]
+  },
+  {
+    "id": "1402264",
+    "locality": "Apex Mulund",
+    "coordinates": [
+      19.184767,
+      72.948677
+    ]
+  },
+  {
+    "id": "1401266",
+    "locality": "Runwal Garden",
+    "coordinates": [
+      19.188412,
+      73.094688
+    ]
+  },
+  {
+    "id": "929911",
+    "locality": "YOJIT ESTATES",
+    "coordinates": [
+      19.1932313,
+      72.956769
+    ]
+  },
+  {
+    "id": "1239162",
+    "locality": "Inorbit Mall Malad West",
+    "coordinates": [
+      19.17681,
+      72.83422
+    ]
+  },
+  {
+    "id": "1238357",
+    "locality": "SAGARLI GAON",
+    "coordinates": [
+      19.207338,
+      73.098347
+    ]
+  },
+  {
+    "id": "1400231",
+    "locality": "Kandivali",
+    "coordinates": [
+      19.208417,
+      72.825028
+    ]
+  },
+  {
+    "id": "1382439",
+    "locality": "Thakur Village",
+    "coordinates": [
+      19.20579,
+      72.8741
+    ]
+  },
+  {
+    "id": "1388387",
+    "locality": "Kalyan East",
+    "coordinates": [
+      19.226485,
+      73.133177
+    ]
+  },
+  {
+    "id": "1400553",
+    "locality": "Kalwa",
+    "coordinates": [
+      19.200708,
+      72.999932
+    ]
+  },
+  {
+    "id": "1237261",
+    "locality": "Borivali East",
+    "coordinates": [
+      19.231257,
+      72.860731
+    ]
+  },
+  {
+    "id": "1336659",
+    "locality": "Thane West",
+    "coordinates": [
+      19.228014620449333,
+      72.97569589983753
+    ]
+  },
+  {
+    "id": "1400552",
+    "locality": "Uhlasnagar",
+    "coordinates": [
+      19.225778,
+      73.165472
+    ]
+  },
+  {
+    "id": "1399706",
+    "locality": "Devicha Pada",
+    "coordinates": [
+      19.226694,
+      73.083389
+    ]
+  },
+  {
+    "id": "1062418",
+    "locality": "DAHISAR WEST",
+    "coordinates": [
+      19.251583,
+      72.858646
+    ]
+  },
+  {
+    "id": "1390223",
+    "locality": "Chikan Ghar",
+    "coordinates": [
+      19.25444,
+      73.139913
+    ]
+  },
+  {
+    "id": "1404646",
+    "locality": "Waghbil Naka",
+    "coordinates": [
+      19.25011022355175,
+      72.97407433867082
+    ]
+  },
+  {
+    "id": "1396296",
+    "locality": "HIRANANDANI MBC PARK",
+    "coordinates": [
+      19.265951,
+      72.965698
+    ]
+  },
+  {
+    "id": "1403034",
+    "locality": "Lodha Amara",
+    "coordinates": [
+      19.23263431168182,
+      72.99378725856553
+    ]
+  },
+  {
+    "id": "1403747",
+    "locality": "Ganesh Nagar",
+    "coordinates": [
+      19.305496,
+      84.781799
+    ]
+  },
+  {
+    "id": "1388687",
+    "locality": "Bhayander",
+    "coordinates": [
+      19.300099,
+      72.85513
+    ]
+  },
+  {
+    "id": "1346590",
+    "locality": "MIRA HUBTOWN",
+    "coordinates": [
+      19.285109,
+      72.876539
+    ]
+  },
+  {
+    "id": "1404642",
+    "locality": "Mira Road - MP",
+    "coordinates": [
+      19.280079,
+      72.877907
+    ]
+  },
+  {
+    "id": "1314371",
+    "locality": "Vasai virar",
+    "coordinates": [
+      19.384573,
+      72.830382
+    ]
+  },
+  {
+    "id": "1388686",
+    "locality": "Pragati Nagar",
+    "coordinates": [
+      19.410025,
+      72.830872
+    ]
+  },
+  {
+    "id": "1402063",
+    "locality": "Virar East",
+    "coordinates": [
+      19.470556,
+      72.808861
+    ]
+  },
+  {
+    "id": "1401651",
+    "locality": "Kranti Chowk",
+    "coordinates": [
+      19.875542,
+      75.328245
+    ]
+  },
+  {
+    "id": "1402065",
+    "locality": "Nashik Road",
+    "coordinates": [
+      19.959111,
+      73.836222
+    ]
+  },
+  {
+    "id": "1400978",
+    "locality": "CIDCO",
+    "coordinates": [
+      19.960196,
+      73.769783
+    ]
+  },
+  {
+    "id": "1389256",
+    "locality": "COLLEGE ROAD",
+    "coordinates": [
+      19.997022,
+      73.750238
+    ]
+  },
+  {
+    "id": "1403726",
+    "locality": "Bajaj Hospital",
+    "coordinates": [
+      19.85309,
+      75.311142
+    ]
+  },
+  {
+    "id": "1397037",
+    "locality": "ADGAON",
+    "coordinates": [
+      20.016139,
+      73.836417
+    ]
+  },
+  {
+    "id": "1404444",
+    "locality": "Bapuji Nagar - MP",
+    "coordinates": [
+      20.246355,
+      85.84465
+    ]
+  },
+  {
+    "id": "1401465",
+    "locality": "Sum Hospital",
+    "coordinates": [
+      20.278778,
+      85.773361
+    ]
+  },
+  {
+    "id": "1398747",
+    "locality": "Kalinga",
+    "coordinates": [
+      20.295194,
+      85.815278
+    ]
+  },
+  {
+    "id": "1398746",
+    "locality": "Bomikhal",
+    "coordinates": [
+      20.281071,
+      85.855515
+    ]
+  },
+  {
+    "id": "1401658",
+    "locality": "Medicover Hospital",
+    "coordinates": [
+      19.876663725884338,
+      75.35434047887644
+    ]
+  },
+  {
+    "id": "1400964",
+    "locality": "Patia",
+    "coordinates": [
+      20.3525,
+      85.825444
+    ]
+  },
+  {
+    "id": "1401276",
+    "locality": "Gidc",
+    "coordinates": [
+      20.367194,
+      72.925194
+    ]
+  },
+  {
+    "id": "1403140",
+    "locality": "Chhatra Bazar",
+    "coordinates": [
+      20.460764,
+      85.891617
+    ]
+  },
+  {
+    "id": "1388452",
+    "locality": "BOMBAY NAKA",
+    "coordinates": [
+      19.991313,
+      73.791213
+    ]
+  },
+  {
+    "id": "1400218",
+    "locality": "AIIMS-BBSR",
+    "coordinates": [
+      20.249674,
+      85.78566
+    ]
+  },
+  {
+    "id": "1402771",
+    "locality": "Dastur Nagar",
+    "coordinates": [
+      20.91855,
+      77.760269
+    ]
+  },
+  {
+    "id": "1401715",
+    "locality": "Dabhel",
+    "coordinates": [
+      20.381639,
+      72.905889
+    ]
+  },
+  {
+    "id": "1402772",
+    "locality": "Arjun Nagar",
+    "coordinates": [
+      20.955302,
+      77.764407
+    ]
+  },
+  {
+    "id": "1392532",
+    "locality": "Manish Nagar",
+    "coordinates": [
+      21.092139,
+      79.073111
+    ]
+  },
+  {
+    "id": "1399707",
+    "locality": "Sai Mandir",
+    "coordinates": [
+      21.119297,
+      79.070702
+    ]
+  },
+  {
+    "id": "1389257",
+    "locality": "DISTRICT CENTRE",
+    "coordinates": [
+      20.32626,
+      85.818027
+    ]
+  },
+  {
+    "id": "1393571",
+    "locality": "MAHAL",
+    "coordinates": [
+      21.134048,
+      79.089043
+    ]
+  },
+  {
+    "id": "1387706",
+    "locality": "PUNAGAM",
+    "coordinates": [
+      21.198887,
+      72.866979
+    ]
+  },
+  {
+    "id": "1403419",
+    "locality": "Ayodhaya Nagar",
+    "coordinates": [
+      21.113682,
+      79.108017
+    ]
+  },
+  {
+    "id": "1397035",
+    "locality": "NANDAVAN",
+    "coordinates": [
+      21.130861,
+      79.120278
+    ]
+  },
+  {
+    "id": "1394674",
+    "locality": "Vesu",
+    "coordinates": [
+      21.143965,
+      72.762482
+    ]
+  },
+  {
+    "id": "1402075",
+    "locality": "Tulasipur Colony",
+    "coordinates": [
+      20.48613,
+      85.840775
+    ]
+  },
+  {
+    "id": "1402789",
+    "locality": "Sangampura - MP",
+    "coordinates": [
+      21.181187,
+      72.823158
+    ]
+  },
+  {
+    "id": "1403369",
+    "locality": "Surya Residency",
+    "coordinates": [
+      21.209114,
+      81.323738
+    ]
+  },
+  {
+    "id": "1397039",
+    "locality": "PALANPUR GAM",
+    "coordinates": [
+      21.206806,
+      72.776389
+    ]
+  },
+  {
+    "id": "1392084",
+    "locality": "BYRAMJI",
+    "coordinates": [
+      21.177046,
+      79.088997
+    ]
+  },
+  {
+    "id": "1397624",
+    "locality": "Dharampeth",
+    "coordinates": [
+      21.146797,
+      79.054939
+    ]
+  },
+  {
+    "id": "1382355",
+    "locality": "BHARTHANA",
+    "coordinates": [
+      21.14919752693275,
+      72.7900455417176
+    ]
+  },
+  {
+    "id": "1403750",
+    "locality": "Katargam",
+    "coordinates": [
+      21.213099,
+      72.833626
+    ]
+  },
+  {
+    "id": "1400981",
+    "locality": "Saraswati Nagar",
+    "coordinates": [
+      21.255424,
+      81.592628
+    ]
+  },
+  {
+    "id": "1400986",
+    "locality": "Devendra Nagar",
+    "coordinates": [
+      21.261362,
+      81.644775
+    ]
+  },
+  {
+    "id": "1400987",
+    "locality": "Purnea",
+    "coordinates": [
+      21.223642,
+      81.667877
+    ]
+  },
+  {
+    "id": "1403368",
+    "locality": "Gandhi Chowk",
+    "coordinates": [
+      22.076469,
+      82.150101
+    ]
+  },
+  {
+    "id": "1403030",
+    "locality": "Kalina",
+    "coordinates": [
+      19.071075,
+      72.864707
+    ]
+  },
+  {
+    "id": "1381643",
+    "locality": "Uthalsar",
+    "coordinates": [
+      19.20830328701137,
+      72.97739835634864
+    ]
+  },
+  {
+    "id": "1400984",
+    "locality": "Manjalpur",
+    "coordinates": [
+      22.254889,
+      73.193806
+    ]
+  },
+  {
+    "id": "1402086",
+    "locality": "Bhakti Nagar",
+    "coordinates": [
+      22.265305,
+      70.799861
+    ]
+  },
+  {
+    "id": "1404651",
+    "locality": "Indira Circle",
+    "coordinates": [
+      22.295103,
+      70.759773
+    ]
+  },
+  {
+    "id": "1387082",
+    "locality": "YAKUTPURA",
+    "coordinates": [
+      22.298955,
+      73.229699
+    ]
+  },
+  {
+    "id": "1397042",
+    "locality": "MOTA VARCHA",
+    "coordinates": [
+      21.234583,
+      72.881417
+    ]
+  },
+  {
+    "id": "1391902",
+    "locality": "NILAMBAR PALMS",
+    "coordinates": [
+      22.2813213,
+      73.1345369
+    ]
+  },
+  {
+    "id": "1388315",
+    "locality": "GOTRI ROAD",
+    "coordinates": [
+      22.315138,
+      73.144345
+    ]
+  },
+  {
+    "id": "1385567",
+    "locality": "DIWALIPURA",
+    "coordinates": [
+      22.304327,
+      73.164665
+    ]
+  },
+  {
+    "id": "1400982",
+    "locality": "Professor Colony",
+    "coordinates": [
+      21.226124,
+      81.626907
+    ]
+  },
+  {
+    "id": "1404876",
+    "locality": "Virar Carshed",
+    "coordinates": [
+      19.424294,
+      72.811562
+    ]
+  },
+  {
+    "id": "1389255",
+    "locality": "RATRI BAZAAR",
+    "coordinates": [
+      22.326226,
+      73.197551
+    ]
+  },
+  {
+    "id": "1314370",
+    "locality": "Rajpur sonapur",
+    "coordinates": [
+      22.430459976643,
+      88.40436480487281
+    ]
+  },
+  {
+    "id": "1402467",
+    "locality": "Manharpur",
+    "coordinates": [
+      22.323926,
+      70.767906
+    ]
+  },
+  {
+    "id": "1402805",
+    "locality": "IIM-C",
+    "coordinates": [
+      22.4477221,
+      88.3029298
+    ]
+  },
+  {
+    "id": "1386270",
+    "locality": "Patuli",
+    "coordinates": [
+      22.465599,
+      88.391485
+    ]
+  },
+  {
+    "id": "901840",
+    "locality": "Tollygunge",
+    "coordinates": [
+      22.480990335159127,
+      88.35476217738497
+    ]
+  },
+  {
+    "id": "1400223",
+    "locality": "Kalipur",
+    "coordinates": [
+      22.483667,
+      88.295472
+    ]
+  },
+  {
+    "id": "1167234",
+    "locality": "Haltu 2",
+    "coordinates": [
+      22.479996,
+      88.390406
+    ]
+  },
+  {
+    "id": "1404759",
+    "locality": "Behala - MP",
+    "coordinates": [
+      22.494434,
+      88.333168
+    ]
+  },
+  {
+    "id": "1403460",
+    "locality": "Santoshpur",
+    "coordinates": [
+      22.495899,
+      88.396439
+    ]
+  },
+  {
+    "id": "1237258",
+    "locality": "Garia",
+    "coordinates": [
+      22.46831,
+      88.373531
+    ]
+  },
+  {
+    "id": "1169284",
+    "locality": "Haltu 1",
+    "coordinates": [
+      22.5210357,
+      88.34539
+    ]
+  },
+  {
+    "id": "1403137",
+    "locality": "Nanikhodiyar",
+    "coordinates": [
+      22.564365,
+      72.955818
+    ]
+  },
+  {
+    "id": "1395725",
+    "locality": "45 Pally",
+    "coordinates": [
+      22.508194,
+      88.298778
+    ]
+  },
+  {
+    "id": "1404626",
+    "locality": "Charaktala",
+    "coordinates": [
+      22.499842,
+      88.324638
+    ]
+  },
+  {
+    "id": "1386096",
+    "locality": "Tiljala",
+    "coordinates": [
+      22.523093,
+      88.385927
+    ]
+  },
+  {
+    "id": "1380621",
+    "locality": "Beck Bagan",
+    "coordinates": [
+      22.52533708362254,
+      88.36013330194702
+    ]
+  },
+  {
+    "id": "1400551",
+    "locality": "Gobra",
+    "coordinates": [
+      22.543167,
+      88.385472
+    ]
+  },
+  {
+    "id": "1385840",
+    "locality": "Kasba",
+    "coordinates": [
+      22.544794,
+      88.360291
+    ]
+  },
+  {
+    "id": "1401260",
+    "locality": "Downtown Mall",
+    "coordinates": [
+      22.559526,
+      88.497699
+    ]
+  },
+  {
+    "id": "1400971",
+    "locality": "Entally",
+    "coordinates": [
+      22.555389,
+      88.363583
+    ]
+  },
+  {
+    "id": "1386097",
+    "locality": "Mani Square",
+    "coordinates": [
+      22.57451,
+      88.399753
+    ]
+  },
+  {
+    "id": "1402452",
+    "locality": "Action Area",
+    "coordinates": [
+      22.57297,
+      88.45941
+    ]
+  },
+  {
+    "id": "1403174",
+    "locality": "Vallabh vidyanagar",
+    "coordinates": [
+      22.545261,
+      72.929382
+    ]
+  },
+  {
+    "id": "1404781",
+    "locality": "Howrah AC",
+    "coordinates": [
+      22.594795,
+      88.339302
+    ]
+  },
+  {
+    "id": "1391896",
+    "locality": "Manicktala",
+    "coordinates": [
+      22.582382,
+      88.364813
+    ]
+  },
+  {
+    "id": "1404795",
+    "locality": "Taj Bengal",
+    "coordinates": [
+      22.536747,
+      88.349182
+    ]
+  },
+  {
+    "id": "1388313",
+    "locality": "Lake Town",
+    "coordinates": [
+      22.607573,
+      88.402094
+    ]
+  },
+  {
+    "id": "1403836",
+    "locality": "Silicon City",
+    "coordinates": [
+      22.645298,
+      75.834534
+    ]
+  },
+  {
+    "id": "1397622",
+    "locality": "SINTHI",
+    "coordinates": [
+      22.626302,
+      88.382019
+    ]
+  },
+  {
+    "id": "1388197",
+    "locality": "Salt Lake Sector V",
+    "coordinates": [
+      22.586517,
+      88.424866
+    ]
+  },
+  {
+    "id": "867466",
+    "locality": "ARJUNPUR",
+    "coordinates": [
+      22.624182,
+      88.439263
+    ]
+  },
+  {
+    "id": "1404788",
+    "locality": "Satgachi",
+    "coordinates": [
+      22.619806,
+      88.417229
+    ]
+  },
+  {
+    "id": "1404809",
+    "locality": "Raigachi",
+    "coordinates": [
+      22.637318,
+      88.455307
+    ]
+  },
+  {
+    "id": "1382353",
+    "locality": "Talbagan",
+    "coordinates": [
+      22.596116791238668,
+      88.43364543071704
+    ]
+  },
+  {
+    "id": "1395726",
+    "locality": "Rathtala",
+    "coordinates": [
+      22.6651321,
+      88.3700169
+    ]
+  },
+  {
+    "id": "1404707",
+    "locality": "Kaikhali",
+    "coordinates": [
+      22.627628,
+      88.424179
+    ]
+  },
+  {
+    "id": "1382982",
+    "locality": "Manickpore",
+    "coordinates": [
+      22.64279870967486,
+      88.42160584475538
+    ]
+  },
+  {
+    "id": "1400969",
+    "locality": "Bicholi Mardana",
+    "coordinates": [
+      22.709167,
+      75.922583
+    ]
+  },
+  {
+    "id": "1404586",
+    "locality": "BT College",
+    "coordinates": [
+      22.680519,
+      88.452385
+    ]
+  },
+  {
+    "id": "1402441",
+    "locality": "Arjunappa Layout",
+    "coordinates": [
+      12.8621571,
+      77.6840006
+    ]
+  },
+  {
+    "id": "1382165",
+    "locality": "NAVLAKHA - MIM",
+    "coordinates": [
+      22.70455071292786,
+      75.87240210147034
+    ]
+  },
+  {
+    "id": "1403840",
+    "locality": "Barrackpore",
+    "coordinates": [
+      22.785063,
+      88.389877
+    ]
+  },
+  {
+    "id": "1403472",
+    "locality": "Bijoynagar",
+    "coordinates": [
+      22.728496,
+      88.498061
+    ]
+  },
+  {
+    "id": "1402059",
+    "locality": "Chota Bangarda",
+    "coordinates": [
+      22.733889,
+      75.832056
+    ]
+  },
+  {
+    "id": "1388386",
+    "locality": "USHA NAGAR",
+    "coordinates": [
+      22.68617,
+      75.829217
+    ]
+  },
+  {
+    "id": "1404858",
+    "locality": "Khaleelwadi",
+    "coordinates": [
+      18.66826,
+      78.10976
+    ]
+  },
+  {
+    "id": "1401659",
+    "locality": "Golmuri",
+    "coordinates": [
+      22.79015,
+      86.225876
+    ]
+  },
+  {
+    "id": "1401475",
+    "locality": "Apollo DB City",
+    "coordinates": [
+      22.763361,
+      75.923389
+    ]
+  },
+  {
+    "id": "1403141",
+    "locality": "Subarnarekha River",
+    "coordinates": [
+      22.81006,
+      86.204181
+    ]
+  },
+  {
+    "id": "1402470",
+    "locality": "Tata",
+    "coordinates": [
+      22.797083,
+      86.178389
+    ]
+  },
+  {
+    "id": "1387079",
+    "locality": "Jagdishpur",
+    "coordinates": [
+      22.622082,
+      88.479584
+    ]
+  },
+  {
+    "id": "1402796",
+    "locality": "Mani Nagar",
+    "coordinates": [
+      23.008919,
+      72.615433
+    ]
+  },
+  {
+    "id": "1404453",
+    "locality": "Bopal - MP",
+    "coordinates": [
+      23.017954,
+      72.476517
+    ]
+  },
+  {
+    "id": "1403027",
+    "locality": "NIT Jamshedpur",
+    "coordinates": [
+      22.7814193,
+      86.1393189
+    ]
+  },
+  {
+    "id": "1403028",
+    "locality": "Mango",
+    "coordinates": [
+      22.839609,
+      86.208908
+    ]
+  },
+  {
+    "id": "1386811",
+    "locality": "Vejalpur",
+    "coordinates": [
+      22.996097,
+      72.510688
+    ]
+  },
+  {
+    "id": "1400957",
+    "locality": "Odhav",
+    "coordinates": [
+      23.021742,
+      72.662255
+    ]
+  },
+  {
+    "id": "1401479",
+    "locality": "Kalyani",
+    "coordinates": [
+      22.972138395822324,
+      88.43307315183989
+    ]
+  },
+  {
+    "id": "1385642",
+    "locality": "Navrangpura",
+    "coordinates": [
+      23.033834,
+      72.558546
+    ]
+  },
+  {
+    "id": "1383570",
+    "locality": "Bodakdev",
+    "coordinates": [
+      23.037697,
+      72.511901
+    ]
+  },
+  {
+    "id": "1403690",
+    "locality": "Satellite",
+    "coordinates": [
+      23.027887,
+      72.529768
+    ]
+  },
+  {
+    "id": "1393824",
+    "locality": "Chitwan",
+    "coordinates": [
+      23.024222,
+      72.471944
+    ]
+  },
+  {
+    "id": "1403829",
+    "locality": "Gujarat University - MP",
+    "coordinates": [
+      23.043175,
+      72.547928
+    ]
+  },
+  {
+    "id": "1401245",
+    "locality": "Sola Road",
+    "coordinates": [
+      23.058873,
+      72.538831
+    ]
+  },
+  {
+    "id": "1402439",
+    "locality": "Shahibag",
+    "coordinates": [
+      23.043167,
+      72.58925
+    ]
+  },
+  {
+    "id": "1397023",
+    "locality": "Ghatlodiya",
+    "coordinates": [
+      23.074738,
+      72.521431
+    ]
+  },
+  {
+    "id": "1388194",
+    "locality": "Vandematram Icon",
+    "coordinates": [
+      23.096482,
+      72.549681
+    ]
+  },
+  {
+    "id": "1402450",
+    "locality": "South Civil Lines",
+    "coordinates": [
+      23.163221,
+      79.940475
+    ]
+  },
+  {
+    "id": "1400955",
+    "locality": "Nirma University",
+    "coordinates": [
+      23.117359,
+      72.563644
+    ]
+  },
+  {
+    "id": "1388195",
+    "locality": "Dev Business Hub",
+    "coordinates": [
+      23.106505,
+      72.597883
+    ]
+  },
+  {
+    "id": "1401277",
+    "locality": "Mahananda Nagar",
+    "coordinates": [
+      23.15741,
+      75.794899
+    ]
+  },
+  {
+    "id": "1387076",
+    "locality": "Gandhinagar Kudasan",
+    "coordinates": [
+      23.18408,
+      72.630542
+    ]
+  },
+  {
+    "id": "1401108",
+    "locality": "Dashmesh Dwar",
+    "coordinates": [
+      23.159397,
+      79.908528
+    ]
+  },
+  {
+    "id": "1403830",
+    "locality": "Sri Rameshwaram",
+    "coordinates": [
+      23.18343,
+      77.461945
+    ]
+  },
+  {
+    "id": "1393825",
+    "locality": "AASHIMA MALL",
+    "coordinates": [
+      23.174469,
+      77.43728
+    ]
+  },
+  {
+    "id": "1402468",
+    "locality": "Freeganj",
+    "coordinates": [
+      23.191971,
+      75.791009
+    ]
+  },
+  {
+    "id": "1402258",
+    "locality": "Dhanwantri Nagar",
+    "coordinates": [
+      23.192715,
+      79.91819
+    ]
+  },
+  {
+    "id": "1403205",
+    "locality": "MANIT Bhopal",
+    "coordinates": [
+      23.219551,
+      77.390572
+    ]
+  },
+  {
+    "id": "1403753",
+    "locality": "ISKON Bhopal",
+    "coordinates": [
+      23.251731,
+      77.496158
+    ]
+  },
+  {
+    "id": "1399345",
+    "locality": "MP NAGAR",
+    "coordinates": [
+      23.234306,
+      77.432444
+    ]
+  },
+  {
+    "id": "1399344",
+    "locality": "Itwara",
+    "coordinates": [
+      23.254083,
+      77.412278
+    ]
+  },
+  {
+    "id": "1397619",
+    "locality": "ANAND NAGAR",
+    "coordinates": [
+      23.277427,
+      77.462238
+    ]
+  },
+  {
+    "id": "1395730",
+    "locality": "Kadru",
+    "coordinates": [
+      23.352444,
+      85.327278
+    ]
+  },
+  {
+    "id": "1403691",
+    "locality": "People's Mall",
+    "coordinates": [
+      23.3031559,
+      77.4154337
+    ]
+  },
+  {
+    "id": "1402619",
+    "locality": "Masibari",
+    "coordinates": [
+      23.350528,
+      85.288139
+    ]
+  },
+  {
+    "id": "1401273",
+    "locality": "Bariatu",
+    "coordinates": [
+      23.394139,
+      85.353694
+    ]
+  },
+  {
+    "id": "1400560",
+    "locality": "Circular Road",
+    "coordinates": [
+      23.380407,
+      85.34288
+    ]
+  },
+  {
+    "id": "1399804",
+    "locality": "Pichola",
+    "coordinates": [
+      24.567083,
+      73.714611
+    ]
+  },
+  {
+    "id": "1403748",
+    "locality": "Bidhannagar",
+    "coordinates": [
+      23.521045,
+      87.34668
+    ]
+  },
+  {
+    "id": "1401279",
+    "locality": "Talwandi",
+    "coordinates": [
+      25.136583,
+      75.845639
+    ]
+  },
+  {
+    "id": "1401281",
+    "locality": "Kunadi",
+    "coordinates": [
+      25.19825,
+      75.840306
+    ]
+  },
+  {
+    "id": "1402074",
+    "locality": "Chitaipur",
+    "coordinates": [
+      25.253306,
+      82.978389
+    ]
+  },
+  {
+    "id": "1401280",
+    "locality": "Borkhera",
+    "coordinates": [
+      25.18075,
+      75.88075
+    ]
+  },
+  {
+    "id": "1396292",
+    "locality": "NARIA",
+    "coordinates": [
+      25.274778,
+      82.984139
+    ]
+  },
+  {
+    "id": "1394452",
+    "locality": "CHETGANJ",
+    "coordinates": [
+      25.307583,
+      82.983861
+    ]
+  },
+  {
+    "id": "1404835",
+    "locality": "Lanka",
+    "coordinates": [
+      25.286749,
+      82.997116
+    ]
+  },
+  {
+    "id": "1404674",
+    "locality": "Kachari",
+    "coordinates": [
+      25.341345,
+      82.97995
+    ]
+  },
+  {
+    "id": "1401660",
+    "locality": "Ashoka Institute",
+    "coordinates": [
+      25.366236,
+      83.005478
+    ]
+  },
+  {
+    "id": "1403373",
+    "locality": "Khusi Pura",
+    "coordinates": [
+      25.451014,
+      78.5892
+    ]
+  },
+  {
+    "id": "1397089",
+    "locality": "SURAJPOLE",
+    "coordinates": [
+      24.591948,
+      73.697639
+    ]
+  },
+  {
+    "id": "1402244",
+    "locality": "Zero Road",
+    "coordinates": [
+      25.432226,
+      81.823341
+    ]
+  },
+  {
+    "id": "1399808",
+    "locality": "Bank Road",
+    "coordinates": [
+      25.452361,
+      81.863528
+    ]
+  },
+  {
+    "id": "1403977",
+    "locality": "Sipri Bazar",
+    "coordinates": [
+      25.454418,
+      78.544464
+    ]
+  },
+  {
+    "id": "1398451",
+    "locality": "PAHADA",
+    "coordinates": [
+      24.621278,
+      73.706611
+    ]
+  },
+  {
+    "id": "1402604",
+    "locality": "Sunderganj",
+    "coordinates": [
+      25.439177,
+      81.793663
+    ]
+  },
+  {
+    "id": "1401271",
+    "locality": "Mithapur",
+    "coordinates": [
+      25.585083,
+      85.135278
+    ]
+  },
+  {
+    "id": "1404890",
+    "locality": "Anisabad",
+    "coordinates": [
+      25.582089325634325,
+      85.09867293810915
+    ]
+  },
+  {
+    "id": "1400979",
+    "locality": "Jakariyapur",
+    "coordinates": [
+      25.590611,
+      85.164111
+    ]
+  },
+  {
+    "id": "1404850",
+    "locality": "Lekha Nagar",
+    "coordinates": [
+      25.601332,
+      85.033936
+    ]
+  },
+  {
+    "id": "1402068",
+    "locality": "Kankarbagh",
+    "coordinates": [
+      25.614893,
+      85.167336
+    ]
+  },
+  {
+    "id": "1402265",
+    "locality": "Indrapuri",
+    "coordinates": [
+      25.623306,
+      85.104583
+    ]
+  },
+  {
+    "id": "1401272",
+    "locality": "Ashiyana",
+    "coordinates": [
+      25.618917,
+      85.078611
+    ]
+  },
+  {
+    "id": "1402807",
+    "locality": "Danapur",
+    "coordinates": [
+      25.622671,
+      85.059967
+    ]
+  },
+  {
+    "id": "1403365",
+    "locality": "Anandpuri - MP",
+    "coordinates": [
+      25.622401,
+      85.123313
+    ]
+  },
+  {
+    "id": "1404797",
+    "locality": "Jagdishpuri",
+    "coordinates": [
+      26.116173,
+      85.396744
+    ]
+  },
+  {
+    "id": "1404802",
+    "locality": "Kala Pahar",
+    "coordinates": [
+      26.143778,
+      91.740761
+    ]
+  },
+  {
+    "id": "1404784",
+    "locality": "Dakshingaon",
+    "coordinates": [
+      26.119938,
+      91.774139
+    ]
+  },
+  {
+    "id": "1402469",
+    "locality": "Rukmini Nagar - MP",
+    "coordinates": [
+      26.1294473,
+      91.8089473
+    ]
+  },
+  {
+    "id": "1404745",
+    "locality": "Kahilipara",
+    "coordinates": [
+      26.139816,
+      91.765091
+    ]
+  },
+  {
+    "id": "1402803",
+    "locality": "Ganeshguri",
+    "coordinates": [
+      26.160798,
+      91.775254
+    ]
+  },
+  {
+    "id": "1401288",
+    "locality": "Ulubari",
+    "coordinates": [
+      26.178202,
+      91.756638
+    ]
+  },
+  {
+    "id": "1404096",
+    "locality": "Kampoo Main",
+    "coordinates": [
+      26.200052,
+      78.156334
+    ]
+  },
+  {
+    "id": "1401256",
+    "locality": "Siddhart Nagar",
+    "coordinates": [
+      26.216583,
+      78.218278
+    ]
+  },
+  {
+    "id": "1404864",
+    "locality": "Narayan Nagar",
+    "coordinates": [
+      26.173395,
+      91.741264
+    ]
+  },
+  {
+    "id": "1402626",
+    "locality": "Milkman Colony",
+    "coordinates": [
+      26.264889,
+      72.9935
+    ]
+  },
+  {
+    "id": "1403689",
+    "locality": "Gwalior Fort",
+    "coordinates": [
+      26.230537,
+      78.180061
+    ]
+  },
+  {
+    "id": "1402623",
+    "locality": "Pandu Nagar",
+    "coordinates": [
+      26.412292,
+      80.385895
+    ]
+  },
+  {
+    "id": "1398750",
+    "locality": "ASHOK VIHAR",
+    "coordinates": [
+      26.427917,
+      80.320389
+    ]
+  },
+  {
+    "id": "1402472",
+    "locality": "Nagina Bagh",
+    "coordinates": [
+      26.468089,
+      74.639319
+    ]
+  },
+  {
+    "id": "1402770",
+    "locality": "Gaurav Path",
+    "coordinates": [
+      26.492615,
+      74.622289
+    ]
+  },
+  {
+    "id": "1398751",
+    "locality": "Bara Sirohi",
+    "coordinates": [
+      26.501667,
+      80.25575
+    ]
+  },
+  {
+    "id": "1397090",
+    "locality": "GEETA NAGAR",
+    "coordinates": [
+      26.478083,
+      80.294583
+    ]
+  },
+  {
+    "id": "1403752",
+    "locality": "Saktigarh",
+    "coordinates": [
+      26.705435,
+      88.415833
+    ]
+  },
+  {
+    "id": "1400925",
+    "locality": "Azad Nagar",
+    "coordinates": [
+      26.722056,
+      83.390056
+    ]
+  },
+  {
+    "id": "1402077",
+    "locality": "Champasari",
+    "coordinates": [
+      26.734333,
+      88.404111
+    ]
+  },
+  {
+    "id": "1404649",
+    "locality": "Ektiasal",
+    "coordinates": [
+      26.724613,
+      88.428932
+    ]
+  },
+  {
+    "id": "1402260",
+    "locality": "Jagatpura",
+    "coordinates": [
+      26.805694,
+      75.860778
+    ]
+  },
+  {
+    "id": "1397032",
+    "locality": "SOUTH CITY",
+    "coordinates": [
+      26.761889,
+      80.9475
+    ]
+  },
+  {
+    "id": "1402809",
+    "locality": "Bankim Nagar",
+    "coordinates": [
+      26.740038,
+      88.427261
+    ]
+  },
+  {
+    "id": "1401262",
+    "locality": "Emerald Mall",
+    "coordinates": [
+      26.786806,
+      80.9095
+    ]
+  },
+  {
+    "id": "1400225",
+    "locality": "Lulu Mall",
+    "coordinates": [
+      26.784139,
+      80.99175
+    ]
+  },
+  {
+    "id": "1403183",
+    "locality": "Shahpur",
+    "coordinates": [
+      26.785437,
+      83.387672
+    ]
+  },
+  {
+    "id": "1403751",
+    "locality": "Chayan Para",
+    "coordinates": [
+      26.762159,
+      88.446121
+    ]
+  },
+  {
+    "id": "1402252",
+    "locality": "Ghanta Ghar",
+    "coordinates": [
+      26.753944,
+      83.376528
+    ]
+  },
+  {
+    "id": "1395724",
+    "locality": "Pratap Nagar",
+    "coordinates": [
+      26.802528,
+      75.825333
+    ]
+  },
+  {
+    "id": "1401477",
+    "locality": "Durgapura",
+    "coordinates": [
+      26.851139,
+      75.773889
+    ]
+  },
+  {
+    "id": "1403559",
+    "locality": "Alambagh",
+    "coordinates": [
+      26.811924,
+      80.900208
+    ]
+  },
+  {
+    "id": "1402782",
+    "locality": "Alamnagar",
+    "coordinates": [
+      26.836581,
+      80.879339
+    ]
+  },
+  {
+    "id": "1386095",
+    "locality": "PATRIKA GATE",
+    "coordinates": [
+      26.846963,
+      75.809024
+    ]
+  },
+  {
+    "id": "1402783",
+    "locality": "Vasant Khand",
+    "coordinates": [
+      26.830586,
+      81.01883
+    ]
+  },
+  {
+    "id": "1381754",
+    "locality": "MANSAROVAR",
+    "coordinates": [
+      26.863780720610432,
+      75.74983157474034
+    ]
+  },
+  {
+    "id": "1402259",
+    "locality": "Indira Gandhi Nagar",
+    "coordinates": [
+      26.839215,
+      75.870725
+    ]
+  },
+  {
+    "id": "1347753",
+    "locality": "NADAN MAHAL ROAD",
+    "coordinates": [
+      26.84193776666213,
+      80.92988637215112
+    ]
+  },
+  {
+    "id": "1398443",
+    "locality": "ANTAS MALL",
+    "coordinates": [
+      26.836618,
+      81.002455
+    ]
+  },
+  {
+    "id": "1404095",
+    "locality": "Lucknow High Court - MP",
+    "coordinates": [
+      26.862658,
+      81.010438
+    ]
+  },
+  {
+    "id": "1388196",
+    "locality": "ADARSH NAGAR",
+    "coordinates": [
+      26.897012,
+      75.831418
+    ]
+  },
+  {
+    "id": "1400970",
+    "locality": "Nirman Nagar",
+    "coordinates": [
+      26.882583,
+      75.740611
+    ]
+  },
+  {
+    "id": "1402612",
+    "locality": "Shyam nagar",
+    "coordinates": [
+      26.88868,
+      75.773865
+    ]
+  },
+  {
+    "id": "1400973",
+    "locality": "Saadatganj",
+    "coordinates": [
+      26.866194,
+      80.880194
+    ]
+  },
+  {
+    "id": "1346769",
+    "locality": "LALKOTHI",
+    "coordinates": [
+      26.882701078085947,
+      75.79690906221907
+    ]
+  },
+  {
+    "id": "1398442",
+    "locality": "LUCKNOW HIGH COURT",
+    "coordinates": [
+      26.875,
+      81.013056
+    ]
+  },
+  {
+    "id": "1403187",
+    "locality": "Sector-C - MP",
+    "coordinates": [
+      26.8729,
+      80.9573
+    ]
+  },
+  {
+    "id": "1401263",
+    "locality": "Sitapur Road",
+    "coordinates": [
+      26.890843,
+      80.975339
+    ]
+  },
+  {
+    "id": "1402262",
+    "locality": "BBD University",
+    "coordinates": [
+      26.88677,
+      81.050553
+    ]
+  },
+  {
+    "id": "1339714",
+    "locality": "JANKIPURAM",
+    "coordinates": [
+      26.91065624450375,
+      80.9464507109994
+    ]
+  },
+  {
+    "id": "1382166",
+    "locality": "KRISHNA NAGAR",
+    "coordinates": [
+      26.917498,
+      75.743404
+    ]
+  },
+  {
+    "id": "1382290",
+    "locality": "BANI PARK",
+    "coordinates": [
+      26.937537006245066,
+      75.80007417423347
+    ]
+  },
+  {
+    "id": "1403026",
+    "locality": "Jhotwara",
+    "coordinates": [
+      26.9463,
+      75.7442
+    ]
+  },
+  {
+    "id": "1400975",
+    "locality": "IIM Lucknow",
+    "coordinates": [
+      26.933861,
+      80.913972
+    ]
+  },
+  {
+    "id": "1400974",
+    "locality": "Guramba",
+    "coordinates": [
+      26.928871,
+      80.964718
+    ]
+  },
+  {
+    "id": "1399803",
+    "locality": "Vidhyadhar",
+    "coordinates": [
+      26.976266,
+      75.775033
+    ]
+  },
+  {
+    "id": "1401076",
+    "locality": "Rambagh",
+    "coordinates": [
+      27.19825,
+      78.003694
+    ]
+  },
+  {
+    "id": "1401259",
+    "locality": "Gaurav Towers",
+    "coordinates": [
+      26.831889,
+      75.819111
+    ]
+  },
+  {
+    "id": "1402243",
+    "locality": "Sikandra",
+    "coordinates": [
+      27.204694,
+      77.954861
+    ]
+  },
+  {
+    "id": "1402076",
+    "locality": "Geeta Enclave",
+    "coordinates": [
+      27.497111,
+      77.661583
+    ]
+  },
+  {
+    "id": "1400222",
+    "locality": "Lalarpura",
+    "coordinates": [
+      26.90125,
+      75.709833
+    ]
+  },
+  {
+    "id": "1400958",
+    "locality": "DD Cinemas",
+    "coordinates": [
+      27.884111,
+      78.066083
+    ]
+  },
+  {
+    "id": "1400959",
+    "locality": "Aligarh Central",
+    "coordinates": [
+      27.900056,
+      78.095694
+    ]
+  },
+  {
+    "id": "1403367",
+    "locality": "Govt Dungar College",
+    "coordinates": [
+      28.003454,
+      73.341644
+    ]
+  },
+  {
+    "id": "1402606",
+    "locality": "Bareilly Main",
+    "coordinates": [
+      28.35103,
+      79.42335
+    ]
+  },
+  {
+    "id": "1393826",
+    "locality": "NEHRU COLONY",
+    "coordinates": [
+      28.3919602,
+      77.2935421
+    ]
+  },
+  {
+    "id": "1402253",
+    "locality": "Vatika Kunj Ext",
+    "coordinates": [
+      28.361194,
+      77.06525
+    ]
+  },
+  {
+    "id": "1404834",
+    "locality": "Sector 11-12",
+    "coordinates": [
+      28.36324,
+      77.32565
+    ]
+  },
+  {
+    "id": "1402055",
+    "locality": "Emaar Palm Hills",
+    "coordinates": [
+      28.387579,
+      76.976972
+    ]
+  },
+  {
+    "id": "1387568",
+    "locality": "Vatika City Ggn",
+    "coordinates": [
+      28.398878,
+      76.955192
+    ]
+  },
+  {
+    "id": "1278169",
+    "locality": "Sector 67",
+    "coordinates": [
+      28.391181,
+      77.057603
+    ]
+  },
+  {
+    "id": "1382258",
+    "locality": "Tulip Society Sec 70",
+    "coordinates": [
+      28.394561929868196,
+      77.03499428206705
+    ]
+  },
+  {
+    "id": "1404613",
+    "locality": "Shushat Lok",
+    "coordinates": [
+      28.422071,
+      77.090134
+    ]
+  },
+  {
+    "id": "1381444",
+    "locality": "SECTOR 88",
+    "coordinates": [
+      28.41824,
+      77.349749
+    ]
+  },
+  {
+    "id": "1391900",
+    "locality": "SECTOR 20B",
+    "coordinates": [
+      28.409797,
+      77.318897
+    ]
+  },
+  {
+    "id": "1389633",
+    "locality": "Sapphire Mall",
+    "coordinates": [
+      28.412856,
+      77.04265
+    ]
+  },
+  {
+    "id": "1402607",
+    "locality": "Sector 89",
+    "coordinates": [
+      28.426149,
+      76.936973
+    ]
+  },
+  {
+    "id": "1398454",
+    "locality": "Sector 50",
+    "coordinates": [
+      28.408583,
+      77.062444
+    ]
+  },
+  {
+    "id": "1395428",
+    "locality": "DLF SEC 54",
+    "coordinates": [
+      28.43975,
+      77.103333
+    ]
+  },
+  {
+    "id": "1402066",
+    "locality": "Chi 5",
+    "coordinates": [
+      28.4277535,
+      77.5090922
+    ]
+  },
+  {
+    "id": "1389006",
+    "locality": "Sector 10A",
+    "coordinates": [
+      28.449587,
+      77.001076
+    ]
+  },
+  {
+    "id": "1402056",
+    "locality": "Unitech",
+    "coordinates": [
+      28.435222,
+      77.033611
+    ]
+  },
+  {
+    "id": "1397028",
+    "locality": "GEHLOT FARM SECTOR 47",
+    "coordinates": [
+      28.426861,
+      77.04575
+    ]
+  },
+  {
+    "id": "1401469",
+    "locality": "Sector 95",
+    "coordinates": [
+      28.410722,
+      76.90725
+    ]
+  },
+  {
+    "id": "1402609",
+    "locality": "Samaspur Village",
+    "coordinates": [
+      28.426005,
+      77.067713
+    ]
+  },
+  {
+    "id": "1402463",
+    "locality": "Sector 149",
+    "coordinates": [
+      28.436065,
+      77.478912
+    ]
+  },
+  {
+    "id": "1391899",
+    "locality": "SECTOR 37",
+    "coordinates": [
+      28.455094,
+      77.311602
+    ]
+  },
+  {
+    "id": "1399346",
+    "locality": "Omicron 3",
+    "coordinates": [
+      28.465833,
+      77.560806
+    ]
+  },
+  {
+    "id": "1388388",
+    "locality": "ALPHA 1",
+    "coordinates": [
+      28.4733004,
+      77.5042252
+    ]
+  },
+  {
+    "id": "1400549",
+    "locality": "Jharsa Village",
+    "coordinates": [
+      28.4444684,
+      77.060062
+    ]
+  },
+  {
+    "id": "1402608",
+    "locality": "Star Mall",
+    "coordinates": [
+      28.460083,
+      77.055306
+    ]
+  },
+  {
+    "id": "1382659",
+    "locality": "AV PHASE 3",
+    "coordinates": [
+      28.483541,
+      77.021668
+    ]
+  },
+  {
+    "id": "1392083",
+    "locality": "Sector 53",
+    "coordinates": [
+      28.441902,
+      77.094724
+    ]
+  },
+  {
+    "id": "1394450",
+    "locality": "Mehroli",
+    "coordinates": [
+      28.492417,
+      77.184889
+    ]
+  },
+  {
+    "id": "1394451",
+    "locality": "Sector 14 Main",
+    "coordinates": [
+      28.47073,
+      77.041298
+    ]
+  },
+  {
+    "id": "1380623",
+    "locality": "DLF Cyber Hub",
+    "coordinates": [
+      28.4894406555492,
+      77.09683819496018
+    ]
+  },
+  {
+    "id": "1239163",
+    "locality": "DLF PHASE 1 (SEC 42)",
+    "coordinates": [
+      28.4627016,
+      77.087471
+    ]
+  },
+  {
+    "id": "1402624",
+    "locality": "Jaypee Greens",
+    "coordinates": [
+      28.48205,
+      77.54017
+    ]
+  },
+  {
+    "id": "1403213",
+    "locality": "Ardee city Sec 52",
+    "coordinates": [
+      28.436736,
+      77.082384
+    ]
+  },
+  {
+    "id": "1402248",
+    "locality": "Jaitpur",
+    "coordinates": [
+      28.502103,
+      77.318222
+    ]
+  },
+  {
+    "id": "1401254",
+    "locality": "Sector 19",
+    "coordinates": [
+      28.4765,
+      77.084889
+    ]
+  },
+  {
+    "id": "1398757",
+    "locality": "Phase I Sector 20 GGN",
+    "coordinates": [
+      28.505851,
+      77.069317
+    ]
+  },
+  {
+    "id": "1386536",
+    "locality": "VASANT SQUARE MALL",
+    "coordinates": [
+      28.525244,
+      77.154404
+    ]
+  },
+  {
+    "id": "762551",
+    "locality": "SPENCER",
+    "coordinates": [
+      28.45296959,
+      77.08170687
+    ]
+  },
+  {
+    "id": "1384513",
+    "locality": "Om Vihar",
+    "coordinates": [
+      28.5016315,
+      77.04455361
+    ]
+  },
+  {
+    "id": "1403184",
+    "locality": "Ashok vihar Extension",
+    "coordinates": [
+      28.495284,
+      77.020353
+    ]
+  },
+  {
+    "id": "1402777",
+    "locality": "Saket - MP",
+    "coordinates": [
+      28.514877,
+      77.206154
+    ]
+  },
+  {
+    "id": "1404627",
+    "locality": "Jaypee Kasa",
+    "coordinates": [
+      28.501326,
+      77.390182
+    ]
+  },
+  {
+    "id": "1397625",
+    "locality": "Sector 142 Noida",
+    "coordinates": [
+      28.504167,
+      77.41475
+    ]
+  },
+  {
+    "id": "1389690",
+    "locality": "CR Park",
+    "coordinates": [
+      28.54237,
+      77.257278
+    ]
+  },
+  {
+    "id": "1399700",
+    "locality": "Malviya Nagar Main",
+    "coordinates": [
+      28.534481,
+      77.218636
+    ]
+  },
+  {
+    "id": "1398130",
+    "locality": "HAZIPUR SECTOR 104",
+    "coordinates": [
+      28.540333,
+      77.3725
+    ]
+  },
+  {
+    "id": "1402457",
+    "locality": "Dwarka Sector 19",
+    "coordinates": [
+      28.5772454,
+      77.0502261
+    ]
+  },
+  {
+    "id": "1399699",
+    "locality": "Mahipalpur",
+    "coordinates": [
+      28.541028,
+      77.129278
+    ]
+  },
+  {
+    "id": "1404818",
+    "locality": "AMITY Noida",
+    "coordinates": [
+      28.540827,
+      77.33577
+    ]
+  },
+  {
+    "id": "1404604",
+    "locality": "Choma village",
+    "coordinates": [
+      28.517735,
+      77.037374
+    ]
+  },
+  {
+    "id": "1401661",
+    "locality": "Ecoo Village",
+    "coordinates": [
+      28.574722,
+      77.436167
+    ]
+  },
+  {
+    "id": "1404610",
+    "locality": "Dwarka Sec 14",
+    "coordinates": [
+      28.606396,
+      77.033605
+    ]
+  },
+  {
+    "id": "1398755",
+    "locality": "AIIMS",
+    "coordinates": [
+      28.562528,
+      77.2115
+    ]
+  },
+  {
+    "id": "1404675",
+    "locality": "Govindpuri Metro Station",
+    "coordinates": [
+      28.545033,
+      77.262329
+    ]
+  },
+  {
+    "id": "1387704",
+    "locality": "NFC",
+    "coordinates": [
+      28.57283,
+      77.272838
+    ]
+  },
+  {
+    "id": "1383134",
+    "locality": "SECTOR 44",
+    "coordinates": [
+      28.558014,
+      77.346292
+    ]
+  },
+  {
+    "id": "1384147",
+    "locality": "BARAULA",
+    "coordinates": [
+      28.554394,
+      77.374933
+    ]
+  },
+  {
+    "id": "1382167",
+    "locality": "SECTOR 76",
+    "coordinates": [
+      28.565747,
+      77.396113
+    ]
+  },
+  {
+    "id": "1382871",
+    "locality": "Chandar Vihar",
+    "coordinates": [
+      28.58479880479905,
+      77.06909538597029
+    ]
+  },
+  {
+    "id": "810368",
+    "locality": "Munirika",
+    "coordinates": [
+      28.55629,
+      77.174751
+    ]
+  },
+  {
+    "id": "406774",
+    "locality": "MALVIYA",
+    "coordinates": [
+      28.538353,
+      77.2146898
+    ]
+  },
+  {
+    "id": "1404584",
+    "locality": "Kamal Cinema",
+    "coordinates": [
+      28.565346,
+      77.199799
+    ]
+  },
+  {
+    "id": "1267917",
+    "locality": "Kailash Colony",
+    "coordinates": [
+      28.557799,
+      77.236092
+    ]
+  },
+  {
+    "id": "1383851",
+    "locality": "Lodi Colony",
+    "coordinates": [
+      28.572895,
+      77.227996
+    ]
+  },
+  {
+    "id": "1395430",
+    "locality": "SECTOR 9",
+    "coordinates": [
+      28.581507,
+      77.322784
+    ]
+  },
+  {
+    "id": "1382494",
+    "locality": "Jangpura",
+    "coordinates": [
+      28.57112485610387,
+      77.2583288910118
+    ]
+  },
+  {
+    "id": "1390227",
+    "locality": "ECO CITY",
+    "coordinates": [
+      28.578416,
+      77.384428
+    ]
+  },
+  {
+    "id": "1403311",
+    "locality": "Naraina",
+    "coordinates": [
+      28.63353,
+      77.13722
+    ]
+  },
+  {
+    "id": "1404587",
+    "locality": "Vaidpura",
+    "coordinates": [
+      28.57033,
+      77.485649
+    ]
+  },
+  {
+    "id": "1384143",
+    "locality": "KAKROLA DWARKA",
+    "coordinates": [
+      28.594436,
+      77.025226
+    ]
+  },
+  {
+    "id": "1401649",
+    "locality": "Manglapuri",
+    "coordinates": [
+      28.593732,
+      77.08742
+    ]
+  },
+  {
+    "id": "762550",
+    "locality": "JANAKPURI",
+    "coordinates": [
+      28.6215296,
+      77.0832374
+    ]
+  },
+  {
+    "id": "1401654",
+    "locality": "Nanakpura -Mayapuri",
+    "coordinates": [
+      28.620583,
+      77.117194
+    ]
+  },
+  {
+    "id": "1404576",
+    "locality": "Mayur Vihar Megapod",
+    "coordinates": [
+      28.612513,
+      77.303497
+    ]
+  },
+  {
+    "id": "1387705",
+    "locality": "Nawada",
+    "coordinates": [
+      28.620369159124,
+      77.04032745212317
+    ]
+  },
+  {
+    "id": "1386943",
+    "locality": "MAYUR VIHAR PHASE 3",
+    "coordinates": [
+      28.595272,
+      77.319807
+    ]
+  },
+  {
+    "id": "1388198",
+    "locality": "SECTOR 62",
+    "coordinates": [
+      28.619795,
+      77.369682
+    ]
+  },
+  {
+    "id": "1401713",
+    "locality": "Crossing Republic",
+    "coordinates": [
+      28.628,
+      77.441222
+    ]
+  },
+  {
+    "id": "1381835",
+    "locality": "Rajendra Place",
+    "coordinates": [
+      28.644290788705238,
+      77.1766378649398
+    ]
+  },
+  {
+    "id": "1400556",
+    "locality": "B Block Sec 122",
+    "coordinates": [
+      28.593778,
+      77.403139
+    ]
+  },
+  {
+    "id": "1383133",
+    "locality": "SECTOR 59",
+    "coordinates": [
+      28.60668364273302,
+      77.36476632913116
+    ]
+  },
+  {
+    "id": "1404167",
+    "locality": "Cherry County - MP",
+    "coordinates": [
+      28.597317,
+      77.450081
+    ]
+  },
+  {
+    "id": "1389634",
+    "locality": "GAUR CITY 2",
+    "coordinates": [
+      28.622773,
+      77.425346
+    ]
+  },
+  {
+    "id": "1403206",
+    "locality": "Shakarpur - Laxmi Nagar",
+    "coordinates": [
+      28.628297,
+      77.27872
+    ]
+  },
+  {
+    "id": "1062419",
+    "locality": "KAROL BAGH2",
+    "coordinates": [
+      28.644846,
+      77.200924
+    ]
+  },
+  {
+    "id": "1402615",
+    "locality": "Wave City Gzb",
+    "coordinates": [
+      28.651101,
+      77.510737
+    ]
+  },
+  {
+    "id": "1400548",
+    "locality": "Paschim Vihar",
+    "coordinates": [
+      28.639064,
+      77.069527
+    ]
+  },
+  {
+    "id": "1386535",
+    "locality": "Subhash Nagar",
+    "coordinates": [
+      28.640551,
+      77.119766
+    ]
+  },
+  {
+    "id": "1099457",
+    "locality": "Tilak Nagar",
+    "coordinates": [
+      28.63501728433219,
+      77.09112262402711
+    ]
+  },
+  {
+    "id": "1230886",
+    "locality": "Mayur Vihar 2",
+    "coordinates": [
+      28.626045,
+      77.303794
+    ]
+  },
+  {
+    "id": "649841",
+    "locality": "LAXMI N",
+    "coordinates": [
+      28.6418916,
+      77.2822511
+    ]
+  },
+  {
+    "id": "1401267",
+    "locality": "Nyay Khand",
+    "coordinates": [
+      28.64275,
+      77.360167
+    ]
+  },
+  {
+    "id": "1229997",
+    "locality": "Patel Nagar",
+    "coordinates": [
+      28.65022,
+      77.161232
+    ]
+  },
+  {
+    "id": "1099458",
+    "locality": "LAXMI NAGAR2",
+    "coordinates": [
+      28.6080012,
+      77.2924796
+    ]
+  },
+  {
+    "id": "1062420",
+    "locality": "JANAKPURI_ RAJOURI",
+    "coordinates": [
+      28.640135199999996,
+      77.1077267
+    ]
+  },
+  {
+    "id": "649851",
+    "locality": "RAJOURI",
+    "coordinates": [
+      28.6485387,
+      77.123928
+    ]
+  },
+  {
+    "id": "1099459",
+    "locality": "Dilshad garden 2",
+    "coordinates": [
+      28.6559234,
+      77.2818721
+    ]
+  },
+  {
+    "id": "1400555",
+    "locality": "Prateek Grand City",
+    "coordinates": [
+      28.655319,
+      77.400871
+    ]
+  },
+  {
+    "id": "1394453",
+    "locality": "RAJ NAGAR GZB",
+    "coordinates": [
+      28.672261,
+      77.440055
+    ]
+  },
+  {
+    "id": "1400967",
+    "locality": "Nangloi",
+    "coordinates": [
+      28.682167,
+      77.058778
+    ]
+  },
+  {
+    "id": "1399806",
+    "locality": "Kaushambi",
+    "coordinates": [
+      28.642278,
+      77.334667
+    ]
+  },
+  {
+    "id": "1385945",
+    "locality": "Keventers",
+    "coordinates": [
+      28.66404,
+      77.321404
+    ]
+  },
+  {
+    "id": "1404450",
+    "locality": "Bhera Enclave",
+    "coordinates": [
+      28.672993,
+      77.093109
+    ]
+  },
+  {
+    "id": "1261842",
+    "locality": "Kirti Nagar",
+    "coordinates": [
+      28.651164,
+      77.141291
+    ]
+  },
+  {
+    "id": "1400924",
+    "locality": "Karampura",
+    "coordinates": [
+      28.662389,
+      77.155944
+    ]
+  },
+  {
+    "id": "1403207",
+    "locality": "New Karol Bagh",
+    "coordinates": [
+      28.658655,
+      77.20243
+    ]
+  },
+  {
+    "id": "1400547",
+    "locality": "Shalimar Bagh",
+    "coordinates": [
+      28.700417,
+      77.163306
+    ]
+  },
+  {
+    "id": "1402052",
+    "locality": "Inderlok Metro Station",
+    "coordinates": [
+      28.673,
+      77.170306
+    ]
+  },
+  {
+    "id": "1380671",
+    "locality": "Babarpur",
+    "coordinates": [
+      28.690066,
+      77.283795
+    ]
+  },
+  {
+    "id": "1404755",
+    "locality": "Azadpur",
+    "coordinates": [
+      28.702271,
+      77.181221
+    ]
+  },
+  {
+    "id": "1388689",
+    "locality": "Dilshad Colony",
+    "coordinates": [
+      28.678051,
+      77.314262
+    ]
+  },
+  {
+    "id": "1403518",
+    "locality": "Raj Bagh Gzb",
+    "coordinates": [
+      28.682836,
+      77.34622
+    ]
+  },
+  {
+    "id": "1400226",
+    "locality": "Vasundhara",
+    "coordinates": [
+      28.654556,
+      77.361778
+    ]
+  },
+  {
+    "id": "1403179",
+    "locality": "Shahdara Megapod",
+    "coordinates": [
+      28.687647,
+      77.291998
+    ]
+  },
+  {
+    "id": "1387080",
+    "locality": "PVR VVIP GHAZIABAD",
+    "coordinates": [
+      28.698797,
+      77.422718
+    ]
+  },
+  {
+    "id": "1062023",
+    "locality": "Rohini",
+    "coordinates": [
+      28.716239,
+      77.114781
+    ]
+  },
+  {
+    "id": "1404596",
+    "locality": "Sharda Niketan",
+    "coordinates": [
+      28.692215,
+      77.116348
+    ]
+  },
+  {
+    "id": "1402053",
+    "locality": "Burari",
+    "coordinates": [
+      28.73925,
+      77.197722
+    ]
+  },
+  {
+    "id": "1403364",
+    "locality": "Mohan Nagar Ghaziabad",
+    "coordinates": [
+      28.684383,
+      77.376872
+    ]
+  },
+  {
+    "id": "1384511",
+    "locality": "PV Ranikhet",
+    "coordinates": [
+      28.715442,
+      77.138837
+    ]
+  },
+  {
+    "id": "1402249",
+    "locality": "Karawal Nagar",
+    "coordinates": [
+      28.71899,
+      77.265877
+    ]
+  },
+  {
+    "id": "1403516",
+    "locality": "Bapudham",
+    "coordinates": [
+      28.697865,
+      77.485786
+    ]
+  },
+  {
+    "id": "1404620",
+    "locality": "Samaypur Badli",
+    "coordinates": [
+      28.744797,
+      77.132637
+    ]
+  },
+  {
+    "id": "1404165",
+    "locality": "Avantika",
+    "coordinates": [
+      28.698431,
+      77.101982
+    ]
+  },
+  {
+    "id": "1386271",
+    "locality": "Kohat Enclave",
+    "coordinates": [
+      28.702855,
+      77.147173
+    ]
+  },
+  {
+    "id": "1401290",
+    "locality": "Railway Stadium",
+    "coordinates": [
+      28.844917,
+      78.760556
+    ]
+  },
+  {
+    "id": "1403371",
+    "locality": "Onyx Hospital",
+    "coordinates": [
+      28.89262,
+      76.618644
+    ]
+  },
+  {
+    "id": "1403370",
+    "locality": "District Court",
+    "coordinates": [
+      28.898944,
+      76.586886
+    ]
+  },
+  {
+    "id": "1402272",
+    "locality": "PVR Moradabad",
+    "coordinates": [
+      28.871639,
+      78.754194
+    ]
+  },
+  {
+    "id": "1389689",
+    "locality": "Uttam Nagar",
+    "coordinates": [
+      28.622128,
+      77.069461
+    ]
+  },
+  {
+    "id": "1400983",
+    "locality": "Bhagatpura",
+    "coordinates": [
+      28.985806,
+      77.021472
+    ]
+  },
+  {
+    "id": "1401283",
+    "locality": "Beripura",
+    "coordinates": [
+      28.967861,
+      77.68825
+    ]
+  },
+  {
+    "id": "1403188",
+    "locality": "CCS University - MP",
+    "coordinates": [
+      28.953913,
+      77.735535
+    ]
+  },
+  {
+    "id": "1402620",
+    "locality": "Sadar Bazaar",
+    "coordinates": [
+      28.9949,
+      77.7069
+    ]
+  },
+  {
+    "id": "1401282",
+    "locality": "Pallavpuram",
+    "coordinates": [
+      29.044929,
+      77.707016
+    ]
+  },
+  {
+    "id": "1402787",
+    "locality": "District Hospital",
+    "coordinates": [
+      28.98012,
+      79.40034
+    ]
+  },
+  {
+    "id": "1401291",
+    "locality": "Tehsil Camp",
+    "coordinates": [
+      29.409333,
+      76.97
+    ]
+  },
+  {
+    "id": "1403556",
+    "locality": "Urban Estate",
+    "coordinates": [
+      29.6845,
+      76.9841
+    ]
+  },
+  {
+    "id": "1401278",
+    "locality": "Ganpat Nagar",
+    "coordinates": [
+      29.9090627,
+      73.880938
+    ]
+  },
+  {
+    "id": "1402847",
+    "locality": "Captain Nagar",
+    "coordinates": [
+      29.382806,
+      76.973611
+    ]
+  },
+  {
+    "id": "1403422",
+    "locality": "Model Town",
+    "coordinates": [
+      29.3897190093994,
+      76.9542770385742
+    ]
+  },
+  {
+    "id": "1403458",
+    "locality": "NIT Kurukshetra",
+    "coordinates": [
+      29.96939,
+      76.83955
+    ]
+  },
+  {
+    "id": "1403512",
+    "locality": "Arjan Nagar",
+    "coordinates": [
+      30.2256,
+      74.9545
+    ]
+  },
+  {
+    "id": "1401285",
+    "locality": "Iit Roorkee",
+    "coordinates": [
+      29.8670149,
+      77.887902
+    ]
+  },
+  {
+    "id": "1388685",
+    "locality": "JOGIWALA",
+    "coordinates": [
+      30.305838,
+      78.0474398
+    ]
+  },
+  {
+    "id": "1391903",
+    "locality": "ISBT",
+    "coordinates": [
+      30.295594,
+      77.998469
+    ]
+  },
+  {
+    "id": "1403754",
+    "locality": "Mohammadpur",
+    "coordinates": [
+      29.941175,
+      77.541145
+    ]
+  },
+  {
+    "id": "1401270",
+    "locality": "Tipuri Bazaar",
+    "coordinates": [
+      30.366425,
+      76.402039
+    ]
+  },
+  {
+    "id": "1401289",
+    "locality": "Ambala Cantt",
+    "coordinates": [
+      30.341556,
+      76.837139
+    ]
+  },
+  {
+    "id": "1401268",
+    "locality": "Patiala Cantt",
+    "coordinates": [
+      30.329639,
+      76.392972
+    ]
+  },
+  {
+    "id": "1394449",
+    "locality": "SAHARANPUR ROAD",
+    "coordinates": [
+      30.322098,
+      78.003609
+    ]
+  },
+  {
+    "id": "1403178",
+    "locality": "Jakhan - MP",
+    "coordinates": [
+      30.337343,
+      78.055297
+    ]
+  },
+  {
+    "id": "1402271",
+    "locality": "Police Line",
+    "coordinates": [
+      30.374516,
+      76.781993
+    ]
+  },
+  {
+    "id": "1393569",
+    "locality": "Doon IT Park",
+    "coordinates": [
+      30.354936,
+      78.083698
+    ]
+  },
+  {
+    "id": "1404603",
+    "locality": "Rajpur",
+    "coordinates": [
+      30.371376,
+      78.075996
+    ]
+  },
+  {
+    "id": "1388997",
+    "locality": "VIP Road",
+    "coordinates": [
+      30.638794,
+      76.818305
+    ]
+  },
+  {
+    "id": "1385562",
+    "locality": "Peermuchalla",
+    "coordinates": [
+      30.658505,
+      76.856737
+    ]
+  },
+  {
+    "id": "1403511",
+    "locality": "Aero City Mohali",
+    "coordinates": [
+      30.6553115,
+      76.7408905
+    ]
+  },
+  {
+    "id": "1387906",
+    "locality": "Sec 67 Chandigarh",
+    "coordinates": [
+      30.673237,
+      76.723481
+    ]
+  },
+  {
+    "id": "1387905",
+    "locality": "Sec 10 Panchkula",
+    "coordinates": [
+      30.680975,
+      76.84356
+    ]
+  },
+  {
+    "id": "1403687",
+    "locality": "Emaar The Views",
+    "coordinates": [
+      30.6566956,
+      76.6821416
+    ]
+  },
+  {
+    "id": "1390220",
+    "locality": "Shivalik City",
+    "coordinates": [
+      30.69525,
+      76.675001
+    ]
+  },
+  {
+    "id": "1403831",
+    "locality": "Sector 70",
+    "coordinates": [
+      30.688835,
+      76.71247
+    ]
+  },
+  {
+    "id": "1403976",
+    "locality": "Sector 42B",
+    "coordinates": [
+      30.7179,
+      76.7545
+    ]
+  },
+  {
+    "id": "1385943",
+    "locality": "Gillco Parkhills",
+    "coordinates": [
+      30.728289,
+      76.673743
+    ]
+  },
+  {
+    "id": "1389004",
+    "locality": "Sec 7 Panchkula",
+    "coordinates": [
+      30.710278,
+      76.839139
+    ]
+  },
+  {
+    "id": "1403510",
+    "locality": "Phse 3B - MP",
+    "coordinates": [
+      30.718893,
+      76.709421
+    ]
+  },
+  {
+    "id": "1386912",
+    "locality": "Sunny Enclave",
+    "coordinates": [
+      30.7451095581055,
+      76.652473449707
+    ]
+  },
+  {
+    "id": "1397025",
+    "locality": "KURALI ROAD",
+    "coordinates": [
+      30.756194,
+      76.63625
+    ]
+  },
+  {
+    "id": "1383823",
+    "locality": "Sector 23",
+    "coordinates": [
+      30.749759,
+      76.751449
+    ]
+  },
+  {
+    "id": "1381441",
+    "locality": "Sub City Center",
+    "coordinates": [
+      30.72213775280572,
+      76.76647493358848
+    ]
+  },
+  {
+    "id": "1404680",
+    "locality": "Babaroad",
+    "coordinates": [
+      30.860981,
+      75.868828
+    ]
+  },
+  {
+    "id": "1397034",
+    "locality": "PRITAM NAGAR",
+    "coordinates": [
+      30.916722,
+      75.823333
+    ]
+  },
+  {
+    "id": "1404447",
+    "locality": "Jamalpur",
+    "coordinates": [
+      30.902227,
+      75.910682
+    ]
+  },
+  {
+    "id": "1401264",
+    "locality": "Dugri",
+    "coordinates": [
+      30.8772529,
+      75.7990515
+    ]
+  },
+  {
+    "id": "1395727",
+    "locality": "Hargobind Nagar",
+    "coordinates": [
+      30.9136237,
+      75.8684544
+    ]
+  },
+  {
+    "id": "1401284",
+    "locality": "PPR Mall",
+    "coordinates": [
+      31.294535,
+      75.579483
+    ]
+  },
+  {
+    "id": "1402621",
+    "locality": "Qaji Mandi",
+    "coordinates": [
+      31.342944,
+      75.592639
+    ]
+  },
+  {
+    "id": "1404306",
+    "locality": "GNDU Campus",
+    "coordinates": [
+      31.631193,
+      74.815299
+    ]
+  },
+  {
+    "id": "1397088",
+    "locality": "GOLDEN TEMPLE",
+    "coordinates": [
+      31.630861,
+      74.881778
+    ]
+  },
+  {
+    "id": "1404754",
+    "locality": "Kothrud - MP",
+    "coordinates": [
+      18.502438,
+      73.808907
+    ]
+  },
+  {
+    "id": "1401269",
+    "locality": "Thapar University",
+    "coordinates": [
+      30.36325,
+      76.371444
+    ]
+  },
+  {
+    "id": "1348435",
+    "locality": "Zirakpur",
+    "coordinates": [
+      30.639908,
+      76.82357
+    ]
+  },
+  {
+    "id": "1397796",
+    "locality": "NS PALYA",
+    "coordinates": [
+      12.909667,
+      77.602889
+    ]
+  },
+  {
+    "id": "1380712",
+    "locality": "BOTANICAL GARDEN",
+    "coordinates": [
+      17.453386812523647,
+      78.36389012823284
+    ]
+  },
+  {
+    "id": "1267913",
+    "locality": "MITHILA NAGAR",
+    "coordinates": [
+      17.40860659492986,
+      78.44997806958645
+    ]
+  },
+  {
+    "id": "1400609",
+    "locality": "Munnekolala",
+    "coordinates": [
+      12.956667,
+      77.719778
+    ]
+  },
+  {
+    "id": "1392421",
+    "locality": "CARMELARAM",
+    "coordinates": [
+      12.909483,
+      77.697731
+    ]
+  },
+  {
+    "id": "1389251",
+    "locality": "Kannamangala",
+    "coordinates": [
+      13.00845,
+      77.759705
+    ]
+  },
+  {
+    "id": "1402247",
+    "locality": "Prem Nagar",
+    "coordinates": [
+      30.33449,
+      77.967049
+    ]
+  },
+  {
+    "id": "1381157",
+    "locality": "Mullur",
+    "coordinates": [
+      12.901863873524025,
+      77.72350950736907
+    ]
+  },
+  {
+    "id": "1402474",
+    "locality": "WCC Road",
+    "coordinates": [
+      8.184644,
+      77.418613
+    ]
+  },
+  {
+    "id": "1403189",
+    "locality": "Pappanamcode",
+    "coordinates": [
+      8.468031,
+      76.98364
+    ]
+  },
+  {
+    "id": "1404824",
+    "locality": "Anyara",
+    "coordinates": [
+      8.493482,
+      76.926186
+    ]
+  },
+  {
+    "id": "1404900",
+    "locality": "Thirumala",
+    "coordinates": [
+      8.5067,
+      76.9959
+    ]
+  },
+  {
+    "id": "1396291",
+    "locality": "SREEKARYAM",
+    "coordinates": [
+      8.545856,
+      76.921219
+    ]
+  },
+  {
+    "id": "1387569",
+    "locality": "POOJAPPURA",
+    "coordinates": [
+      8.490834,
+      76.976966
+    ]
+  },
+  {
+    "id": "1397045",
+    "locality": "Kaniyapuram",
+    "coordinates": [
+      8.5732958158672,
+      76.86895758606306
+    ]
+  },
+  {
+    "id": "1402070",
+    "locality": "Peroorkada",
+    "coordinates": [
+      8.543278,
+      76.971778
+    ]
+  },
+  {
+    "id": "1403190",
+    "locality": "Atitngal",
+    "coordinates": [
+      8.700694,
+      76.813389
+    ]
+  },
+  {
+    "id": "1381968",
+    "locality": "KULATHOOR",
+    "coordinates": [
+      8.5500756,
+      76.8762279
+    ]
+  },
+  {
+    "id": "1401286",
+    "locality": "Police Colony",
+    "coordinates": [
+      8.710639,
+      77.7485
+    ]
+  },
+  {
+    "id": "1401656",
+    "locality": "Tuticorin",
+    "coordinates": [
+      8.807639,
+      78.134583
+    ]
+  },
+  {
+    "id": "1402780",
+    "locality": "Ayathil",
+    "coordinates": [
+      8.873115,
+      76.624164
+    ]
+  },
+  {
+    "id": "1402261",
+    "locality": "Moonamkutti",
+    "coordinates": [
+      8.912046,
+      76.628407
+    ]
+  },
+  {
+    "id": "1400224",
+    "locality": "Thevally",
+    "coordinates": [
+      8.885139,
+      76.580889
+    ]
+  },
+  {
+    "id": "1402456",
+    "locality": "Chengannur",
+    "coordinates": [
+      9.31766,
+      76.614834
+    ]
+  },
+  {
+    "id": "1402471",
+    "locality": "Changanassery",
+    "coordinates": [
+      9.449212,
+      76.54122
+    ]
+  },
+  {
+    "id": "1401077",
+    "locality": "Central Allepy",
+    "coordinates": [
+      9.492133,
+      76.33062
+    ]
+  },
+  {
+    "id": "1403841",
+    "locality": "Ettumanoor",
+    "coordinates": [
+      9.661879,
+      76.550209
+    ]
+  },
+  {
+    "id": "1399704",
+    "locality": "Thrippunithura",
+    "coordinates": [
+      9.9523629,
+      76.3594574
+    ]
+  },
+  {
+    "id": "1402451",
+    "locality": "Kumbalam",
+    "coordinates": [
+      9.905029,
+      76.318619
+    ]
+  },
+  {
+    "id": "1402453",
+    "locality": "Kannan Devi Cinemas",
+    "coordinates": [
+      9.883303,
+      78.05829
+    ]
+  },
+  {
+    "id": "1397629",
+    "locality": "PONEKKARA",
+    "coordinates": [
+      10.022389,
+      76.274028
+    ]
+  },
+  {
+    "id": "1403029",
+    "locality": "Poppys Hotel",
+    "coordinates": [
+      9.950917,
+      78.171568
+    ]
+  },
+  {
+    "id": "1403838",
+    "locality": "Kent Mahal",
+    "coordinates": [
+      10.003842,
+      76.380211
+    ]
+  },
+  {
+    "id": "1403362",
+    "locality": "Paravur Road",
+    "coordinates": [
+      10.126095,
+      76.322508
+    ]
+  },
+  {
+    "id": "1381277",
+    "locality": "VIDYA NAGAR",
+    "coordinates": [
+      10.051167358957358,
+      76.31830938761314
+    ]
+  },
+  {
+    "id": "1403759",
+    "locality": "Senjai",
+    "coordinates": [
+      10.071007,
+      78.771027
+    ]
+  },
+  {
+    "id": "1402072",
+    "locality": "Ollur",
+    "coordinates": [
+      10.486479,
+      76.237671
+    ]
+  },
+  {
+    "id": "1402613",
+    "locality": "Perumbavoor",
+    "coordinates": [
+      10.127368,
+      76.471415
+    ]
+  },
+  {
+    "id": "1403142",
+    "locality": "Mannuthy",
+    "coordinates": [
+      10.529137,
+      76.256164
+    ]
+  },
+  {
+    "id": "1403209",
+    "locality": "Muvattupuzha",
+    "coordinates": [
+      9.983535,
+      76.574961
+    ]
+  },
+  {
+    "id": "1403844",
+    "locality": "Chalakudy",
+    "coordinates": [
+      10.3122633,
+      76.3351063
+    ]
+  },
+  {
+    "id": "1402455",
+    "locality": "Peringavu",
+    "coordinates": [
+      10.548174,
+      76.227562
+    ]
+  },
+  {
+    "id": "1402061",
+    "locality": "Angamalai",
+    "coordinates": [
+      10.1957612,
+      76.3908926
+    ]
+  },
+  {
+    "id": "1402263",
+    "locality": "Madurai South",
+    "coordinates": [
+      9.900021,
+      78.117065
+    ]
+  },
+  {
+    "id": "1403456",
+    "locality": "Tanjavur Medical College",
+    "coordinates": [
+      10.757196,
+      79.123787
+    ]
+  },
+  {
+    "id": "1402073",
+    "locality": "KK Nagar",
+    "coordinates": [
+      10.756853,
+      78.700823
+    ]
+  },
+  {
+    "id": "1404925",
+    "locality": "Aiswarya Nagar",
+    "coordinates": [
+      10.772066,
+      76.670486
+    ]
+  },
+  {
+    "id": "1402071",
+    "locality": "Adat Road",
+    "coordinates": [
+      10.552611,
+      76.170972
+    ]
+  },
+  {
+    "id": "1403372",
+    "locality": "Arugampalayam",
+    "coordinates": [
+      10.947171,
+      78.092315
+    ]
+  },
+  {
+    "id": "1403558",
+    "locality": "Vadugapatti",
+    "coordinates": [
+      10.9626,
+      78.0651
+    ]
+  },
+  {
+    "id": "1403185",
+    "locality": "Rajagiri Hospital",
+    "coordinates": [
+      10.086144,
+      76.383682
+    ]
+  },
+  {
+    "id": "1401253",
+    "locality": "Podanur",
+    "coordinates": [
+      10.944722,
+      76.951611
+    ]
+  },
+  {
+    "id": "1403359",
+    "locality": "Peelamedu - MP",
+    "coordinates": [
+      11.042580564414362,
+      76.97695985931999
+    ]
+  },
+  {
+    "id": "1402067",
+    "locality": "Kalpathy",
+    "coordinates": [
+      10.792933,
+      76.638695
+    ]
+  },
+  {
+    "id": "1403420",
+    "locality": "Edapally North",
+    "coordinates": [
+      10.04283,
+      76.299736
+    ]
+  },
+  {
+    "id": "1401274",
+    "locality": "Khadarpet West",
+    "coordinates": [
+      11.095639,
+      77.356861
+    ]
+  },
+  {
+    "id": "1402069",
+    "locality": "Arulananda Nagar",
+    "coordinates": [
+      10.77411,
+      79.138534
+    ]
+  },
+  {
+    "id": "1404585",
+    "locality": "HiLITE",
+    "coordinates": [
+      11.244663,
+      75.835655
+    ]
+  },
+  {
+    "id": "1397030",
+    "locality": "GOVINDAPURAM",
+    "coordinates": [
+      11.237444,
+      75.804694
+    ]
+  },
+  {
+    "id": "1403186",
+    "locality": "NIT Calicut",
+    "coordinates": [
+      11.324191,
+      75.936476
+    ]
+  },
+  {
+    "id": "1404931",
+    "locality": "Karaparamba Junction",
+    "coordinates": [
+      11.287324,
+      75.784195
+    ]
+  },
+  {
+    "id": "1396290",
+    "locality": "VELLIPARAMBA",
+    "coordinates": [
+      11.271893,
+      75.82412
+    ]
+  },
+  {
+    "id": "1401275",
+    "locality": "Central Kumaran Nagar",
+    "coordinates": [
+      11.12225,
+      77.34
+    ]
+  },
+  {
+    "id": "1398447",
+    "locality": "GUGAI",
+    "coordinates": [
+      11.641389,
+      78.151167
+    ]
+  },
+  {
+    "id": "1402054",
+    "locality": "Parimalam Mahal",
+    "coordinates": [
+      11.325111,
+      77.683889
+    ]
+  },
+  {
+    "id": "1399347",
+    "locality": "Trichy Central",
+    "coordinates": [
+      10.809694,
+      78.678639
+    ]
+  },
+  {
+    "id": "1404569",
+    "locality": "Talap",
+    "coordinates": [
+      11.870083,
+      75.371445
+    ]
+  },
+  {
+    "id": "1402786",
+    "locality": "Reddiarpalayam",
+    "coordinates": [
+      11.932495,
+      79.784645
+    ]
+  },
+  {
+    "id": "1395429",
+    "locality": "MYSORE UNIVERSITY",
+    "coordinates": [
+      12.286363248462216,
+      76.61439885934841
+    ]
+  },
+  {
+    "id": "1403050",
+    "locality": "Nambiar",
+    "coordinates": [
+      12.842996,
+      77.726624
+    ]
+  },
+  {
+    "id": "1404928",
+    "locality": "Kuttar",
+    "coordinates": [
+      12.8093,
+      74.875542
+    ]
+  },
+  {
+    "id": "1403465",
+    "locality": "Kulashekhara",
+    "coordinates": [
+      12.8942,
+      74.8903
+    ]
+  },
+  {
+    "id": "1402682",
+    "locality": "Kanchi East",
+    "coordinates": [
+      12.8357801,
+      79.70771887
+    ]
+  },
+  {
+    "id": "1404867",
+    "locality": "Virupatchipuram",
+    "coordinates": [
+      12.887102,
+      79.136093
+    ]
+  },
+  {
+    "id": "1404785",
+    "locality": "Vani Vilas Mohalla - MP",
+    "coordinates": [
+      12.320312673566391,
+      76.60326991831495
+    ]
+  },
+  {
+    "id": "1388112",
+    "locality": "BEML",
+    "coordinates": [
+      12.9781191,
+      77.6759756
+    ]
+  },
+  {
+    "id": "1403049",
+    "locality": "Prestige Jindal City",
+    "coordinates": [
+      13.053649,
+      77.48471
+    ]
+  },
+  {
+    "id": "1404799",
+    "locality": "Tata New Haven",
+    "coordinates": [
+      13.102744,
+      77.444717
+    ]
+  },
+  {
+    "id": "1403143",
+    "locality": "MV Nagar",
+    "coordinates": [
+      13.134,
+      79.91327
+    ]
+  },
+  {
+    "id": "1403313",
+    "locality": "Tiruverkadu",
+    "coordinates": [
+      13.076758,
+      80.125557
+    ]
+  },
+  {
+    "id": "1381832",
+    "locality": "NATHAM",
+    "coordinates": [
+      12.837858278116054,
+      80.23081768506574
+    ]
+  },
+  {
+    "id": "1404617",
+    "locality": "Provident Capella",
+    "coordinates": [
+      12.984131,
+      77.767464
+    ]
+  },
+  {
+    "id": "1403019",
+    "locality": "Prestige Shantiniketan",
+    "coordinates": [
+      12.987618,
+      77.729741
+    ]
+  },
+  {
+    "id": "1403177",
+    "locality": "Wimco Nagar",
+    "coordinates": [
+      13.166327,
+      80.295342
+    ]
+  },
+  {
+    "id": "1386712",
+    "locality": "Yelahanka New Town",
+    "coordinates": [
+      13.098619,
+      77.574441
+    ]
+  },
+  {
+    "id": "1404794",
+    "locality": "Agrahara Layout - MP",
+    "coordinates": [
+      13.103094,
+      77.629967
+    ]
+  },
+  {
+    "id": "1400965",
+    "locality": "Mudichur",
+    "coordinates": [
+      12.910722,
+      80.070083
+    ]
+  },
+  {
+    "id": "1401246",
+    "locality": "Ullal",
+    "coordinates": [
+      12.958528,
+      77.480528
+    ]
+  },
+  {
+    "id": "1403025",
+    "locality": "Cholambedu",
+    "coordinates": [
+      13.126184,
+      80.124443
+    ]
+  },
+  {
+    "id": "1403356",
+    "locality": "Pammal Ganesh Cinemas",
+    "coordinates": [
+      12.984448,
+      80.128502
+    ]
+  },
+  {
+    "id": "1403024",
+    "locality": "Pudupakkam",
+    "coordinates": [
+      12.82125,
+      80.204582
+    ]
+  },
+  {
+    "id": "1403363",
+    "locality": "Rammurthy Nagar",
+    "coordinates": [
+      14.452712,
+      79.988483
+    ]
+  },
+  {
+    "id": "1404769",
+    "locality": "Navodhaya Nagar",
+    "coordinates": [
+      14.66575,
+      77.60186
+    ]
+  },
+  {
+    "id": "1404830",
+    "locality": "Venkateswara Nagar",
+    "coordinates": [
+      15.491481,
+      80.04882
+    ]
+  },
+  {
+    "id": "1404446",
+    "locality": "Aldona Madel",
+    "coordinates": [
+      15.591516,
+      73.840919
+    ]
+  },
+  {
+    "id": "1402442",
+    "locality": "Chinnapa Layout",
+    "coordinates": [
+      12.941389,
+      77.754111
+    ]
+  },
+  {
+    "id": "810362",
+    "locality": "PERUNGUDI 2",
+    "coordinates": [
+      12.9720049,
+      80.2479561
+    ]
+  },
+  {
+    "id": "1404851",
+    "locality": "Otteri",
+    "coordinates": [
+      13.098974,
+      80.250824
+    ]
+  },
+  {
+    "id": "1401079",
+    "locality": "C Camp",
+    "coordinates": [
+      15.797444,
+      78.052417
+    ]
+  },
+  {
+    "id": "1404886",
+    "locality": "Kannagi Nagar - MP",
+    "coordinates": [
+      12.928411,
+      80.235054
+    ]
+  },
+  {
+    "id": "1404860",
+    "locality": "APCO Colony",
+    "coordinates": [
+      17.370525,
+      78.57235
+    ]
+  },
+  {
+    "id": "1382255",
+    "locality": "Musheerabad",
+    "coordinates": [
+      17.414711,
+      78.498253
+    ]
+  },
+  {
+    "id": "1400606",
+    "locality": "Sarathi Nagar",
+    "coordinates": [
+      17.2503551,
+      80.1326154
+    ]
+  },
+  {
+    "id": "1404811",
+    "locality": "Sikenderguda",
+    "coordinates": [
+      17.344585,
+      78.392204
+    ]
+  },
+  {
+    "id": "1385563",
+    "locality": "NANAKARAMGUDA (RELOCATION)",
+    "coordinates": [
+      17.42325,
+      78.328844
+    ]
+  },
+  {
+    "id": "1388311",
+    "locality": "Aparna Hill Park",
+    "coordinates": [
+      17.498984,
+      78.31697
+    ]
+  },
+  {
+    "id": "1403837",
+    "locality": "Suryanagar",
+    "coordinates": [
+      18.457127,
+      79.122014
+    ]
+  },
+  {
+    "id": "1387703",
+    "locality": "RK Studios",
+    "coordinates": [
+      19.047268,
+      72.90815
+    ]
+  },
+  {
+    "id": "1404907",
+    "locality": "Marathon Nexzone",
+    "coordinates": [
+      18.970366,
+      73.131569
+    ]
+  },
+  {
+    "id": "1404877",
+    "locality": "AG Nagar",
+    "coordinates": [
+      19.26767,
+      72.878021
+    ]
+  },
+  {
+    "id": "1381561",
+    "locality": "Hawaiian Village",
+    "coordinates": [
+      19.276133871300335,
+      72.96023834652637
+    ]
+  },
+  {
+    "id": "1398759",
+    "locality": "Millennium Avanish",
+    "coordinates": [
+      19.1426207,
+      72.9913945
+    ]
+  },
+  {
+    "id": "1403022",
+    "locality": "Patrapada",
+    "coordinates": [
+      20.235384,
+      85.76593
+    ]
+  },
+  {
+    "id": "1404808",
+    "locality": "Patia - MP",
+    "coordinates": [
+      20.35096,
+      85.831192
+    ]
+  },
+  {
+    "id": "1403021",
+    "locality": "Kanan Vihar",
+    "coordinates": [
+      20.360258,
+      85.828873
+    ]
+  },
+  {
+    "id": "1401464",
+    "locality": "Symphony Mall",
+    "coordinates": [
+      20.322943,
+      85.883331
+    ]
+  },
+  {
+    "id": "1395731",
+    "locality": "Civil Hospital",
+    "coordinates": [
+      22.30232,
+      70.79595
+    ]
+  },
+  {
+    "id": "1391895",
+    "locality": "Purabanchal",
+    "coordinates": [
+      22.512056,
+      88.418194
+    ]
+  },
+  {
+    "id": "1404787",
+    "locality": "Kadampukur",
+    "coordinates": [
+      22.587393,
+      88.492569
+    ]
+  },
+  {
+    "id": "973251",
+    "locality": "BADI BHAMORI",
+    "coordinates": [
+      22.748165,
+      75.890765
+    ]
+  },
+  {
+    "id": "1402788",
+    "locality": "Ambikapatty",
+    "coordinates": [
+      24.803789,
+      92.793533
+    ]
+  },
+  {
+    "id": "1404857",
+    "locality": "Ranipur/Banaras Station",
+    "coordinates": [
+      25.29306,
+      82.973836
+    ]
+  },
+  {
+    "id": "1402255",
+    "locality": "Harishankarpuram",
+    "coordinates": [
+      26.206593,
+      78.189559
+    ]
+  },
+  {
+    "id": "1401287",
+    "locality": "Vivekananda Palky",
+    "coordinates": [
+      27.470333,
+      94.932671
+    ]
+  },
+  {
+    "id": "1402047",
+    "locality": "Manjoor Garhi",
+    "coordinates": [
+      27.925139,
+      78.076611
+    ]
+  },
+  {
+    "id": "1402245",
+    "locality": "Dohara",
+    "coordinates": [
+      28.373782,
+      79.459371
+    ]
+  },
+  {
+    "id": "1403212",
+    "locality": "Venice Mall",
+    "coordinates": [
+      28.450961,
+      77.52383
+    ]
+  },
+  {
+    "id": "1402462",
+    "locality": "Ace City",
+    "coordinates": [
+      28.561563,
+      77.444542
+    ]
+  },
+  {
+    "id": "1383383",
+    "locality": "POCHANPUR",
+    "coordinates": [
+      28.564283,
+      77.050354
+    ]
+  },
+  {
+    "id": "1403208",
+    "locality": "Kwality Market",
+    "coordinates": [
+      28.670467,
+      77.083404
+    ]
+  },
+  {
+    "id": "1403474",
+    "locality": "OP Jindal Chowk",
+    "coordinates": [
+      29.969639,
+      76.890396
+    ]
+  },
+  {
+    "id": "1403513",
+    "locality": "Sector 115",
+    "coordinates": [
+      30.7332,
+      76.6474
+    ]
+  },
+  {
+    "id": "1403048",
+    "locality": "Koorakanchery",
+    "coordinates": [
+      10.506684,
+      76.211044
+    ]
+  },
+  {
+    "id": "1403843",
+    "locality": "Adajan Gam - MP",
+    "coordinates": [
+      21.184334,
+      72.786377
+    ]
+  },
+  {
+    "id": "1404856",
+    "locality": "Sanath Nagar",
+    "coordinates": [
+      16.487633,
+      80.677467
+    ]
+  },
+  {
+    "id": "1403415",
+    "locality": "Thakurpur",
+    "coordinates": [
+      22.483118,
+      88.338387
+    ]
+  },
+  {
+    "id": "1397618",
+    "locality": "Shela",
+    "coordinates": [
+      22.998083,
+      72.468444
+    ]
+  },
+  {
+    "id": "1386812",
+    "locality": "EIJisbridge",
+    "coordinates": [
+      23.022988,
+      72.556744
+    ]
+  },
+  {
+    "id": "1401487",
+    "locality": "Amolapatty",
+    "coordinates": [
+      27.475639,
+      94.908889
+    ]
+  },
+  {
+    "id": "1403725",
+    "locality": "Budhena Village",
+    "coordinates": [
+      28.4042,
+      77.3485
+    ]
+  },
+  {
+    "id": "1298919",
+    "locality": "Sector 28",
+    "coordinates": [
+      28.472171,
+      77.071091
+    ]
+  },
+  {
+    "id": "1404841",
+    "locality": "IIT - Delhi",
+    "coordinates": [
+      28.546551,
+      77.189613
+    ]
+  },
+  {
+    "id": "1404825",
+    "locality": "Gardenia Glory",
+    "coordinates": [
+      28.551748270516043,
+      77.35526557055479
+    ]
+  },
+  {
+    "id": "1404820",
+    "locality": "Gaur City Mall",
+    "coordinates": [
+      28.60873,
+      77.430443
+    ]
+  },
+  {
+    "id": "1404859",
+    "locality": "Sec-22",
+    "coordinates": [
+      28.593775,
+      77.349159
+    ]
+  },
+  {
+    "id": "1386719",
+    "locality": "CP",
+    "coordinates": [
+      28.641541,
+      77.234208
+    ]
+  },
+  {
+    "id": "1385946",
+    "locality": "JAIPURIA MALL",
+    "coordinates": [
+      28.640442,
+      77.377862
+    ]
+  },
+  {
+    "id": "1403517",
+    "locality": "ATS Homekraft",
+    "coordinates": [
+      28.659957,
+      77.4665
+    ]
+  },
+  {
+    "id": "1404166",
+    "locality": "Opulent Mall Gzb",
+    "coordinates": [
+      28.654839,
+      77.435064
+    ]
+  },
+  {
+    "id": "1404098",
+    "locality": "Police Line Gzb",
+    "coordinates": [
+      28.678897,
+      77.474107
+    ]
+  },
+  {
+    "id": "1401650",
+    "locality": "Adarsh Park",
+    "coordinates": [
+      29.924022,
+      73.863671
+    ]
+  },
+  {
+    "id": "1381970",
+    "locality": "JAKHAN",
+    "coordinates": [
+      30.368827,
+      78.074725
+    ]
+  },
+  {
+    "id": "1404600",
+    "locality": "Arhat Bazaar - C",
+    "coordinates": [
+      30.312504,
+      78.023117
+    ]
+  },
+  {
+    "id": "1404885",
+    "locality": "Ambalamukku - MP",
+    "coordinates": [
+      8.532538,
+      76.95517
+    ]
+  },
+  {
+    "id": "1404672",
+    "locality": "Thammanam",
+    "coordinates": [
+      9.988272,
+      76.310474
+    ]
+  },
+  {
+    "id": "1404677",
+    "locality": "Edachira",
+    "coordinates": [
+      10.016194,
+      76.37475
+    ]
+  },
+  {
+    "id": "1381848",
+    "locality": "Vinayaka Nagar",
+    "coordinates": [
+      12.818141329077713,
+      77.66399533106575
+    ]
+  },
+  {
+    "id": "1387560",
+    "locality": "Anantnagar",
+    "coordinates": [
+      12.8319844,
+      77.6906079
+    ]
+  },
+  {
+    "id": "1382707",
+    "locality": "Gottigere",
+    "coordinates": [
+      12.856550090931206,
+      77.59375954397252
+    ]
+  },
+  {
+    "id": "1237709",
+    "locality": "KUMARASWAMY LAYOUT",
+    "coordinates": [
+      12.894056,
+      77.565621
+    ]
+  },
+  {
+    "id": "1231052",
+    "locality": "HSR 3",
+    "coordinates": [
+      12.91447708083533,
+      77.64477779736536
+    ]
+  },
+  {
+    "id": "1404588",
+    "locality": "Santosh Nagar",
+    "coordinates": [
+      12.913692,
+      80.179843
+    ]
+  },
+  {
+    "id": "1400215",
+    "locality": "Gunjuru",
+    "coordinates": [
+      12.928417,
+      77.740528
+    ]
+  },
+  {
+    "id": "1397026",
+    "locality": "Chitlapakkam",
+    "coordinates": [
+      12.932956,
+      80.141286
+    ]
+  },
+  {
+    "id": "1382350",
+    "locality": "Kartik Nagar",
+    "coordinates": [
+      12.97539272857814,
+      77.70557064269501
+    ]
+  },
+  {
+    "id": "816648",
+    "locality": "Ulsoor",
+    "coordinates": [
+      12.987999,
+      77.618539
+    ]
+  },
+  {
+    "id": "1349401",
+    "locality": "RAGHAVA NAGAR",
+    "coordinates": [
+      12.974486246875326,
+      80.2035727607715
+    ]
+  },
+  {
+    "id": "1402774",
+    "locality": "KLE College",
+    "coordinates": [
+      12.978532,
+      77.511703
+    ]
+  },
+  {
+    "id": "1231805",
+    "locality": "Hebbal",
+    "coordinates": [
+      13.022278,
+      77.607834
+    ]
+  },
+  {
+    "id": "1390218",
+    "locality": "HRBR Layout",
+    "coordinates": [
+      13.023479,
+      77.639465
+    ]
+  },
+  {
+    "id": "1404662",
+    "locality": "T C Palya",
+    "coordinates": [
+      13.01854,
+      77.68402
+    ]
+  },
+  {
+    "id": "1399697",
+    "locality": "Jafferkhanpet",
+    "coordinates": [
+      13.029389,
+      80.204472
+    ]
+  },
+  {
+    "id": "1382868",
+    "locality": "Nanjappa Circle",
+    "coordinates": [
+      13.0690728,
+      77.5568697
+    ]
+  },
+  {
+    "id": "1404766",
+    "locality": "Santhome",
+    "coordinates": [
+      13.029501,
+      80.274895
+    ]
+  },
+  {
+    "id": "1404837",
+    "locality": "Chetpet",
+    "coordinates": [
+      13.072689,
+      80.247868
+    ]
+  },
+  {
+    "id": "1396660",
+    "locality": "BHARTIYA CITY",
+    "coordinates": [
+      13.088326,
+      77.634172
+    ]
+  },
+  {
+    "id": "1386813",
+    "locality": "MOGAPPAIR EAST",
+    "coordinates": [
+      13.079643,
+      80.183221
+    ]
+  },
+  {
+    "id": "1391894",
+    "locality": "B N Reddy Nagar",
+    "coordinates": [
+      17.327657,
+      78.545482
+    ]
+  },
+  {
+    "id": "1404664",
+    "locality": "Champapet",
+    "coordinates": [
+      17.34139,
+      78.52842
+    ]
+  },
+  {
+    "id": "1402256",
+    "locality": "Nacharam",
+    "coordinates": [
+      17.436472,
+      78.553167
+    ]
+  },
+  {
+    "id": "1393827",
+    "locality": "SATADAR NAGAR",
+    "coordinates": [
+      17.468596,
+      78.413518
+    ]
+  },
+  {
+    "id": "1386094",
+    "locality": "Kothaguda",
+    "coordinates": [
+      17.473188,
+      78.363979
+    ]
+  },
+  {
+    "id": "1404893",
+    "locality": "Nizampet village",
+    "coordinates": [
+      17.517821,
+      78.379188
+    ]
+  },
+  {
+    "id": "1386717",
+    "locality": "Suchitra",
+    "coordinates": [
+      17.513169,
+      78.479014
+    ]
+  },
+  {
+    "id": "1380670",
+    "locality": "VIJAYA NAGAR",
+    "coordinates": [
+      13.078561149317206,
+      80.14983553239489
+    ]
+  },
+  {
+    "id": "1404826",
+    "locality": "MRK Rd Alwal",
+    "coordinates": [
+      17.49971,
+      78.510414
+    ]
+  },
+  {
+    "id": "1385564",
+    "locality": "Kalyani Nagar",
+    "coordinates": [
+      18.551125,
+      73.904483
+    ]
+  },
+  {
+    "id": "1382710",
+    "locality": "Sayaji Hotel",
+    "coordinates": [
+      18.5950102635943,
+      73.75890067942854
+    ]
+  },
+  {
+    "id": "1113109",
+    "locality": "ANTOPEHILL",
+    "coordinates": [
+      19.0450204,
+      72.8680399
+    ]
+  },
+  {
+    "id": "1404645",
+    "locality": "Park Road",
+    "coordinates": [
+      19.105726,
+      72.851463
+    ]
+  },
+  {
+    "id": "1404751",
+    "locality": "Naupada",
+    "coordinates": [
+      19.184643136684862,
+      72.96753174650286
+    ]
+  },
+  {
+    "id": "1403051",
+    "locality": "Eksar",
+    "coordinates": [
+      19.236029,
+      72.837357
+    ]
+  },
+  {
+    "id": "1404771",
+    "locality": "Bethany Hospital",
+    "coordinates": [
+      19.218496,
+      72.953194
+    ]
+  },
+  {
+    "id": "1400554",
+    "locality": "Elymus",
+    "coordinates": [
+      19.20534188565675,
+      73.11580543611855
+    ]
+  },
+  {
+    "id": "1404681",
+    "locality": "Majiwada - MP",
+    "coordinates": [
+      19.215929,
+      72.976555
+    ]
+  },
+  {
+    "id": "1386450",
+    "locality": "GDA MARKET VAISHALI",
+    "coordinates": [
+      28.644719,
+      77.352034
+    ]
+  },
+  {
+    "id": "1386092",
+    "locality": "INFOPARK",
+    "coordinates": [
+      10.0075861,
+      76.3544269
+    ]
+  },
+  {
+    "id": "1398756",
+    "locality": "Nolambur Village",
+    "coordinates": [
+      13.074728,
+      80.168022
+    ]
+  },
+  {
+    "id": "1404770",
+    "locality": "Sushant Lok Phase 1",
+    "coordinates": [
+      28.462852,
+      77.080444
+    ]
+  },
+  {
+    "id": "1403020",
+    "locality": "MG Road",
+    "coordinates": [
+      12.973482,
+      77.609406
+    ]
+  },
+  {
+    "id": "1401110",
+    "locality": "Kalena Agrahara",
+    "coordinates": [
+      12.875824,
+      77.591164
+    ]
+  },
+  {
+    "id": "1400930",
+    "locality": "Adonai Church",
+    "coordinates": [
+      13.016234,
+      77.650452
+    ]
+  },
+  {
+    "id": "1404452",
+    "locality": "Kothanur",
+    "coordinates": [
+      13.057866,
+      77.64852
+    ]
+  },
+  {
+    "id": "1404591",
+    "locality": "Srinidhi Layout",
+    "coordinates": [
+      12.892978,
+      77.574669
+    ]
+  },
+  {
+    "id": "1404673",
+    "locality": "Hennur",
+    "coordinates": [
+      13.036905115313509,
+      77.62797854232855
+    ]
+  },
+  {
+    "id": "1403749",
+    "locality": "RPC Layout",
+    "coordinates": [
+      12.964695,
+      77.533346
+    ]
+  },
+  {
+    "id": "1404590",
+    "locality": "Koramangala 7th Block",
+    "coordinates": [
+      12.937196,
+      77.614273
+    ]
+  },
+  {
+    "id": "1400216",
+    "locality": "SNN Clermont",
+    "coordinates": [
+      13.04222,
+      77.612453
+    ]
+  }
+]
