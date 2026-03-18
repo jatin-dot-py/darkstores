@@ -11,6 +11,28 @@
     'use strict';
 
     /* ══════════════════════════════════
+       SIDEBAR TOGGLE
+    ══════════════════════════════════ */
+    const sidebar = document.getElementById('sidebar');
+    const sidebarToggle = document.getElementById('sidebarToggle');
+    const sidebarToggleFloat = document.getElementById('sidebarToggleFloat');
+
+    function toggleSidebar() {
+        sidebar.classList.toggle('collapsed');
+        const isCollapsed = sidebar.classList.contains('collapsed');
+        sidebarToggleFloat.classList.toggle('visible', isCollapsed);
+        sidebarToggle.setAttribute('aria-label', isCollapsed ? 'Open sidebar' : 'Close sidebar');
+        sidebarToggleFloat.setAttribute('aria-label', 'Open sidebar');
+    }
+
+    sidebar.addEventListener('transitionend', function () {
+        if (window._leafletMap) window._leafletMap.invalidateSize();
+    });
+
+    sidebarToggle.addEventListener('click', toggleSidebar);
+    sidebarToggleFloat.addEventListener('click', toggleSidebar);
+
+    /* ══════════════════════════════════
        MAP SETUP
     ══════════════════════════════════ */
     const map = L.map('map', {
@@ -19,6 +41,7 @@
         zoomControl: false,
         preferCanvas: true,
     });
+    window._leafletMap = map;
 
     L.control.zoom({ position: 'bottomright' }).addTo(map);
 

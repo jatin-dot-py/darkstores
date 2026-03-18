@@ -208,6 +208,112 @@ body {
     flex-direction: column;
     overflow: hidden;
     box-shadow: 6px 0 40px rgba(0, 0, 0, 0.42);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
+}
+
+.sidebar.collapsed {
+    transform: translateX(calc(-1 * var(--sidebar-w)));
+}
+
+/* ── SIDEBAR HAMBURGER TOGGLE ── */
+.sidebar-toggle {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: transparent;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 0.15s, border-color 0.15s;
+    position: relative;
+    z-index: 1;
+}
+
+.sidebar-toggle:hover {
+    background: var(--surface2);
+    border-color: var(--border-hi);
+}
+
+.hamburger-line {
+    display: block;
+    width: 18px;
+    height: 2px;
+    border-radius: 1px;
+    background: var(--muted2);
+    transition: transform 0.3s ease, opacity 0.3s ease, background 0.15s;
+}
+
+.sidebar-toggle:hover .hamburger-line {
+    background: var(--text);
+}
+
+.sidebar.collapsed .sidebar-toggle .hamburger-line:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.sidebar.collapsed .sidebar-toggle .hamburger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.sidebar.collapsed .sidebar-toggle .hamburger-line:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Floating toggle that appears when sidebar is collapsed */
+.sidebar-toggle-float {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    z-index: 1001;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 0;
+    border: 1px solid var(--border-hi);
+    border-radius: 10px;
+    background: rgba(10, 11, 18, 0.92);
+    backdrop-filter: blur(16px);
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, background 0.15s, border-color 0.15s;
+}
+
+.sidebar-toggle-float.visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+}
+
+.sidebar-toggle-float:hover {
+    background: rgba(20, 22, 32, 0.98);
+    border-color: rgba(255, 255, 255, 0.18);
+}
+
+.sidebar-toggle-float .hamburger-line {
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 1px;
+    background: var(--muted2);
+    transition: background 0.15s;
+}
+
+.sidebar-toggle-float:hover .hamburger-line {
+    background: var(--text);
 }
 
 .sidebar::before {
