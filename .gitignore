@@ -4,6 +4,7 @@
 # Keep these
 !.gitignore
 !README.md
+!AGENTS.md
 !public/
 
 # Make very sure nothing inside public is accidentally re-ignored later

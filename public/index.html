@@ -59,12 +59,17 @@
         <div id="map"></div>
 
         <!-- SIDEBAR -->
-        <aside class="sidebar">
+        <aside class="sidebar" id="sidebar">
             <header class="sidebar-header">
                 <div class="sidebar-brand-block">
                     <div class="sidebar-brand">darkstores.intel</div>
                     <div class="sidebar-tagline">Quick Commerce Intelligence</div>
                 </div>
+                <button class="sidebar-toggle" id="sidebarToggle" type="button" aria-label="Toggle sidebar">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
             </header>
 
             <!-- Brand cards injected by combined view -->
@@ -91,6 +96,13 @@
                 </button>
             </footer>
         </aside>
+
+        <!-- FLOATING SIDEBAR TOGGLE (visible when sidebar collapsed) -->
+        <button class="sidebar-toggle-float" id="sidebarToggleFloat" type="button" aria-label="Open sidebar">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
 
         <!-- VISIBLE STORE BADGE -->
         <div class="vis-badge">
