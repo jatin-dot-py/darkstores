@@ -73,6 +73,14 @@
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
+[data-theme="light"] .data-disclaimer__backdrop {
+    background: rgba(15, 16, 24, 0.45);
+}
+
+[data-theme="light"] .data-disclaimer__panel {
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.18), 0 0 0 1px rgba(0, 0, 0, 0.06);
+}
+
 [data-theme="light"] .leaflet-popup-content-wrapper {
     background: rgba(255, 255, 255, 0.98) !important;
     border-color: var(--border-hi) !important;
@@ -341,14 +349,47 @@ body {
     opacity: 0.9;
 }
 
-.sidebar-footer-link:last-of-type {
+.sidebar-footer > *:last-child {
     border-bottom: 1px solid var(--border);
 }
 
-.sidebar-footer-link--disabled {
-    cursor: default;
+button.sidebar-footer-link {
+    font: inherit;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+}
+
+button.sidebar-footer-link:focus-visible {
+    outline: 2px solid var(--z-l);
+    outline-offset: -2px;
+}
+
+.sidebar-footer-link-main {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 10px;
+    text-align: left;
+}
+
+.sidebar-footer-link-title {
+    flex-shrink: 0;
+}
+
+.writeup-soon-hint {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    color: var(--text);
+    opacity: 0;
+    transition: opacity 0.3s ease;
     pointer-events: none;
-    opacity: 0.7;
+}
+
+.writeup-soon-hint.is-visible {
+    opacity: 0.88;
 }
 
 /* ── BRAND CARDS ── */
@@ -1284,4 +1325,140 @@ body {
     color: var(--z-l);
     font-family: monospace;
     font-size: 17px;
+}
+
+/* ── DATA SOURCES DISCLAIMER MODAL ── */
+.data-disclaimer {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.35s ease, visibility 0.35s ease;
+}
+
+.data-disclaimer.is-open {
+    pointer-events: auto;
+    opacity: 1;
+    visibility: visible;
+}
+
+.data-disclaimer[hidden] {
+    display: none !important;
+}
+
+.data-disclaimer.is-open:not([hidden]) {
+    display: flex !important;
+}
+
+.data-disclaimer__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(4, 5, 10, 0.78);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+.data-disclaimer__panel {
+    position: relative;
+    width: 100%;
+    max-width: 440px;
+    max-height: min(86vh, 640px);
+    display: flex;
+    flex-direction: column;
+    background: var(--surface);
+    border: 1px solid var(--border-hi);
+    border-radius: var(--radius);
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.04);
+    overflow: hidden;
+}
+
+.data-disclaimer__title {
+    flex-shrink: 0;
+    margin: 0;
+    padding: 20px 22px 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    border-bottom: 1px solid var(--border);
+}
+
+.data-disclaimer__body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px 22px;
+    font-size: 13px;
+    line-height: 1.55;
+    color: var(--muted2);
+}
+
+.data-disclaimer__lead {
+    margin: 0 0 12px;
+    color: var(--text);
+}
+
+.data-disclaimer__note {
+    margin: 0 0 16px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.data-disclaimer__brands {
+    margin: 0 0 16px;
+    padding-left: 18px;
+    list-style: disc;
+}
+
+.data-disclaimer__brands li {
+    margin-bottom: 8px;
+}
+
+.data-disclaimer__z {
+    color: var(--z-l);
+}
+
+.data-disclaimer__bk {
+    color: var(--bk-l);
+}
+
+.data-disclaimer__sw {
+    color: var(--sw-l);
+}
+
+.data-disclaimer__blinkit-note {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.55;
+    color: var(--muted2);
+}
+
+.data-disclaimer__btn {
+    flex-shrink: 0;
+    margin: 0;
+    padding: 14px 22px;
+    border: none;
+    border-top: 1px solid var(--border);
+    background: var(--surface2);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.data-disclaimer__btn:hover {
+    background: var(--surface3);
+}
+
+.data-disclaimer__btn:focus-visible {
+    outline: 2px solid var(--z-l);
+    outline-offset: -2px;
 }

@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>darkstores.intel — Quick Commerce Intelligence</title>
 
-    <!-- Open Graph / social card (when link is pasted on platforms) -->
+    <!-- Open Graph / social card (when link is pasted on platforms).
+         For better LinkedIn quality: use a 1200×627 image (e.g. all-india-dark-stores-og.png)
+         and update og:image + og:image:width/height below. LinkedIn compresses non‑standard sizes heavily. -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="darkstores.intel — Quick Commerce Intelligence" />
     <meta property="og:description" content="All-India dark store and quick commerce coverage map. Swiggy, Zepto, Blinkit store locations and delivery zones in one view." />
@@ -74,11 +76,19 @@
                     <span>Open in Google Earth</span>
                     <svg class="sidebar-footer-btn-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                 </a>
-                <span class="sidebar-footer-link sidebar-footer-link--disabled" role="button" tabindex="-1">
-                    <img src="medium.svg" alt="" class="sidebar-footer-btn-icon" width="22" height="22" />
-                    <span>Technical write up</span>
+                <a href="https://github.com/jatin-dot-py/darkstores" target="_blank" rel="noopener noreferrer" class="sidebar-footer-link sidebar-footer-github">
+                    <svg class="sidebar-footer-btn-icon sidebar-footer-github-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    <span class="sidebar-footer-link-main"><span class="sidebar-footer-link-title">GitHub</span></span>
                     <svg class="sidebar-footer-btn-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                </span>
+                </a>
+                <button type="button" class="sidebar-footer-link sidebar-footer-writeup" id="writeupBtn" aria-label="Technical write up">
+                    <img src="medium.svg" alt="" class="sidebar-footer-btn-icon" width="22" height="22" />
+                    <span class="sidebar-footer-link-main">
+                        <span class="sidebar-footer-link-title">Technical write up</span>
+                        <span class="writeup-soon-hint" id="writeupSoonHint" aria-live="polite" aria-hidden="true">Coming soon</span>
+                    </span>
+                    <svg class="sidebar-footer-btn-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </button>
             </footer>
         </aside>
 
@@ -91,6 +101,31 @@
         </div>
 
     </div><!-- /#app -->
+
+    <!-- Data sources & methodology (shown after initial load) -->
+    <div id="dataDisclaimer" class="data-disclaimer" role="dialog" aria-modal="true" aria-labelledby="dataDisclaimerTitle" aria-hidden="true" hidden>
+        <div class="data-disclaimer__backdrop" aria-hidden="true"></div>
+        <div class="data-disclaimer__panel">
+            <h2 id="dataDisclaimerTitle" class="data-disclaimer__title">Data sources &amp; methodology</h2>
+            <div class="data-disclaimer__body">
+                <p class="data-disclaimer__lead">
+                    Store locations on this map were collected using <strong>public-facing APIs</strong> exposed by each platform. The figures shown are a <strong>lower bound</strong> based on what those APIs returned at scrape time.
+                </p>
+                <p class="data-disclaimer__note">
+                    Actual counts can differ for many reasons (availability, geography, API changes, timing). What you see here is at least what each platform’s own APIs surfaced—not an exhaustive census.
+                </p>
+                <ul class="data-disclaimer__brands">
+                    <li><strong class="data-disclaimer__z">Zepto</strong> — Data scraped <strong>14–15 March</strong>.</li>
+                    <li><strong class="data-disclaimer__bk">Blinkit</strong> — Data scraped <strong>15–17 March</strong>.</li>
+                    <li><strong class="data-disclaimer__sw">Swiggy</strong> (Instamart) — Data scraped <strong>18–19 March</strong>.</li>
+                </ul>
+                <p class="data-disclaimer__blinkit-note">
+                    Blinkit: store coordinates were trilaterated from API data. Most markers are within about 0–50 metres of the actual dark-store location; anything beyond that is shown as an imprecise marker.
+                </p>
+            </div>
+            <button type="button" class="data-disclaimer__btn" id="dataDisclaimerContinue">Continue to map</button>
+        </div>
+    </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>

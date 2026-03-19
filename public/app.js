@@ -172,6 +172,29 @@
         document.getElementById('loaderMsg').textContent = msg;
     }
 
+    function openDataDisclaimer() {
+        const el = document.getElementById('dataDisclaimer');
+        if (!el) return;
+        el.removeAttribute('hidden');
+        el.classList.add('is-open');
+        el.setAttribute('aria-hidden', 'false');
+        const btn = document.getElementById('dataDisclaimerContinue');
+        if (btn) btn.focus();
+    }
+
+    function closeDataDisclaimer() {
+        const el = document.getElementById('dataDisclaimer');
+        if (!el) return;
+        el.classList.remove('is-open');
+        el.setAttribute('aria-hidden', 'true');
+        el.setAttribute('hidden', '');
+    }
+
+    document.getElementById('dataDisclaimerContinue')?.addEventListener('click', closeDataDisclaimer);
+    document.getElementById('dataDisclaimer')?.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeDataDisclaimer();
+    });
+
     function showError(message) {
         document.getElementById('loader').innerHTML = `
       <div class="error-screen">
@@ -237,7 +260,11 @@
             requestAnimationFrame(() => {
                 switchView('combined');
                 setLoader(100, 'Ready');
-                setTimeout(() => document.getElementById('loader').classList.add('out'), 500);
+                setTimeout(() => {
+                    document.getElementById('loader').classList.add('out');
+                    // Show data-sources dialog after loader fade (~0.6s)
+                    setTimeout(() => openDataDisclaimer(), 700);
+                }, 500);
             });
 
         } catch (err) {
@@ -246,5 +273,22 @@
     }
 
     loadData();
+
+    /* Technical write-up: subtle “Coming soon” on click */
+    (function initWriteupSoon() {
+        const btn = document.getElementById('writeupBtn');
+        const hint = document.getElementById('writeupSoonHint');
+        if (!btn || !hint) return;
+        let hideTimer;
+        btn.addEventListener('click', () => {
+            clearTimeout(hideTimer);
+            hint.classList.add('is-visible');
+            hint.setAttribute('aria-hidden', 'false');
+            hideTimer = setTimeout(() => {
+                hint.classList.remove('is-visible');
+                hint.setAttribute('aria-hidden', 'true');
+            }, 2200);
+        });
+    })();
 
 })();
