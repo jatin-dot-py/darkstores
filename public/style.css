@@ -522,20 +522,6 @@ button.sidebar-footer-link:focus-visible {
     flex-shrink: 0;
 }
 
-.writeup-soon-hint {
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.03em;
-    color: var(--text);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-}
-
-.writeup-soon-hint.is-visible {
-    opacity: 0.88;
-}
-
 /* ── BRAND CARDS ── */
 .brand-card {
     background: transparent;

@@ -305,21 +305,4 @@
 
     loadData();
 
-    /* Technical write-up: subtle “Coming soon” on click */
-    (function initWriteupSoon() {
-        const btn = document.getElementById('writeupBtn');
-        const hint = document.getElementById('writeupSoonHint');
-        if (!btn || !hint) return;
-        let hideTimer;
-        btn.addEventListener('click', () => {
-            clearTimeout(hideTimer);
-            hint.classList.add('is-visible');
-            hint.setAttribute('aria-hidden', 'false');
-            hideTimer = setTimeout(() => {
-                hint.classList.remove('is-visible');
-                hint.setAttribute('aria-hidden', 'true');
-            }, 2200);
-        });
-    })();
-
 })();
