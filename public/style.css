@@ -33,6 +33,12 @@
     --sw-d: #E06B00;
     --sw-glow: rgba(252, 128, 25, 0.35);
 
+    /* Theme-dependent map marker visuals (used by view-combined.js) */
+    --blip-icon-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    --cluster-pill-bg: rgba(28, 28, 32, 0.95);
+    --cluster-pill-fg: #ffffff;
+    --cluster-pill-shadow: 0 2px 10px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.08);
+
     --sidebar-w: 340px;
     --panel-w: 260px;
     --radius: 13px;
@@ -49,6 +55,11 @@
     --text: #1a1a2e;
     --muted: #6b6b80;
     --muted2: #4a4a62;
+
+    --blip-icon-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
+    --cluster-pill-bg: rgba(255, 255, 255, 0.94);
+    --cluster-pill-fg: #07080D;
+    --cluster-pill-shadow: 0 2px 10px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.06);
 }
 
 [data-theme="light"] .sidebar {
@@ -97,6 +108,33 @@
 [data-theme="light"] .leaflet-control-zoom a:hover {
     color: var(--text) !important;
     background: var(--surface2) !important;
+}
+
+[data-theme="light"] .sidebar-header {
+    background: rgba(255, 255, 255, 0.62);
+}
+
+[data-theme="light"] .sidebar-footer {
+    background: rgba(255, 255, 255, 0.62);
+}
+
+[data-theme="light"] .sidebar-toggle-float {
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="light"] .sidebar-toggle-float:hover {
+    background: rgba(240, 242, 250, 0.98);
+    border-color: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="light"] .sidebar-footer-btn:hover,
+[data-theme="light"] .sidebar-footer-link:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="light"] .leaflet-control-zoom {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.18) !important;
 }
 
 [data-theme="light"] .toggle.on {
@@ -1361,8 +1399,9 @@ button.sidebar-footer-link:focus-visible {
 
 .cluster-pill-wrap .cluster-pill {
     /* Restore pill background (overrides generic cluster div reset) */
-    background: rgba(28, 28, 32, 0.95) !important;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.08);
+    background: var(--cluster-pill-bg) !important;
+    color: var(--cluster-pill-fg);
+    box-shadow: var(--cluster-pill-shadow);
 }
 
 .cluster-pill-logo {

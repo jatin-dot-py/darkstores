@@ -45,7 +45,7 @@ window.CombinedView = (function () {
         width:${size}px;height:${size}px;
         display:flex;align-items:center;justify-content:center;
         ${imprecise ? `opacity:${impreciseOpacity};filter:saturate(0.85);` : ''}
-        box-shadow:0 0 10px rgba(0,0,0,0.35)
+        box-shadow:var(--blip-icon-shadow)
       "><img src="${iconPath}" alt="" style="
         width:${imgSize}px;height:${imgSize}px;
         object-fit:contain;
@@ -79,9 +79,9 @@ window.CombinedView = (function () {
         height:${height}px;min-width:${minWidth}px;padding:0 ${padding}px;
         border-radius:${height / 2}px;
         display:flex;align-items:center;gap:6px;
-        background:rgba(28,28,32,0.95);color:#fff;
+        background:var(--cluster-pill-bg);color:var(--cluster-pill-fg);
         font-family:'DM Sans',sans-serif;font-weight:700;font-size:${fs}px;
-        box-shadow:0 2px 10px rgba(0,0,0,0.5),0 0 0 1px rgba(255,255,255,0.08);
+        box-shadow:var(--cluster-pill-shadow);
       "><img src="${iconPath}" alt="" class="cluster-pill-logo" style="width:${iconSizePx}px;height:${iconSizePx}px;object-fit:contain;flex-shrink:0" /><span class="cluster-pill-count">${count}</span></div>`,
             iconSize: [minWidth, height],
             iconAnchor: [minWidth / 2, height / 2],
