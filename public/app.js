@@ -35,9 +35,17 @@
     /* ══════════════════════════════════
        MAP SETUP
     ══════════════════════════════════ */
+    const indiaBounds = [
+        [6.5, 68.0],
+        [37.5, 97.5]
+    ];
+
     const map = L.map('map', {
         center: [20.5, 78.9],
         zoom: 5,
+        minZoom: 4,
+        maxBounds: indiaBounds,
+        maxBoundsViscosity: 1.0,
         zoomControl: false,
         preferCanvas: true,
     });
