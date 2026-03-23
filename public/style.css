@@ -1626,3 +1626,45 @@ button.sidebar-footer-link:focus-visible {
 [data-theme="dark"] .leaflet-tile-pane {
     filter: brightness(1.5) contrast(1.1);
 }
+
+/* ── VIEW MODE TOGGLE (Markers / Heatmap) ── */
+.view-mode-row {
+    display: flex;
+    gap: 6px;
+    padding: 14px 14px 4px;
+}
+
+.view-mode-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 7px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--border-hi);
+    background: var(--surface2);
+    color: var(--muted2);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.18s, color 0.18s, border-color 0.18s, box-shadow 0.18s;
+}
+
+.view-mode-btn:hover {
+    background: var(--surface3);
+    color: var(--text);
+}
+
+.view-mode-btn--active {
+    background: var(--z);
+    border-color: var(--z);
+    color: #ffffff;
+    box-shadow: 0 0 14px var(--z-glow);
+}
+
+.view-mode-btn--active:hover {
+    background: var(--z-l);
+    border-color: var(--z-l);
+}

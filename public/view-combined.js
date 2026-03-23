@@ -21,6 +21,8 @@ window.CombinedView = (function () {
     let _showZeptoGeofence = false;
     let _removeBlinkitImprecise = false;
     let _onZoomEnd = null;
+    let _heatLayer = null;
+    let _showHeatmap = false;
 
     const SWIGGY_ORANGE = '#FC8019';
     const SWIGGY_ORANGE_L = '#FF9F43';
@@ -266,6 +268,39 @@ window.CombinedView = (function () {
         return lg;
     }
 
+    /* ── BUILD HEATMAP POINTS ── */
+    function buildHeatmapPoints() {
+        const pts = [];
+        if (_showZ) {
+            _zData.forEach(s => { if (s.lat && s.lng) pts.push([s.lat, s.lng, 1]); });
+        }
+        if (_showB) {
+            const list = _removeBlinkitImprecise ? _bData.filter(s => s.accuracy <= 100) : _bData;
+            list.forEach(s => { if (s.coordinates) pts.push([s.coordinates[0], s.coordinates[1], 1]); });
+        }
+        if (_showS) {
+            (_sData || []).forEach(s => {
+                if (s.coordinates && s.coordinates.length >= 2) pts.push([s.coordinates[0], s.coordinates[1], 1]);
+            });
+        }
+        return pts;
+    }
+
+    function updateHeatmap() {
+        if (_heatLayer) { _map.removeLayer(_heatLayer); _heatLayer = null; }
+        if (!_showHeatmap) return;
+        const pts = buildHeatmapPoints();
+        _heatLayer = L.heatLayer(pts, {
+            radius: 35,
+            blur: 25,
+            maxZoom: 17,
+            max: 0.08,
+            minOpacity: 0.45,
+            gradient: { 0.0: '#0000ff', 0.25: '#00bfff', 0.5: '#00ff88', 0.7: '#ffdd00', 0.85: '#ff6600', 1.0: '#ff0000' },
+        });
+        _heatLayer.addTo(_map);
+    }
+
     function updateLayers() {
         if (_zLayer) { _map.removeLayer(_zLayer); _zLayer = null; }
         if (_zoneGroup) { _map.removeLayer(_zoneGroup); _zoneGroup = null; }
@@ -273,6 +308,12 @@ window.CombinedView = (function () {
         // (User can still toggle preview while geofence option is off.)
         if (_bCluster) { _map.removeLayer(_bCluster); _bCluster = null; }
         if (_sLayer) { _map.removeLayer(_sLayer); _sLayer = null; }
+
+        if (_showHeatmap) {
+            updateHeatmap();
+            return;
+        }
+        updateHeatmap(); // clears stale heat layer when switching back to markers
 
         if (_showZ) {
             _zLayer = L.markerClusterGroup({
@@ -374,6 +415,17 @@ window.CombinedView = (function () {
         const panel = document.getElementById('panel');
         panel.innerHTML = `
 
+      <div class="view-mode-row">
+        <button type="button" class="view-mode-btn${!_showHeatmap ? ' view-mode-btn--active' : ''}" id="viewMarkers">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Markers
+        </button>
+        <button type="button" class="view-mode-btn${_showHeatmap ? ' view-mode-btn--active' : ''}" id="viewHeatmap">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 12c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4"/><circle cx="12" cy="12" r="2"/></svg>
+          Heatmap
+        </button>
+      </div>
+
       <div class="brand-card brand-card--zepto" id="brandZepto">
         <div class="brand-card-top">
           <div class="brand-card-identity">
@@ -461,6 +513,28 @@ window.CombinedView = (function () {
         }
         syncDisabled();
 
+        function syncViewModeButtons() {
+            const mBtn = document.getElementById('viewMarkers');
+            const hBtn = document.getElementById('viewHeatmap');
+            if (mBtn) mBtn.classList.toggle('view-mode-btn--active', !_showHeatmap);
+            if (hBtn) hBtn.classList.toggle('view-mode-btn--active', _showHeatmap);
+        }
+
+        document.getElementById('viewMarkers').addEventListener('click', () => {
+            if (_showHeatmap) {
+                _showHeatmap = false;
+                syncViewModeButtons();
+                updateLayers();
+            }
+        });
+        document.getElementById('viewHeatmap').addEventListener('click', () => {
+            if (!_showHeatmap) {
+                _showHeatmap = true;
+                syncViewModeButtons();
+                updateLayers();
+            }
+        });
+
         document.getElementById('enableZepto').addEventListener('change', e => {
             _showZ = e.target.checked;
             const gf = document.getElementById('zeptoGeofence');
@@ -522,6 +596,7 @@ window.CombinedView = (function () {
             _showZ = true;
             _showB = true;
             _showS = true;
+            _showHeatmap = false;
             // Defaults (requested): geofence on, imprecise markers removed.
             _showZeptoGeofence = true;
             _removeBlinkitImprecise = true;
@@ -541,6 +616,7 @@ window.CombinedView = (function () {
             if (_previewZoneGroup) { _map.removeLayer(_previewZoneGroup); _previewZoneGroup = null; }
             if (_bCluster) { _map.removeLayer(_bCluster); _bCluster = null; }
             if (_sLayer) { _map.removeLayer(_sLayer); _sLayer = null; }
+            if (_heatLayer) { _map.removeLayer(_heatLayer); _heatLayer = null; }
             if (_onZoomEnd) { _map.off('zoomend', _onZoomEnd); _onZoomEnd = null; }
         },
 
