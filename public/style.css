@@ -4,6 +4,87 @@
    Zepto = #8B5CF6 purple | Blinkit = #F0E030 yellow | Swiggy = #FC8019 orange
 ═══════════════════════════════════════════════ */
 
+/* Satellite + Light mode sidebar fixes */
+[data-theme="light"] .sidebar,
+[data-theme="light"] .sidebar-header,
+[data-theme="light"] .sidebar-footer {
+    background: rgba(255, 255, 255, 0.97) !important;
+    color: var(--text) !important;
+}
+
+[data-theme="light"] .sidebar-footer-btn,
+[data-theme="light"] .sidebar-footer-link {
+    color: var(--muted2) !important;
+    background: transparent !important;
+}
+[data-theme="light"] .sidebar-footer-btn:hover,
+[data-theme="light"] .sidebar-footer-link:hover {
+    background: rgba(0,0,0,0.05) !important;
+    color: var(--text) !important;
+}
+
+[data-theme="light"] .sidebar {
+    box-shadow: 4px 0 30px rgba(0,0,0,0.08);
+    border-right-color: var(--border-hi);
+}
+/* Satellite view toggle button */
+.satellite-toggle {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 0 8px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--surface2);
+    color: var(--muted2);
+    cursor: pointer;
+    transition: color 0.2s, background 0.2s, border-color 0.2s, box-shadow 0.2s;
+    margin-left: 8px;
+}
+
+.satellite-toggle.active {
+    background: var(--z);
+    color: #fff;
+    border-color: var(--z-l);
+    box-shadow: 0 0 12px var(--z-glow);
+}
+
+.satellite-toggle:hover {
+    color: var(--text);
+    background: var(--surface3);
+    border-color: var(--border-hi);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.04);
+}
+
+.satellite-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.satellite-label {
+    display: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: inherit;
+}
+
+@media (min-width: 500px) {
+    .satellite-label {
+        display: inline;
+        font-size: 15px;
+        font-weight: 600;
+        color: inherit;
+        padding-left: 2px;
+        padding-right: 2px;
+        letter-spacing: 0.01em;
+        user-select: none;
+    }
+}
+
 :root {
     --bg: #07080D;
     --surface: #0F1018;
@@ -43,6 +124,7 @@
     --panel-w: 260px;
     --radius: 13px;
 }
+
 
 /* ── LIGHT THEME ── */
 [data-theme="light"] {
@@ -1711,7 +1793,8 @@ button.sidebar-footer-link:focus-visible {
     outline-offset: -2px;
 }
 
-/* Brighten the dark map up */
+/* Brighten the dark map up, but less for satellite view */
 [data-theme="dark"] .leaflet-tile-pane {
-    filter: brightness(1.5) contrast(1.1);
+    filter: brightness(1.18) contrast(1.04);
 }
+

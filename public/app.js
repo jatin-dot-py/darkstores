@@ -136,12 +136,21 @@
     new LocateControl({ position: 'bottomright' }).addTo(map);
 
     const TILE_OPTS = { attribution: '© OpenStreetMap contributors © CARTO', subdomains: 'abcd', maxZoom: 19 };
+    const SATELLITE_TILE_OPTS = { attribution: '© Google, Maxar, Map data', maxZoom: 19 };
     const isLight = document.documentElement.dataset.theme === 'light';
     let tileLayer = L.tileLayer(
         isLight ? 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png' : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
         TILE_OPTS
     );
+    let satelliteLayer = L.tileLayer(
+        'https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
+        {
+            subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+            ...SATELLITE_TILE_OPTS
+        }
+    );
     tileLayer.addTo(map);
+    let isSatellite = false;
 
     /* ══════════════════════════════════
        THEME TOGGLE
@@ -153,15 +162,36 @@
         const next = isLight ? 'dark' : 'light';
         root.dataset.theme = next;
         localStorage.setItem('darkstore-theme', next);
-        map.removeLayer(tileLayer);
-        tileLayer = L.tileLayer(
-            next === 'light'
-                ? 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png'
-                : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
-            TILE_OPTS
-        );
-        tileLayer.addTo(map);
+        if (!isSatellite) {
+            map.removeLayer(tileLayer);
+            tileLayer = L.tileLayer(
+                next === 'light'
+                    ? 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png'
+                    : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+                TILE_OPTS
+            );
+            tileLayer.addTo(map);
+        }
     });
+
+    // Setelight view toggle logic
+    const satelliteToggleEl = document.getElementById('satelliteToggle');
+    if (satelliteToggleEl) {
+        satelliteToggleEl.addEventListener('click', () => {
+            isSatellite = !isSatellite;
+            if (isSatellite) {
+                map.removeLayer(tileLayer);
+                satelliteLayer.addTo(map);
+                satelliteToggleEl.classList.add('active');
+                document.body.classList.add('satellite-active');
+            } else {
+                map.removeLayer(satelliteLayer);
+                tileLayer.addTo(map);
+                satelliteToggleEl.classList.remove('active');
+                document.body.classList.remove('satellite-active');
+            }
+        });
+    }
 
     /* ══════════════════════════════════
        STATE
