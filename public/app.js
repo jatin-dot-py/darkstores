@@ -138,7 +138,7 @@
     const TILE_OPTS = { attribution: '© OpenStreetMap contributors © CARTO', subdomains: 'abcd', maxZoom: 19 };
     const isLight = document.documentElement.dataset.theme === 'light';
     let tileLayer = L.tileLayer(
-        isLight ? 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png' : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+        isLight ? 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_2wff_1_ac5fef677d27f666159c24a6' : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=cb1_2wff_1_ac5fef677d27f666159c24a6',
         TILE_OPTS
     );
     tileLayer.addTo(map);
@@ -156,8 +156,8 @@
         map.removeLayer(tileLayer);
         tileLayer = L.tileLayer(
             next === 'light'
-                ? 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png'
-                : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+                ? 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_2wff_1_ac5fef677d27f666159c24a6'
+                : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=cb1_2wff_1_ac5fef677d27f666159c24a6',
             TILE_OPTS
         );
         tileLayer.addTo(map);
